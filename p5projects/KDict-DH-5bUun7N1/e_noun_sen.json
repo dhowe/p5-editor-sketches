@@ -1,0 +1,12 @@
+{
+"<start>" : "<Name> <verb> <noun> in <place> ",
+  
+"<Name>" : "<John, Mary, Peter, Li, James, Betty, Cathy, Kay>",
+
+"<verb>" : "",
+  
+"<noun>" : ""
+}
+  
+
+// John(Name) eat(Verb) bread(WORD) in University(place)

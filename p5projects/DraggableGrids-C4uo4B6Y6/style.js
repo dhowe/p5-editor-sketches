@@ -1,0 +1,64 @@
+function createGrid(gx, gy, cols, rows) {
+  let grid = {
+    x: gx,
+    y: gy,
+    columns: cols,
+    rows: rows,
+    cells: [],
+  };
+  for (let j = 0; j < rows; j++) {
+    for (let i = 0; i < cols; i++) {
+      let cell = { size: 30, highlighted: false };
+      cell.x = i * cell.size;
+      cell.y = j * cell.size;
+      grid.cells.push(cell);
+    }
+  }
+  grids.push(grid);
+}
+
+function draw() {
+  background(220);
+  for (let j = 0; j < grids.length; j++) {
+    let grid = grids[j];
+    let fillcol = 200;
+    if (grid.selected) fillcol = 255;
+    for (let i = 0; i < grid.cells.length; i++) {
+      let cell = grid.cells[i];
+      fill(fillcol);
+      if (cell.highlighted) fill("red");
+      circle(grid.x + cell.x, grid.y + cell.y, cell.size);
+    }
+  }
+}
+
+function mouseReleased() {
+  for (let j = 0; j < grids.length; j++) {
+    grids[j].selected = false;
+  }
+}
+
+function mouseDragged() {
+  for (let j = 0; j < grids.length; j++) {
+    let grid = grids[j];
+    if (grid.selected) {
+      grid.x += mouseX - pmouseX;
+      grid.y += mouseY - pmouseY;
+    }
+  }
+}
+
+function mouseMoved() {
+  for (let j = 0; j < grids.length; j++) {
+    let grid = grids[j];
+    grid.selected = false;
+    for (let i = 0; i < grid.cells.length; i++) {
+      let cell = grid.cells[i];
+      cell.highlighted = false;
+      if (dist(mouseX, mouseY, grid.x + cell.x, grid.y + cell.y) < cell.size/2) {
+          cell.highlighted = true;
+          grid.selected = true;
+      }
+    }
+  }
+}

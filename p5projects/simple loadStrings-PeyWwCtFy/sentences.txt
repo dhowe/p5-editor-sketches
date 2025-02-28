@@ -1,0 +1,10 @@
+This is a tree.
+I am a tree.
+A tree has branches.
+A tree has roots. 
+A tree has leafs.
+The tree is brown.
+The leafs are green.
+The roots are under.
+The tree rises up.
+The branches subdivide.

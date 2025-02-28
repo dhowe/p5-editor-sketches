@@ -1,0 +1,2433 @@
+initial
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+# On branch main
+# Your branch is up to date with 'origin/main'.
+#
+# Changes to be committed:
+#	new file:   downloads/gen/collections.md
+#	new file:   downloads/gen/download.sh
+#	new file:   downloads/gen/sketches.md
+#	new file:   downloads/gen/sketches_recent.md
+#	new file:   downloads/gen/unzip.sh
+#	new file:   downloads/json/collections.json
+#	new file:   downloads/json/last_updatedAt.txt
+#	new file:   downloads/json/sketches.json
+#	new file:   p5projects-index.md
+#	new file:   p5projects/100 Paprika-oVDXrhQBX/index.html
+#	new file:   p5projects/100 Paprika-oVDXrhQBX/sketch.js
+#	new file:   p5projects/100 Paprika-oVDXrhQBX/style.css
+#	new file:   p5projects/100RandomLerpers-sOR3vjGaj/index.html
+#	new file:   p5projects/100RandomLerpers-sOR3vjGaj/sketch.js
+#	new file:   p5projects/100RandomLerpers-sOR3vjGaj/style.css
+#	new file:   p5projects/100SquaresRecode-WRb3BR9d0/index.html
+#	new file:   p5projects/100SquaresRecode-WRb3BR9d0/sketch.js
+#	new file:   p5projects/100SquaresRecode-WRb3BR9d0/style.css
+#	new file:   p5projects/16QuadCheckerBoard-HJo6_uZlN/index.html
+#	new file:   p5projects/16QuadCheckerBoard-HJo6_uZlN/sketch.js
+#	new file:   p5projects/16QuadCheckerBoard-HJo6_uZlN/style.css
+#	new file:   p5projects/2 hands copy-khFcEQWwz/Tone.min.js
+#	new file:   p5projects/2 hands copy-khFcEQWwz/index.html
+#	new file:   p5projects/2 hands copy-khFcEQWwz/ml5.min.js
+#	new file:   p5projects/2 hands copy-khFcEQWwz/sketch.js
+#	new file:   p5projects/2 hands copy-khFcEQWwz/style.css
+#	new file:   p5projects/2dNoise-gRX9vfJu8/index.html
+#	new file:   p5projects/2dNoise-gRX9vfJu8/sketch.js
+#	new file:   p5projects/2dNoise-gRX9vfJu8/style.css
+#	new file:   p5projects/5x10 rings-hZGwbborUh/index.html
+#	new file:   p5projects/5x10 rings-hZGwbborUh/sketch.js
+#	new file:   p5projects/5x10 rings-hZGwbborUh/style.css
+#	new file:   p5projects/9 circles on click-KPkuxrSWB/index.html
+#	new file:   p5projects/9 circles on click-KPkuxrSWB/sketch.js
+#	new file:   p5projects/9 circles on click-KPkuxrSWB/style.css
+#	new file:   p5projects/9 falling circles on click-5B62ryTaUP/index.html
+#	new file:   p5projects/9 falling circles on click-5B62ryTaUP/sketch.js
+#	new file:   p5projects/9 falling circles on click-5B62ryTaUP/style.css
+#	new file:   p5projects/A3 copy-T5kKOolgp/11.jpg
+#	new file:   p5projects/A3 copy-T5kKOolgp/index.html
+#	new file:   p5projects/A3 copy-T5kKOolgp/sketch.js
+#	new file:   p5projects/A3 copy-T5kKOolgp/style.css
+#	new file:   p5projects/Abhorrent need-gl_jaFifj/index.html
+#	new file:   p5projects/Abhorrent need-gl_jaFifj/sketch.js
+#	new file:   p5projects/Abhorrent need-gl_jaFifj/style.css
+#	new file:   p5projects/Ablaze wildcat-cR0ADzDpz/index.html
+#	new file:   p5projects/Ablaze wildcat-cR0ADzDpz/sketch.js
+#	new file:   p5projects/Ablaze wildcat-cR0ADzDpz/style.css
+#	new file:   p5projects/Adjoining atmosphere-avMVkuHny/1.jpg
+#	new file:   p5projects/Adjoining atmosphere-avMVkuHny/2.jpg
+#	new file:   p5projects/Adjoining atmosphere-avMVkuHny/3.jpg
+#	new file:   p5projects/Adjoining atmosphere-avMVkuHny/4.jpg
+#	new file:   p5projects/Adjoining atmosphere-avMVkuHny/5.jpg
+#	new file:   p5projects/Adjoining atmosphere-avMVkuHny/6.jpg
+#	new file:   p5projects/Adjoining atmosphere-avMVkuHny/7.jpg
+#	new file:   p5projects/Adjoining atmosphere-avMVkuHny/8.jpg
+#	new file:   p5projects/Adjoining atmosphere-avMVkuHny/9.jpg
+#	new file:   p5projects/Adjoining atmosphere-avMVkuHny/acmesa.ttf
+#	new file:   p5projects/Adjoining atmosphere-avMVkuHny/hk.png
+#	new file:   p5projects/Adjoining atmosphere-avMVkuHny/index.html
+#	new file:   p5projects/Adjoining atmosphere-avMVkuHny/sketch.js
+#	new file:   p5projects/Adjoining atmosphere-avMVkuHny/style.css
+#	new file:   p5projects/Aged Lines-Z0_iGknwb/index.html
+#	new file:   p5projects/Aged Lines-Z0_iGknwb/sketch.js
+#	new file:   p5projects/Aged Lines-Z0_iGknwb/style.css
+#	new file:   p5projects/AlignBreakingLines-8f1ZU4-l/index.html
+#	new file:   p5projects/AlignBreakingLines-8f1ZU4-l/sketch.js
+#	new file:   p5projects/AlignBreakingLines-8f1ZU4-l/style.css
+#	new file:   p5projects/Alive horses-S1HC3rOpm/index.html
+#	new file:   p5projects/Alive horses-S1HC3rOpm/sketch.js
+#	new file:   p5projects/Alive horses-S1HC3rOpm/style.css
+#	new file:   p5projects/Alphabet-Ae_3sgQ9o/index.html
+#	new file:   p5projects/Alphabet-Ae_3sgQ9o/sketch.js
+#	new file:   p5projects/Alphabet-Ae_3sgQ9o/style.css
+#	new file:   p5projects/AlphabetObjects-X-i3lLlAL/index.html
+#	new file:   p5projects/AlphabetObjects-X-i3lLlAL/sketch.js
+#	new file:   p5projects/AlphabetObjects-X-i3lLlAL/style.css
+#	new file:   p5projects/Amused strand-_7mfwrVSY/index.html
+#	new file:   p5projects/Amused strand-_7mfwrVSY/sketch.js
+#	new file:   p5projects/Amused strand-_7mfwrVSY/style.css
+#	new file:   p5projects/Apathetic lip-S1-pVdz0Q/index.html
+#	new file:   p5projects/Apathetic lip-S1-pVdz0Q/sketch.js
+#	new file:   p5projects/Apathetic lip-S1-pVdz0Q/style.css
+#	new file:   p5projects/Appolonia-B1HP47eh7/index.html
+#	new file:   p5projects/Appolonia-B1HP47eh7/sketch.js
+#	new file:   p5projects/Appolonia-B1HP47eh7/style.css
+#	new file:   p5projects/Array Ex 1 Random Rolls-cY4Fuf1fQ/index.html
+#	new file:   p5projects/Array Ex 1 Random Rolls-cY4Fuf1fQ/sketch.js
+#	new file:   p5projects/Array Ex 1 Random Rolls-cY4Fuf1fQ/style.css
+#	new file:   p5projects/Array Ex 1c Gaussian Rolls-LayVLlk0L/index.html
+#	new file:   p5projects/Array Ex 1c Gaussian Rolls-LayVLlk0L/sketch.js
+#	new file:   p5projects/Array Ex 1c Gaussian Rolls-LayVLlk0L/style.css
+#	new file:   p5projects/Array Ex 2 Average Circles-NLBoLewXg/index.html
+#	new file:   p5projects/Array Ex 2 Average Circles-NLBoLewXg/sketch.js
+#	new file:   p5projects/Array Ex 2 Average Circles-NLBoLewXg/style.css
+#	new file:   p5projects/Array Ex 3 One Bouncing Ball-ca5NwWQzo/index.html
+#	new file:   p5projects/Array Ex 3 One Bouncing Ball-ca5NwWQzo/sketch.js
+#	new file:   p5projects/Array Ex 3 One Bouncing Ball-ca5NwWQzo/style.css
+#	new file:   p5projects/Array Ex 3b Bouncing Balls-6sNQxqJqw/index.html
+#	new file:   p5projects/Array Ex 3b Bouncing Balls-6sNQxqJqw/sketch.js
+#	new file:   p5projects/Array Ex 3b Bouncing Balls-6sNQxqJqw/style.css
+#	new file:   p5projects/Array of LerpWalkers-IMOgaRrKc/index.html
+#	new file:   p5projects/Array of LerpWalkers-IMOgaRrKc/sketch.js
+#	new file:   p5projects/Array of LerpWalkers-IMOgaRrKc/style.css
+#	new file:   p5projects/AssignTest-9H9qF116r/index.html
+#	new file:   p5projects/AssignTest-9H9qF116r/sketch.js
+#	new file:   p5projects/AssignTest-9H9qF116r/style.css
+#	new file:   p5projects/Attractors-wr_hK-3p6/index.html
+#	new file:   p5projects/Attractors-wr_hK-3p6/sketch.js
+#	new file:   p5projects/Attractors-wr_hK-3p6/style.css
+#	new file:   p5projects/Automatic trawler copy-stcygMsiNs/index.html
+#	new file:   p5projects/Automatic trawler copy-stcygMsiNs/sketch.js
+#	new file:   p5projects/Automatic trawler copy-stcygMsiNs/style.css
+#	new file:   p5projects/Automatic trawler copy-stcygMsiNs/vgbg1.jpg
+#	new file:   p5projects/BasicRecursiveTriangle-qJExcd3s9/index.html
+#	new file:   p5projects/BasicRecursiveTriangle-qJExcd3s9/sketch.js
+#	new file:   p5projects/BasicRecursiveTriangle-qJExcd3s9/style.css
+#	new file:   p5projects/BasicTTT-6CwgdYpDs/index.html
+#	new file:   p5projects/BasicTTT-6CwgdYpDs/sketch.js
+#	new file:   p5projects/BasicTTT-6CwgdYpDs/style.css
+#	new file:   p5projects/Baton Capture-YVLN36-5C/CCapture.all.min.js
+#	new file:   p5projects/Baton Capture-YVLN36-5C/index.html
+#	new file:   p5projects/Baton Capture-YVLN36-5C/sketch.js
+#	new file:   p5projects/Baton Capture-YVLN36-5C/style.css
+#	new file:   p5projects/Beryl airship-CwHTK_6NN/index.html
+#	new file:   p5projects/Beryl airship-CwHTK_6NN/sketch.js
+#	new file:   p5projects/Beryl airship-CwHTK_6NN/style.css
+#	new file:   p5projects/BestOnPath-hY9eo0SYT/index.html
+#	new file:   p5projects/BestOnPath-hY9eo0SYT/sketch.js
+#	new file:   p5projects/BestOnPath-hY9eo0SYT/style.css
+#	new file:   p5projects/Better polo-IQXlcOTq6/index.html
+#	new file:   p5projects/Better polo-IQXlcOTq6/sketch.js
+#	new file:   p5projects/Better polo-IQXlcOTq6/style.css
+#	new file:   p5projects/BetterRecursiveTriangle-BagWO_tLl/index.html
+#	new file:   p5projects/BetterRecursiveTriangle-BagWO_tLl/sketch.js
+#	new file:   p5projects/BetterRecursiveTriangle-BagWO_tLl/style.css
+#	new file:   p5projects/BezierExplorer-jyvJv95tn/index.html
+#	new file:   p5projects/BezierExplorer-jyvJv95tn/sketch.js
+#	new file:   p5projects/BezierExplorer-jyvJv95tn/style.css
+#	new file:   p5projects/Billowy dryer-mHvnrQNYK/index.html
+#	new file:   p5projects/Billowy dryer-mHvnrQNYK/sketch.js
+#	new file:   p5projects/Billowy dryer-mHvnrQNYK/style.css
+#	new file:   p5projects/Bird microceratops-Tvy9Rwj3d/index.html
+#	new file:   p5projects/Bird microceratops-Tvy9Rwj3d/sketch.js
+#	new file:   p5projects/Bird microceratops-Tvy9Rwj3d/style.css
+#	new file:   p5projects/Boids-YqkIIk1fJ/index.html
+#	new file:   p5projects/Boids-YqkIIk1fJ/sketch.js
+#	new file:   p5projects/Boids-YqkIIk1fJ/style.css
+#	new file:   p5projects/Boulder dahlia-C4eHEj2NP/index.html
+#	new file:   p5projects/Boulder dahlia-C4eHEj2NP/sketch.js
+#	new file:   p5projects/Boulder dahlia-C4eHEj2NP/style.css
+#	new file:   p5projects/BouncingBall-Hk3uJxpdX/index.html
+#	new file:   p5projects/BouncingBall-Hk3uJxpdX/sketch.js
+#	new file:   p5projects/BouncingBall-Hk3uJxpdX/style.css
+#	new file:   p5projects/BoundingBoxBreaks-GbdyIqJOW/index.html
+#	new file:   p5projects/BoundingBoxBreaks-GbdyIqJOW/sketch.js
+#	new file:   p5projects/BoundingBoxBreaks-GbdyIqJOW/style.css
+#	new file:   p5projects/Boundless bowler-WXWXQ94r0/index.html
+#	new file:   p5projects/Boundless bowler-WXWXQ94r0/sketch.js
+#	new file:   p5projects/Boundless bowler-WXWXQ94r0/style.css
+#	new file:   p5projects/BrandGame-6bHnfKpzZ/index.html
+#	new file:   p5projects/BrandGame-6bHnfKpzZ/sketch.js
+#	new file:   p5projects/BrandGame-6bHnfKpzZ/style.css
+#	new file:   p5projects/Brass poultry-aAjd9v5Vq/index.html
+#	new file:   p5projects/Brass poultry-aAjd9v5Vq/sketch.js
+#	new file:   p5projects/Brass poultry-aAjd9v5Vq/style.css
+#	new file:   p5projects/Brick pecorino-scPzbPU3C/index.html
+#	new file:   p5projects/Brick pecorino-scPzbPU3C/sketch.js
+#	new file:   p5projects/Brick pecorino-scPzbPU3C/style.css
+#	new file:   p5projects/Busy pink-xgzbDuRZ6/index.html
+#	new file:   p5projects/Busy pink-xgzbDuRZ6/sketch.js
+#	new file:   p5projects/Busy pink-xgzbDuRZ6/style.css
+#	new file:   p5projects/CA1d-UgUF7hZ6F/index.html
+#	new file:   p5projects/CA1d-UgUF7hZ6F/sketch.js
+#	new file:   p5projects/CA1d-UgUF7hZ6F/style.css
+#	new file:   p5projects/CC 166 ASCII video copy-G3hIqRcx6/gloria20.jpg
+#	new file:   p5projects/CC 166 ASCII video copy-G3hIqRcx6/gloria48.jpg
+#	new file:   p5projects/CC 166 ASCII video copy-G3hIqRcx6/index.html
+#	new file:   p5projects/CC 166 ASCII video copy-G3hIqRcx6/sketch.js
+#	new file:   p5projects/CC 166 ASCII video copy-G3hIqRcx6/style.css
+#	new file:   p5projects/Ca1d copy-HpO-IPFYf/grid.js
+#	new file:   p5projects/Ca1d copy-HpO-IPFYf/index.html
+#	new file:   p5projects/Ca1d copy-HpO-IPFYf/sketch.js
+#	new file:   p5projects/Ca1d copy-HpO-IPFYf/style.css
+#	new file:   p5projects/Ca1d-Kxgq8WQaY/index.html
+#	new file:   p5projects/Ca1d-Kxgq8WQaY/sketch.js
+#	new file:   p5projects/Ca1d-Kxgq8WQaY/style.css
+#	new file:   p5projects/Ca1d-scroll-YMzebThbi/index.html
+#	new file:   p5projects/Ca1d-scroll-YMzebThbi/sketch.js
+#	new file:   p5projects/Ca1d-scroll-YMzebThbi/style.css
+#	new file:   p5projects/Ca2d-aXxDApD1o/index.html
+#	new file:   p5projects/Ca2d-aXxDApD1o/sketch.js
+#	new file:   p5projects/Ca2d-aXxDApD1o/style.css
+#	new file:   p5projects/Camberwell-l0WVgNbSI/index.html
+#	new file:   p5projects/Camberwell-l0WVgNbSI/mappa.js
+#	new file:   p5projects/Camberwell-l0WVgNbSI/sketch.js
+#	new file:   p5projects/Camberwell-l0WVgNbSI/style.css
+#	new file:   p5projects/Candle shoulder-oeE1m-t7N/index.html
+#	new file:   p5projects/Candle shoulder-oeE1m-t7N/sketch.js
+#	new file:   p5projects/Candle shoulder-oeE1m-t7N/style.css
+#	new file:   p5projects/Carpal meerkat-M3JIiGxcz/index.html
+#	new file:   p5projects/Carpal meerkat-M3JIiGxcz/sketch.js
+#	new file:   p5projects/Carpal meerkat-M3JIiGxcz/style.css
+#	new file:   p5projects/Celestial skink-3bCLOH-3i/index.html
+#	new file:   p5projects/Celestial skink-3bCLOH-3i/sketch.js
+#	new file:   p5projects/Celestial skink-3bCLOH-3i/style.css
+#	new file:   p5projects/Chisel guide-SdhemBcHL/index.html
+#	new file:   p5projects/Chisel guide-SdhemBcHL/sketch.js
+#	new file:   p5projects/Chisel guide-SdhemBcHL/style.css
+#	new file:   p5projects/CircleIntersects-JnaFulcE2/index.html
+#	new file:   p5projects/CircleIntersects-JnaFulcE2/sketch.js
+#	new file:   p5projects/CircleIntersects-JnaFulcE2/style.css
+#	new file:   p5projects/CirclePackedStipple-Jaz9tFpEb/dafoe.png
+#	new file:   p5projects/CirclePackedStipple-Jaz9tFpEb/index.html
+#	new file:   p5projects/CirclePackedStipple-Jaz9tFpEb/mountains.jpg
+#	new file:   p5projects/CirclePackedStipple-Jaz9tFpEb/obama.png
+#	new file:   p5projects/CirclePackedStipple-Jaz9tFpEb/obama400.png
+#	new file:   p5projects/CirclePackedStipple-Jaz9tFpEb/portrait.jpg
+#	new file:   p5projects/CirclePackedStipple-Jaz9tFpEb/sketch.js
+#	new file:   p5projects/CirclePackedStipple-Jaz9tFpEb/style.css
+#	new file:   p5projects/CirclePlacement-KLd-fFer8/index.html
+#	new file:   p5projects/CirclePlacement-KLd-fFer8/sketch.js
+#	new file:   p5projects/CirclePlacement-KLd-fFer8/style.css
+#	new file:   p5projects/CirclePoints-asZesiM-O/index.html
+#	new file:   p5projects/CirclePoints-asZesiM-O/sketch.js
+#	new file:   p5projects/CirclePoints-asZesiM-O/style.css
+#	new file:   p5projects/CivilConflict-GcjqPd8dZ/index.html
+#	new file:   p5projects/CivilConflict-GcjqPd8dZ/sketch.js
+#	new file:   p5projects/CivilConflict-GcjqPd8dZ/style.css
+#	new file:   p5projects/Clarity tumble-jFSU2cTT1/Lato-Black.ttf
+#	new file:   p5projects/Clarity tumble-jFSU2cTT1/index.html
+#	new file:   p5projects/Clarity tumble-jFSU2cTT1/sketch.js
+#	new file:   p5projects/Clarity tumble-jFSU2cTT1/style.css
+#	new file:   p5projects/Clear ton-7BBO8whrQ/index.html
+#	new file:   p5projects/Clear ton-7BBO8whrQ/sketch.js
+#	new file:   p5projects/Clear ton-7BBO8whrQ/style.css
+#	new file:   p5projects/ClickGrid-8kpYsHikj/index.html
+#	new file:   p5projects/ClickGrid-8kpYsHikj/sketch.js
+#	new file:   p5projects/ClickGrid-8kpYsHikj/style.css
+#	new file:   p5projects/ClockTemplate-fBN4B7pWG/index.html
+#	new file:   p5projects/ClockTemplate-fBN4B7pWG/sketch.js
+#	new file:   p5projects/ClockTemplate-fBN4B7pWG/style.css
+#	new file:   p5projects/Closed Curve Attempt copy-Rg_xT_Rc1/index.html
+#	new file:   p5projects/Closed Curve Attempt copy-Rg_xT_Rc1/sketch.js
+#	new file:   p5projects/Closed Curve Attempt copy-Rg_xT_Rc1/style.css
+#	new file:   p5projects/Cloud of Pixels-XQfymGvFE/daniel.jpg
+#	new file:   p5projects/Cloud of Pixels-XQfymGvFE/index.html
+#	new file:   p5projects/Cloud of Pixels-XQfymGvFE/sketch.js
+#	new file:   p5projects/Cloud of Pixels-XQfymGvFE/style.css
+#	new file:   p5projects/CloudOfCarrieImage-qY9eMEOo_/carrie.jpg
+#	new file:   p5projects/CloudOfCarrieImage-qY9eMEOo_/index.html
+#	new file:   p5projects/CloudOfCarrieImage-qY9eMEOo_/sketch.js
+#	new file:   p5projects/CloudOfCarrieImage-qY9eMEOo_/style.css
+#	new file:   p5projects/CloudOfCarrieWithMouse-BkdirLY6X/index.html
+#	new file:   p5projects/CloudOfCarrieWithMouse-BkdirLY6X/sketch.js
+#	new file:   p5projects/CloudOfCarrieWithMouse-BkdirLY6X/style.css
+#	new file:   p5projects/CocktailBarAPI-ohCwUa-fa/index.html
+#	new file:   p5projects/CocktailBarAPI-ohCwUa-fa/sketch.js
+#	new file:   p5projects/CocktailBarAPI-ohCwUa-fa/style.css
+#	new file:   p5projects/Coherent airbus-9ksZhOvUt/index.html
+#	new file:   p5projects/Coherent airbus-9ksZhOvUt/sketch.js
+#	new file:   p5projects/Coherent airbus-9ksZhOvUt/style.css
+#	new file:   p5projects/ColorFunctions-ZDGmjkiIh/flower.jpg
+#	new file:   p5projects/ColorFunctions-ZDGmjkiIh/index.html
+#	new file:   p5projects/ColorFunctions-ZDGmjkiIh/sketch.js
+#	new file:   p5projects/ColorFunctions-ZDGmjkiIh/style.css
+#	new file:   p5projects/ColorMapTree-S1r8zxXpQ/index.html
+#	new file:   p5projects/ColorMapTree-S1r8zxXpQ/sketch.js
+#	new file:   p5projects/ColorMapTree-S1r8zxXpQ/style.css
+#	new file:   p5projects/ColorTree-MQE-2ckYC/image-helpers.js
+#	new file:   p5projects/ColorTree-MQE-2ckYC/index.html
+#	new file:   p5projects/ColorTree-MQE-2ckYC/sketch.js
+#	new file:   p5projects/ColorTree-MQE-2ckYC/style.css
+#	new file:   p5projects/ColorTree-MQE-2ckYC/tulip.jpg
+#	new file:   p5projects/ColorsFromImageSimple-U57xCYZJG/flowers.jpg
+#	new file:   p5projects/ColorsFromImageSimple-U57xCYZJG/index.html
+#	new file:   p5projects/ColorsFromImageSimple-U57xCYZJG/sketch.js
+#	new file:   p5projects/ColorsFromImageSimple-U57xCYZJG/style.css
+#	new file:   p5projects/Comet museum-kcOQaU7sg/index.html
+#	new file:   p5projects/Comet museum-kcOQaU7sg/sketch.js
+#	new file:   p5projects/Comet museum-kcOQaU7sg/style.css
+#	new file:   p5projects/ComplexSin-LmJiNNQcn/index.html
+#	new file:   p5projects/ComplexSin-LmJiNNQcn/sketch.js
+#	new file:   p5projects/ComplexSin-LmJiNNQcn/style.css
+#	new file:   p5projects/CompositionwithLinesReCode-sgFGjV7zt/index.html
+#	new file:   p5projects/CompositionwithLinesReCode-sgFGjV7zt/sketch.js
+#	new file:   p5projects/CompositionwithLinesReCode-sgFGjV7zt/style.css
+#	new file:   p5projects/Confusion tick-EzdHMLbak/index.html
+#	new file:   p5projects/Confusion tick-EzdHMLbak/rita.js
+#	new file:   p5projects/Confusion tick-EzdHMLbak/sketch.js
+#	new file:   p5projects/Confusion tick-EzdHMLbak/style.css
+#	new file:   p5projects/ContinuousFace-f6XcwbCbT/index.html
+#	new file:   p5projects/ContinuousFace-f6XcwbCbT/sketch.js
+#	new file:   p5projects/ContinuousFace-f6XcwbCbT/style.css
+#	new file:   p5projects/ContinuousVariable-ZjCZR7r59a/index.html
+#	new file:   p5projects/ContinuousVariable-ZjCZR7r59a/sketch.js
+#	new file:   p5projects/ContinuousVariable-ZjCZR7r59a/style.css
+#	new file:   p5projects/Cooperative bat-EUdyQLYf_/1.jpg
+#	new file:   p5projects/Cooperative bat-EUdyQLYf_/2.jpg
+#	new file:   p5projects/Cooperative bat-EUdyQLYf_/3.jpg
+#	new file:   p5projects/Cooperative bat-EUdyQLYf_/4.jpg
+#	new file:   p5projects/Cooperative bat-EUdyQLYf_/5.jpg
+#	new file:   p5projects/Cooperative bat-EUdyQLYf_/6.jpg
+#	new file:   p5projects/Cooperative bat-EUdyQLYf_/9.jpg
+#	new file:   p5projects/Cooperative bat-EUdyQLYf_/index.html
+#	new file:   p5projects/Cooperative bat-EUdyQLYf_/sketch.js
+#	new file:   p5projects/Cooperative bat-EUdyQLYf_/style.css
+#	new file:   p5projects/Courageous frost-dRq5Un1vs/index.html
+#	new file:   p5projects/Courageous frost-dRq5Un1vs/shape.png
+#	new file:   p5projects/Courageous frost-dRq5Un1vs/sketch.js
+#	new file:   p5projects/Courageous frost-dRq5Un1vs/style.css
+#	new file:   p5projects/Cowardly oil-r1Jp1DfzV/index.html
+#	new file:   p5projects/Cowardly oil-r1Jp1DfzV/sketch.js
+#	new file:   p5projects/Cowardly oil-r1Jp1DfzV/style.css
+#	new file:   p5projects/Cozy cherry-By-_URHpX/carrie.png
+#	new file:   p5projects/Cozy cherry-By-_URHpX/carrie128.png
+#	new file:   p5projects/Cozy cherry-By-_URHpX/index.html
+#	new file:   p5projects/Cozy cherry-By-_URHpX/sketch.js
+#	new file:   p5projects/Cozy cherry-By-_URHpX/style.css
+#	new file:   p5projects/CssDivGrid-yWsgGGbl_/index.html
+#	new file:   p5projects/CssDivGrid-yWsgGGbl_/sketch.js
+#	new file:   p5projects/CssDivGrid-yWsgGGbl_/style.css
+#	new file:   p5projects/Cubic Beziers-E2GHupgVG/index.html
+#	new file:   p5projects/Cubic Beziers-E2GHupgVG/sketch.js
+#	new file:   p5projects/Cubic Beziers-E2GHupgVG/style.css
+#	new file:   p5projects/Curve Writing-ZxC3SxEqF/index.html
+#	new file:   p5projects/Curve Writing-ZxC3SxEqF/sketch.js
+#	new file:   p5projects/Curve Writing-ZxC3SxEqF/style.css
+#	new file:   p5projects/CurvePaintBrush-rkE8VUVzh/index.html
+#	new file:   p5projects/CurvePaintBrush-rkE8VUVzh/sketch.js
+#	new file:   p5projects/CurvePaintBrush-rkE8VUVzh/style.css
+#	new file:   p5projects/CurvesFromMouseClicks-JffZGO0g-/index.html
+#	new file:   p5projects/CurvesFromMouseClicks-JffZGO0g-/sketch.js
+#	new file:   p5projects/CurvesFromMouseClicks-JffZGO0g-/style.css
+#	new file:   p5projects/Curvy list-aFhnee6XZ/index.html
+#	new file:   p5projects/Curvy list-aFhnee6XZ/sketch.js
+#	new file:   p5projects/Curvy list-aFhnee6XZ/style.css
+#	new file:   p5projects/Cut diver-6GFL3LzNF/index.html
+#	new file:   p5projects/Cut diver-6GFL3LzNF/rita.js
+#	new file:   p5projects/Cut diver-6GFL3LzNF/sketch.js
+#	new file:   p5projects/Cut diver-6GFL3LzNF/style.css
+#	new file:   p5projects/Cylinder copy-Ed9KG5RSu/index.html
+#	new file:   p5projects/Cylinder copy-Ed9KG5RSu/sketch.js
+#	new file:   p5projects/Cylinder copy-Ed9KG5RSu/style.css
+#	new file:   p5projects/DL-Test-IjZ4g0gwv/index.html
+#	new file:   p5projects/DL-Test-IjZ4g0gwv/sketch.js
+#	new file:   p5projects/DL-Test-IjZ4g0gwv/style.css
+#	new file:   p5projects/DaniPix-hCfwiEpW2/daniel.png
+#	new file:   p5projects/DaniPix-hCfwiEpW2/daniel50x50.png
+#	new file:   p5projects/DaniPix-hCfwiEpW2/index.html
+#	new file:   p5projects/DaniPix-hCfwiEpW2/obama.png
+#	new file:   p5projects/DaniPix-hCfwiEpW2/obama2.png
+#	new file:   p5projects/DaniPix-hCfwiEpW2/obama3.png
+#	new file:   p5projects/DaniPix-hCfwiEpW2/sketch.js
+#	new file:   p5projects/DaniPix-hCfwiEpW2/style.css
+#	new file:   p5projects/DaniPixicles-UCBxPfXJs/daniel.png
+#	new file:   p5projects/DaniPixicles-UCBxPfXJs/daniel50x50.png
+#	new file:   p5projects/DaniPixicles-UCBxPfXJs/index.html
+#	new file:   p5projects/DaniPixicles-UCBxPfXJs/obama.png
+#	new file:   p5projects/DaniPixicles-UCBxPfXJs/obama2.png
+#	new file:   p5projects/DaniPixicles-UCBxPfXJs/obama3.png
+#	new file:   p5projects/DaniPixicles-UCBxPfXJs/sketch.js
+#	new file:   p5projects/DaniPixicles-UCBxPfXJs/style.css
+#	new file:   p5projects/DarkPatterns-5s0FW9qfv8/index.html
+#	new file:   p5projects/DarkPatterns-5s0FW9qfv8/sketch.js
+#	new file:   p5projects/DarkPatterns-5s0FW9qfv8/style.css
+#	new file:   p5projects/DashedLine-omYhf2Kj8/index.html
+#	new file:   p5projects/DashedLine-omYhf2Kj8/sketch.js
+#	new file:   p5projects/DashedLine-omYhf2Kj8/style.css
+#	new file:   p5projects/Deep arrhinceratops-9XGB8kJ8U/index.html
+#	new file:   p5projects/Deep arrhinceratops-9XGB8kJ8U/sketch.js
+#	new file:   p5projects/Deep arrhinceratops-9XGB8kJ8U/style.css
+#	new file:   p5projects/Deeply ostrich-BFcrPXdd4J/index.html
+#	new file:   p5projects/Deeply ostrich-BFcrPXdd4J/poem.txt
+#	new file:   p5projects/Deeply ostrich-BFcrPXdd4J/sketch.js
+#	new file:   p5projects/Deeply ostrich-BFcrPXdd4J/style.css
+#	new file:   p5projects/Diamond healer-QTH6OB2H2/index.html
+#	new file:   p5projects/Diamond healer-QTH6OB2H2/rita.min.js
+#	new file:   p5projects/Diamond healer-QTH6OB2H2/sketch.js
+#	new file:   p5projects/Diamond healer-QTH6OB2H2/style.css
+#	new file:   p5projects/Difficult battle-S1a-TLfRQ/1.jpg
+#	new file:   p5projects/Difficult battle-S1a-TLfRQ/2.jpg
+#	new file:   p5projects/Difficult battle-S1a-TLfRQ/3.jpg
+#	new file:   p5projects/Difficult battle-S1a-TLfRQ/4.jpg
+#	new file:   p5projects/Difficult battle-S1a-TLfRQ/5.jpg
+#	new file:   p5projects/Difficult battle-S1a-TLfRQ/6.jpg
+#	new file:   p5projects/Difficult battle-S1a-TLfRQ/7.jpg
+#	new file:   p5projects/Difficult battle-S1a-TLfRQ/8.jpg
+#	new file:   p5projects/Difficult battle-S1a-TLfRQ/9.jpg
+#	new file:   p5projects/Difficult battle-S1a-TLfRQ/index.html
+#	new file:   p5projects/Difficult battle-S1a-TLfRQ/sketch.js
+#	new file:   p5projects/Difficult battle-S1a-TLfRQ/style.css
+#	new file:   p5projects/DirectedWalker-sdUy_TkFy/index.html
+#	new file:   p5projects/DirectedWalker-sdUy_TkFy/sketch.js
+#	new file:   p5projects/DirectedWalker-sdUy_TkFy/style.css
+#	new file:   p5projects/DirectedWalker-sdUy_TkFy/walker.js
+#	new file:   p5projects/DiscTree-qnJ9z3SLH/index.html
+#	new file:   p5projects/DiscTree-qnJ9z3SLH/sketch.js
+#	new file:   p5projects/DiscTree-qnJ9z3SLH/style.css
+#	new file:   p5projects/Disco bambiraptor-udJHGSa36/index.html
+#	new file:   p5projects/Disco bambiraptor-udJHGSa36/sketch.js
+#	new file:   p5projects/Disco bambiraptor-udJHGSa36/style.css
+#	new file:   p5projects/Disco frill-eWHp6QUaC/index.html
+#	new file:   p5projects/Disco frill-eWHp6QUaC/particle.js
+#	new file:   p5projects/Disco frill-eWHp6QUaC/sketch.js
+#	new file:   p5projects/Disco frill-eWHp6QUaC/style.css
+#	new file:   p5projects/Disco trollius-MKYAJgGPS/index.html
+#	new file:   p5projects/Disco trollius-MKYAJgGPS/sketch.js
+#	new file:   p5projects/Disco trollius-MKYAJgGPS/style.css
+#	new file:   p5projects/Distinct houses-HJlDGDfGV/index.html
+#	new file:   p5projects/Distinct houses-HJlDGDfGV/sketch.js
+#	new file:   p5projects/Distinct houses-HJlDGDfGV/style.css
+#	new file:   p5projects/DonutGrid-g6Pp9bpna/index.html
+#	new file:   p5projects/DonutGrid-g6Pp9bpna/sketch.js
+#	new file:   p5projects/DonutGrid-g6Pp9bpna/style.css
+#	new file:   p5projects/DoubleLoops-Sy5OjX1nQ/index.html
+#	new file:   p5projects/DoubleLoops-Sy5OjX1nQ/sketch.js
+#	new file:   p5projects/DoubleLoops-Sy5OjX1nQ/style.css
+#	new file:   p5projects/Draft 3b - Project 2 cop-8OGl6B48K/3gables.txt
+#	new file:   p5projects/Draft 3b - Project 2 cop-8OGl6B48K/6napolen.txt
+#	new file:   p5projects/Draft 3b - Project 2 cop-8OGl6B48K/DFont.otf
+#	new file:   p5projects/Draft 3b - Project 2 cop-8OGl6B48K/Monr.otf
+#	new file:   p5projects/Draft 3b - Project 2 cop-8OGl6B48K/adv.jpg
+#	new file:   p5projects/Draft 3b - Project 2 cop-8OGl6B48K/alad10.txt
+#	new file:   p5projects/Draft 3b - Project 2 cop-8OGl6B48K/body1.jpeg
+#	new file:   p5projects/Draft 3b - Project 2 cop-8OGl6B48K/body2.jpg
+#	new file:   p5projects/Draft 3b - Project 2 cop-8OGl6B48K/cin.jpg
+#	new file:   p5projects/Draft 3b - Project 2 cop-8OGl6B48K/empty.txt
+#	new file:   p5projects/Draft 3b - Project 2 cop-8OGl6B48K/eyes.jpg
+#	new file:   p5projects/Draft 3b - Project 2 cop-8OGl6B48K/fable.txt
+#	new file:   p5projects/Draft 3b - Project 2 cop-8OGl6B48K/fds.jpeg
+#	new file:   p5projects/Draft 3b - Project 2 cop-8OGl6B48K/firstPage.txt
+#	new file:   p5projects/Draft 3b - Project 2 cop-8OGl6B48K/friends.txt
+#	new file:   p5projects/Draft 3b - Project 2 cop-8OGl6B48K/game.txt
+#	new file:   p5projects/Draft 3b - Project 2 cop-8OGl6B48K/how.txt
+#	new file:   p5projects/Draft 3b - Project 2 cop-8OGl6B48K/index.html
+#	new file:   p5projects/Draft 3b - Project 2 cop-8OGl6B48K/jackbstl.txt
+#	new file:   p5projects/Draft 3b - Project 2 cop-8OGl6B48K/lmermaid.txt
+#	new file:   p5projects/Draft 3b - Project 2 cop-8OGl6B48K/mazarin.txt
+#	new file:   p5projects/Draft 3b - Project 2 cop-8OGl6B48K/mydayoff.txt
+#	new file:   p5projects/Draft 3b - Project 2 cop-8OGl6B48K/party.txt
+#	new file:   p5projects/Draft 3b - Project 2 cop-8OGl6B48K/psi.txt
+#	new file:   p5projects/Draft 3b - Project 2 cop-8OGl6B48K/qcarroll.txt
+#	new file:   p5projects/Draft 3b - Project 2 cop-8OGl6B48K/rita.min.js
+#	new file:   p5projects/Draft 3b - Project 2 cop-8OGl6B48K/shoscomb.txt
+#	new file:   p5projects/Draft 3b - Project 2 cop-8OGl6B48K/sketch.js
+#	new file:   p5projects/Draft 3b - Project 2 cop-8OGl6B48K/style.css
+#	new file:   p5projects/Draft 3b - Project 2 cop-8OGl6B48K/tailbear.txt
+#	new file:   p5projects/DraggableGrids-C4uo4B6Y6/index.html
+#	new file:   p5projects/DraggableGrids-C4uo4B6Y6/sketch.js
+#	new file:   p5projects/DraggableGrids-C4uo4B6Y6/style.css
+#	new file:   p5projects/DraggableGrids-C4uo4B6Y6/style.js
+#	new file:   p5projects/DraggableOOGrids-avScqp81A/index.html
+#	new file:   p5projects/DraggableOOGrids-avScqp81A/sketch.js
+#	new file:   p5projects/DraggableOOGrids-avScqp81A/style.css
+#	new file:   p5projects/DraggableOOGrids-avScqp81A/style.js
+#	new file:   p5projects/DraggableRect-SJ9V8hPYm/index.html
+#	new file:   p5projects/DraggableRect-SJ9V8hPYm/sketch.js
+#	new file:   p5projects/DraggableRect-SJ9V8hPYm/style.css
+#	new file:   p5projects/DraggyGridsTemplate-oa7K2l_CN/index.html
+#	new file:   p5projects/DraggyGridsTemplate-oa7K2l_CN/sketch.js
+#	new file:   p5projects/DraggyGridsTemplate-oa7K2l_CN/style.css
+#	new file:   p5projects/DrawingWithTwoBalls-SyWP_cPtm/index.html
+#	new file:   p5projects/DrawingWithTwoBalls-SyWP_cPtm/sketch.js
+#	new file:   p5projects/DrawingWithTwoBalls-SyWP_cPtm/style.css
+#	new file:   p5projects/Dusty ellipse copy-EDJGie8G_/index.html
+#	new file:   p5projects/Dusty ellipse copy-EDJGie8G_/sketch.js
+#	new file:   p5projects/Dusty ellipse copy-EDJGie8G_/style.css
+#	new file:   p5projects/EasyGas-P7uBt46pV/index.html
+#	new file:   p5projects/EasyGas-P7uBt46pV/sketch.js
+#	new file:   p5projects/EasyGas-P7uBt46pV/style.css
+#	new file:   p5projects/EatFoodGame-SyLq3HUFm/index.html
+#	new file:   p5projects/EatFoodGame-SyLq3HUFm/sketch.js
+#	new file:   p5projects/EatFoodGame-SyLq3HUFm/style.css
+#	new file:   p5projects/Elementary Ca1endar-7BnuFuTD2/index.html
+#	new file:   p5projects/Elementary Ca1endar-7BnuFuTD2/sketch.js
+#	new file:   p5projects/Elementary Ca1endar-7BnuFuTD2/style.css
+#	new file:   p5projects/Entertaining tortellini-qj1CXXCXu/index.html
+#	new file:   p5projects/Entertaining tortellini-qj1CXXCXu/sketch.js
+#	new file:   p5projects/Entertaining tortellini-qj1CXXCXu/style.css
+#	new file:   p5projects/Equatorial night-uLlhF5PR7/index.html
+#	new file:   p5projects/Equatorial night-uLlhF5PR7/sketch.js
+#	new file:   p5projects/Equatorial night-uLlhF5PR7/style.css
+#	new file:   p5projects/EquiTriangles-BkWkaeX6X/index.html
+#	new file:   p5projects/EquiTriangles-BkWkaeX6X/sketch.js
+#	new file:   p5projects/EquiTriangles-BkWkaeX6X/style.css
+#	new file:   p5projects/Estienne Effects-KEccheQMH/dhimage.jpg
+#	new file:   p5projects/Estienne Effects-KEccheQMH/index.html
+#	new file:   p5projects/Estienne Effects-KEccheQMH/sketch.js
+#	new file:   p5projects/Estienne Effects-KEccheQMH/style.css
+#	new file:   p5projects/Evening snagglefoot-rrN_6DUvw/index.html
+#	new file:   p5projects/Evening snagglefoot-rrN_6DUvw/sketch.js
+#	new file:   p5projects/Evening snagglefoot-rrN_6DUvw/style.css
+#	new file:   p5projects/Event Handler mouseMoved-GDNRW7nnp/index.html
+#	new file:   p5projects/Event Handler mouseMoved-GDNRW7nnp/sketch.js
+#	new file:   p5projects/Event Handler mouseMoved-GDNRW7nnp/style.css
+#	new file:   p5projects/EvolveTTT-KpkT69z7o/index.html
+#	new file:   p5projects/EvolveTTT-KpkT69z7o/sketch.js
+#	new file:   p5projects/EvolveTTT-KpkT69z7o/style.css
+#	new file:   p5projects/EvolveText-KyoZQhDlf/index.html
+#	new file:   p5projects/EvolveText-KyoZQhDlf/sketch.js
+#	new file:   p5projects/EvolveText-KyoZQhDlf/style.css
+#	new file:   p5projects/Excited Mandevilla-8zFFGkbwm/index.html
+#	new file:   p5projects/Excited Mandevilla-8zFFGkbwm/sketch.js
+#	new file:   p5projects/Excited Mandevilla-8zFFGkbwm/style.css
+#	new file:   p5projects/Faint koala-i0vU0kixz/index.html
+#	new file:   p5projects/Faint koala-i0vU0kixz/sketch.js
+#	new file:   p5projects/Faint koala-i0vU0kixz/style.css
+#	new file:   p5projects/Fallacious desk-bae6L_JuH/data.js
+#	new file:   p5projects/Fallacious desk-bae6L_JuH/index.html
+#	new file:   p5projects/Fallacious desk-bae6L_JuH/sketch.js
+#	new file:   p5projects/Fallacious desk-bae6L_JuH/style.css
+#	new file:   p5projects/Falling Circle Rings-d5EtjWzPL/index.html
+#	new file:   p5projects/Falling Circle Rings-d5EtjWzPL/sketch.js
+#	new file:   p5projects/Falling Circle Rings-d5EtjWzPL/style.css
+#	new file:   p5projects/FallingBranches-GIAvWiUjb/fxhash.min.js
+#	new file:   p5projects/FallingBranches-GIAvWiUjb/index.html
+#	new file:   p5projects/FallingBranches-GIAvWiUjb/sketch.js
+#	new file:   p5projects/FallingBranches-GIAvWiUjb/style.css
+#	new file:   p5projects/Familiar ski-SatmJqk_U/cloud.png
+#	new file:   p5projects/Familiar ski-SatmJqk_U/index.html
+#	new file:   p5projects/Familiar ski-SatmJqk_U/sketch.js
+#	new file:   p5projects/Familiar ski-SatmJqk_U/style.css
+#	new file:   p5projects/Few joggers-9ZHVz8ikk/1.jpg
+#	new file:   p5projects/Few joggers-9ZHVz8ikk/2.jpg
+#	new file:   p5projects/Few joggers-9ZHVz8ikk/3.jpg
+#	new file:   p5projects/Few joggers-9ZHVz8ikk/4.jpg
+#	new file:   p5projects/Few joggers-9ZHVz8ikk/5.jpg
+#	new file:   p5projects/Few joggers-9ZHVz8ikk/6.jpg
+#	new file:   p5projects/Few joggers-9ZHVz8ikk/7.jpg
+#	new file:   p5projects/Few joggers-9ZHVz8ikk/8.jpg
+#	new file:   p5projects/Few joggers-9ZHVz8ikk/9.jpg
+#	new file:   p5projects/Few joggers-9ZHVz8ikk/index.html
+#	new file:   p5projects/Few joggers-9ZHVz8ikk/sketch.js
+#	new file:   p5projects/Few joggers-9ZHVz8ikk/style.css
+#	new file:   p5projects/Fine card-B1o4tNRA7/index.html
+#	new file:   p5projects/Fine card-B1o4tNRA7/sketch.js
+#	new file:   p5projects/Fine card-B1o4tNRA7/style.css
+#	new file:   p5projects/Florentine jobaria-4E4VPJr40/index.html
+#	new file:   p5projects/Florentine jobaria-4E4VPJr40/rita.min.js
+#	new file:   p5projects/Florentine jobaria-4E4VPJr40/sketch.js
+#	new file:   p5projects/Florentine jobaria-4E4VPJr40/style.css
+#	new file:   p5projects/Flossy tanker-sJ9muFS_Hu/index.html
+#	new file:   p5projects/Flossy tanker-sJ9muFS_Hu/sketch.js
+#	new file:   p5projects/Flossy tanker-sJ9muFS_Hu/style.css
+#	new file:   p5projects/Fluffy coat-7CE8wxcqq/index.html
+#	new file:   p5projects/Fluffy coat-7CE8wxcqq/sketch.js
+#	new file:   p5projects/Fluffy coat-7CE8wxcqq/style.css
+#	new file:   p5projects/Fluorescent edge-DXeJK7-fb/beat.wav
+#	new file:   p5projects/Fluorescent edge-DXeJK7-fb/index.html
+#	new file:   p5projects/Fluorescent edge-DXeJK7-fb/sketch.js
+#	new file:   p5projects/Fluorescent edge-DXeJK7-fb/style.css
+#	new file:   p5projects/FontLoadTest-EEmmkrGW2/Acmesa.ttf
+#	new file:   p5projects/FontLoadTest-EEmmkrGW2/AndaleMono.ttf
+#	new file:   p5projects/FontLoadTest-EEmmkrGW2/FiraSans-Book.otf
+#	new file:   p5projects/FontLoadTest-EEmmkrGW2/Lato-Black.ttf
+#	new file:   p5projects/FontLoadTest-EEmmkrGW2/PlayfairDisplay.ttf
+#	new file:   p5projects/FontLoadTest-EEmmkrGW2/index.html
+#	new file:   p5projects/FontLoadTest-EEmmkrGW2/sketch.js
+#	new file:   p5projects/FontLoadTest-EEmmkrGW2/style.css
+#	new file:   p5projects/FontRendering-SJ-007iZ4/Roboto-Regular.ttf
+#	new file:   p5projects/FontRendering-SJ-007iZ4/index.html
+#	new file:   p5projects/FontRendering-SJ-007iZ4/matrix-font.otf
+#	new file:   p5projects/FontRendering-SJ-007iZ4/sketch.js
+#	new file:   p5projects/FontRendering-SJ-007iZ4/style.css
+#	new file:   p5projects/ForBarrelExercise-B1rgb5Sim/index.html
+#	new file:   p5projects/ForBarrelExercise-B1rgb5Sim/sketch.js
+#	new file:   p5projects/ForBarrelExercise-B1rgb5Sim/style.css
+#	new file:   p5projects/Forest magician-Gbmsg01PY/index.html
+#	new file:   p5projects/Forest magician-Gbmsg01PY/sketch.js
+#	new file:   p5projects/Forest magician-Gbmsg01PY/style.css
+#	new file:   p5projects/Fractal Tree-leo8yX52a/index.html
+#	new file:   p5projects/Fractal Tree-leo8yX52a/sketch.js
+#	new file:   p5projects/Fractal Tree-leo8yX52a/style.css
+#	new file:   p5projects/FractalNoiseTree-NhaBjP0UY/index.html
+#	new file:   p5projects/FractalNoiseTree-NhaBjP0UY/sketch.js
+#	new file:   p5projects/FractalNoiseTree-NhaBjP0UY/style.css
+#	new file:   p5projects/FractalTree-S1iN1qsAm/index.html
+#	new file:   p5projects/FractalTree-S1iN1qsAm/sketch.js
+#	new file:   p5projects/FractalTree-S1iN1qsAm/style.css
+#	new file:   p5projects/FractalTree3-SpZz14Mnj/index.html
+#	new file:   p5projects/FractalTree3-SpZz14Mnj/sketch.js
+#	new file:   p5projects/FractalTree3-SpZz14Mnj/style.css
+#	new file:   p5projects/FractalTree4-EmMLA64Os/index.html
+#	new file:   p5projects/FractalTree4-EmMLA64Os/sketch.js
+#	new file:   p5projects/FractalTree4-EmMLA64Os/style.css
+#	new file:   p5projects/FractalTree5-8BbM9m45O/index.html
+#	new file:   p5projects/FractalTree5-8BbM9m45O/sketch.js
+#	new file:   p5projects/FractalTree5-8BbM9m45O/style.css
+#	new file:   p5projects/Fracture-01Un4QAfu/fracture.js
+#	new file:   p5projects/Fracture-01Un4QAfu/hull.js
+#	new file:   p5projects/Fracture-01Un4QAfu/index.html
+#	new file:   p5projects/Fracture-01Un4QAfu/palettes.js
+#	new file:   p5projects/Fracture-01Un4QAfu/sketch.js
+#	new file:   p5projects/Fracture-01Un4QAfu/skmeans.min.js
+#	new file:   p5projects/Fracture-01Un4QAfu/style.css
+#	new file:   p5projects/Fringe smartphone-8jTMs8ZyB/index.html
+#	new file:   p5projects/Fringe smartphone-8jTMs8ZyB/sketch.js
+#	new file:   p5projects/Fringe smartphone-8jTMs8ZyB/style.css
+#	new file:   p5projects/Frost seeker-C1zOF7s6b/index.html
+#	new file:   p5projects/Frost seeker-C1zOF7s6b/sketch.js
+#	new file:   p5projects/Frost seeker-C1zOF7s6b/style.css
+#	new file:   p5projects/FurExample-4-k4yd9_M/index.html
+#	new file:   p5projects/FurExample-4-k4yd9_M/sketch.js
+#	new file:   p5projects/FurExample-4-k4yd9_M/style.css
+#	new file:   p5projects/Futuristic gemini-pyp63WIH1/index.html
+#	new file:   p5projects/Futuristic gemini-pyp63WIH1/sketch.js
+#	new file:   p5projects/Futuristic gemini-pyp63WIH1/style.css
+#	new file:   p5projects/GLMS-pixels-ZaN5PVGld/grace-lau-mo-sheung.jpg
+#	new file:   p5projects/GLMS-pixels-ZaN5PVGld/index.html
+#	new file:   p5projects/GLMS-pixels-ZaN5PVGld/sketch.js
+#	new file:   p5projects/GLMS-pixels-ZaN5PVGld/style.css
+#	new file:   p5projects/GLMS-text-cnZosf_I1/duchov-1.jpg
+#	new file:   p5projects/GLMS-text-cnZosf_I1/duchov.jpg
+#	new file:   p5projects/GLMS-text-cnZosf_I1/grace-lau-mo-sheung.jpg
+#	new file:   p5projects/GLMS-text-cnZosf_I1/index.html
+#	new file:   p5projects/GLMS-text-cnZosf_I1/sketch.js
+#	new file:   p5projects/GLMS-text-cnZosf_I1/style.css
+#	new file:   p5projects/GOL-t7Q4fgERN/index.html
+#	new file:   p5projects/GOL-t7Q4fgERN/sketch.js
+#	new file:   p5projects/GOL-t7Q4fgERN/style.css
+#	new file:   p5projects/GenerativeFaceStart-7XNNx9ZbM/index.html
+#	new file:   p5projects/GenerativeFaceStart-7XNNx9ZbM/sketch.js
+#	new file:   p5projects/GenerativeFaceStart-7XNNx9ZbM/style.css
+#	new file:   p5projects/Geocoding Weather-jxNcmZJ0s/index.html
+#	new file:   p5projects/Geocoding Weather-jxNcmZJ0s/mappa.js
+#	new file:   p5projects/Geocoding Weather-jxNcmZJ0s/sketch.js
+#	new file:   p5projects/Geocoding Weather-jxNcmZJ0s/style.css
+#	new file:   p5projects/Giddy dream-cbSF8L68Z/index.html
+#	new file:   p5projects/Giddy dream-cbSF8L68Z/sketch.js
+#	new file:   p5projects/Giddy dream-cbSF8L68Z/style.css
+#	new file:   p5projects/Glossy side-VXhKVpaRs/index.html
+#	new file:   p5projects/Glossy side-VXhKVpaRs/sketch.js
+#	new file:   p5projects/Glossy side-VXhKVpaRs/style.css
+#	new file:   p5projects/GlyphFlock-Df911IrtS/avenir.otf
+#	new file:   p5projects/GlyphFlock-Df911IrtS/boids.js
+#	new file:   p5projects/GlyphFlock-Df911IrtS/index.html
+#	new file:   p5projects/GlyphFlock-Df911IrtS/sketch.js
+#	new file:   p5projects/GlyphFlock-Df911IrtS/style.css
+#	new file:   p5projects/Gorgeous blue-d6WNM2bSc/1.jpg
+#	new file:   p5projects/Gorgeous blue-d6WNM2bSc/2.jpg
+#	new file:   p5projects/Gorgeous blue-d6WNM2bSc/index.html
+#	new file:   p5projects/Gorgeous blue-d6WNM2bSc/sketch.js
+#	new file:   p5projects/Gorgeous blue-d6WNM2bSc/style.css
+#	new file:   p5projects/GradientLines-0cQO_SUbS/index.html
+#	new file:   p5projects/GradientLines-0cQO_SUbS/sketch.js
+#	new file:   p5projects/GradientLines-0cQO_SUbS/style.css
+#	new file:   p5projects/Grass supernova copy-BcPhLIoi3/index.html
+#	new file:   p5projects/Grass supernova copy-BcPhLIoi3/sketch.js
+#	new file:   p5projects/Grass supernova copy-BcPhLIoi3/style.css
+#	new file:   p5projects/Gray Worker Demo copy copy-DuPzHi42u/24.js
+#	new file:   p5projects/Gray Worker Demo copy copy-DuPzHi42u/index.html
+#	new file:   p5projects/Gray Worker Demo copy copy-DuPzHi42u/rita-micro.js
+#	new file:   p5projects/Gray Worker Demo copy copy-DuPzHi42u/sketch.js
+#	new file:   p5projects/Gray Worker Demo copy copy-DuPzHi42u/style.css
+#	new file:   p5projects/Gray Worker Demo copy copy-DuPzHi42u/worker.js
+#	new file:   p5projects/Gray Worker Demo copy-vD33S37Vj/24.js
+#	new file:   p5projects/Gray Worker Demo copy-vD33S37Vj/index.html
+#	new file:   p5projects/Gray Worker Demo copy-vD33S37Vj/rita-micro.js
+#	new file:   p5projects/Gray Worker Demo copy-vD33S37Vj/sketch.js
+#	new file:   p5projects/Gray Worker Demo copy-vD33S37Vj/style.css
+#	new file:   p5projects/Gray Worker Demo copy-vD33S37Vj/worker.js
+#	new file:   p5projects/Gray Worker Demo-iZZXUWX5N/24.js
+#	new file:   p5projects/Gray Worker Demo-iZZXUWX5N/index.html
+#	new file:   p5projects/Gray Worker Demo-iZZXUWX5N/rita-micro.js
+#	new file:   p5projects/Gray Worker Demo-iZZXUWX5N/sketch.js
+#	new file:   p5projects/Gray Worker Demo-iZZXUWX5N/style.css
+#	new file:   p5projects/Gray Worker Demo-iZZXUWX5N/worker.js
+#	new file:   p5projects/Grid of Cell Objects-G7ZD8Vb04/index.html
+#	new file:   p5projects/Grid of Cell Objects-G7ZD8Vb04/sketch.js
+#	new file:   p5projects/Grid of Cell Objects-G7ZD8Vb04/style.css
+#	new file:   p5projects/Grid of Images -take2-5kCrzFOgC/1.jpg
+#	new file:   p5projects/Grid of Images -take2-5kCrzFOgC/2.jpg
+#	new file:   p5projects/Grid of Images -take2-5kCrzFOgC/3.jpg
+#	new file:   p5projects/Grid of Images -take2-5kCrzFOgC/4.jpg
+#	new file:   p5projects/Grid of Images -take2-5kCrzFOgC/5.jpg
+#	new file:   p5projects/Grid of Images -take2-5kCrzFOgC/6.jpg
+#	new file:   p5projects/Grid of Images -take2-5kCrzFOgC/7.jpg
+#	new file:   p5projects/Grid of Images -take2-5kCrzFOgC/8.jpg
+#	new file:   p5projects/Grid of Images -take2-5kCrzFOgC/9.jpg
+#	new file:   p5projects/Grid of Images -take2-5kCrzFOgC/functions.js
+#	new file:   p5projects/Grid of Images -take2-5kCrzFOgC/index.html
+#	new file:   p5projects/Grid of Images -take2-5kCrzFOgC/sketch.js
+#	new file:   p5projects/Grid of Images -take2-5kCrzFOgC/style.css
+#	new file:   p5projects/Grid of Images-U4Ks7CJxP/1.jpg
+#	new file:   p5projects/Grid of Images-U4Ks7CJxP/2.jpg
+#	new file:   p5projects/Grid of Images-U4Ks7CJxP/3.jpg
+#	new file:   p5projects/Grid of Images-U4Ks7CJxP/4.jpg
+#	new file:   p5projects/Grid of Images-U4Ks7CJxP/5.jpg
+#	new file:   p5projects/Grid of Images-U4Ks7CJxP/6.jpg
+#	new file:   p5projects/Grid of Images-U4Ks7CJxP/7.jpg
+#	new file:   p5projects/Grid of Images-U4Ks7CJxP/8.jpg
+#	new file:   p5projects/Grid of Images-U4Ks7CJxP/9.jpg
+#	new file:   p5projects/Grid of Images-U4Ks7CJxP/index.html
+#	new file:   p5projects/Grid of Images-U4Ks7CJxP/sketch.js
+#	new file:   p5projects/Grid of Images-U4Ks7CJxP/style.css
+#	new file:   p5projects/GridCells-SkfhQsfTm/acmesa.ttf
+#	new file:   p5projects/GridCells-SkfhQsfTm/index.html
+#	new file:   p5projects/GridCells-SkfhQsfTm/sketch.js
+#	new file:   p5projects/GridCells-SkfhQsfTm/style.css
+#	new file:   p5projects/GridCells-e6-xawodn/acmesa.ttf
+#	new file:   p5projects/GridCells-e6-xawodn/index.html
+#	new file:   p5projects/GridCells-e6-xawodn/sketch.js
+#	new file:   p5projects/GridCells-e6-xawodn/style.css
+#	new file:   p5projects/GridClass-bBG07VDw9/index.html
+#	new file:   p5projects/GridClass-bBG07VDw9/sketch.js
+#	new file:   p5projects/GridClass-bBG07VDw9/style.css
+#	new file:   p5projects/GridLensWithGaps-HkrDW24sX/index.html
+#	new file:   p5projects/GridLensWithGaps-HkrDW24sX/sketch.js
+#	new file:   p5projects/GridLensWithGaps-HkrDW24sX/style.css
+#	new file:   p5projects/GridPatterns-O4xJMQl3T/index.html
+#	new file:   p5projects/GridPatterns-O4xJMQl3T/sketch.js
+#	new file:   p5projects/GridPatterns-O4xJMQl3T/style.css
+#	new file:   p5projects/GridWalker-YvJmfUNb1/index.html
+#	new file:   p5projects/GridWalker-YvJmfUNb1/sketch.js
+#	new file:   p5projects/GridWalker-YvJmfUNb1/style.css
+#	new file:   p5projects/Growing Os-ZJkfXyUkg/index.html
+#	new file:   p5projects/Growing Os-ZJkfXyUkg/sketch.js
+#	new file:   p5projects/Growing Os-ZJkfXyUkg/style.css
+#	new file:   p5projects/Hail observatory-b0AwSJ6qu/index.html
+#	new file:   p5projects/Hail observatory-b0AwSJ6qu/sketch.js
+#	new file:   p5projects/Hail observatory-b0AwSJ6qu/style.css
+#	new file:   p5projects/Hand-drawn line-lFl2Kt5jL/index.html
+#	new file:   p5projects/Hand-drawn line-lFl2Kt5jL/sketch.js
+#	new file:   p5projects/Hand-drawn line-lFl2Kt5jL/style.css
+#	new file:   p5projects/Happy playground-oRk3ATmhM/1.jpg
+#	new file:   p5projects/Happy playground-oRk3ATmhM/2.jpg
+#	new file:   p5projects/Happy playground-oRk3ATmhM/index.html
+#	new file:   p5projects/Happy playground-oRk3ATmhM/sketch.js
+#	new file:   p5projects/Happy playground-oRk3ATmhM/style.css
+#	new file:   p5projects/Hardly soursop-0ts0ralrJ/index.html
+#	new file:   p5projects/Hardly soursop-0ts0ralrJ/sketch.js
+#	new file:   p5projects/Hardly soursop-0ts0ralrJ/style.css
+#	new file:   p5projects/Harsh night-Hk4pboZTQ/acmesa.ttf
+#	new file:   p5projects/Harsh night-Hk4pboZTQ/index.html
+#	new file:   p5projects/Harsh night-Hk4pboZTQ/sketch.js
+#	new file:   p5projects/Harsh night-Hk4pboZTQ/style.css
+#	new file:   p5projects/HeadingTriangle-McqsnAJnc/index.html
+#	new file:   p5projects/HeadingTriangle-McqsnAJnc/sketch.js
+#	new file:   p5projects/HeadingTriangle-McqsnAJnc/style.css
+#	new file:   p5projects/Heady chord-5Coi86ef9/index.html
+#	new file:   p5projects/Heady chord-5Coi86ef9/sketch.js
+#	new file:   p5projects/Heady chord-5Coi86ef9/style.css
+#	new file:   p5projects/HeightMapRe-7chK5Xc-1/index.html
+#	new file:   p5projects/HeightMapRe-7chK5Xc-1/sketch.js
+#	new file:   p5projects/HeightMapRe-7chK5Xc-1/style.css
+#	new file:   p5projects/Heightmap-UG98jTeBP/heightmap.png
+#	new file:   p5projects/Heightmap-UG98jTeBP/index.html
+#	new file:   p5projects/Heightmap-UG98jTeBP/sketch.js
+#	new file:   p5projects/Heightmap-UG98jTeBP/style.css
+#	new file:   p5projects/HistoryQ-cGalvu50S/index.html
+#	new file:   p5projects/HistoryQ-cGalvu50S/sketch.js
+#	new file:   p5projects/HistoryQ-cGalvu50S/style.css
+#	new file:   p5projects/Homework6 Template-dZSNtv9Nh/index.html
+#	new file:   p5projects/Homework6 Template-dZSNtv9Nh/sketch.js
+#	new file:   p5projects/Homework6 Template-dZSNtv9Nh/style.css
+#	new file:   p5projects/Hulking mailbox-SyXTL777J/index.html
+#	new file:   p5projects/Hulking mailbox-SyXTL777J/sentences.js
+#	new file:   p5projects/Hulking mailbox-SyXTL777J/sketch.js
+#	new file:   p5projects/Hulking mailbox-SyXTL777J/style.css
+#	new file:   p5projects/Humane cardinal-qVLPyJXfk/index.html
+#	new file:   p5projects/Humane cardinal-qVLPyJXfk/sketch.js
+#	new file:   p5projects/Humane cardinal-qVLPyJXfk/style.css
+#	new file:   p5projects/Hyphalker-MphaYU0LU/index.html
+#	new file:   p5projects/Hyphalker-MphaYU0LU/sketch.js
+#	new file:   p5projects/Hyphalker-MphaYU0LU/style.css
+#	new file:   p5projects/Hyphalker-MphaYU0LU/walker.js
+#	new file:   p5projects/IambicTests-p9lhvqn2H/index.html
+#	new file:   p5projects/IambicTests-p9lhvqn2H/rita-full.js
+#	new file:   p5projects/IambicTests-p9lhvqn2H/sketch.js
+#	new file:   p5projects/IambicTests-p9lhvqn2H/style.css
+#	new file:   p5projects/Image Curves-zKmd5QXg6/dhimage.jpg
+#	new file:   p5projects/Image Curves-zKmd5QXg6/image.jpg
+#	new file:   p5projects/Image Curves-zKmd5QXg6/index.html
+#	new file:   p5projects/Image Curves-zKmd5QXg6/mountains.jpg
+#	new file:   p5projects/Image Curves-zKmd5QXg6/sketch.js
+#	new file:   p5projects/Image Curves-zKmd5QXg6/style.css
+#	new file:   p5projects/Image Warp-0e8NtlRGZ/index.html
+#	new file:   p5projects/Image Warp-0e8NtlRGZ/sketch.js
+#	new file:   p5projects/Image Warp-0e8NtlRGZ/style.css
+#	new file:   p5projects/ImagePixelExamples-M0WsY-Szf/index.html
+#	new file:   p5projects/ImagePixelExamples-M0WsY-Szf/sketch.js
+#	new file:   p5projects/ImagePixelExamples-M0WsY-Szf/style.css
+#	new file:   p5projects/ImagePixelExamples-M0WsY-Szf/trump.jpg
+#	new file:   p5projects/ImagePixelParticles-RgKDeXhGu/index.html
+#	new file:   p5projects/ImagePixelParticles-RgKDeXhGu/obama.png
+#	new file:   p5projects/ImagePixelParticles-RgKDeXhGu/obama2.png
+#	new file:   p5projects/ImagePixelParticles-RgKDeXhGu/obama3.png
+#	new file:   p5projects/ImagePixelParticles-RgKDeXhGu/sketch.js
+#	new file:   p5projects/ImagePixelParticles-RgKDeXhGu/style.css
+#	new file:   p5projects/ImagePixelProcessing-rJuSqRrT7/index.html
+#	new file:   p5projects/ImagePixelProcessing-rJuSqRrT7/sketch.js
+#	new file:   p5projects/ImagePixelProcessing-rJuSqRrT7/style.css
+#	new file:   p5projects/ImagePixelProcessing-rJuSqRrT7/trumped.jpg
+#	new file:   p5projects/ImagePixelTest-cJZDQiA5L/index.html
+#	new file:   p5projects/ImagePixelTest-cJZDQiA5L/obama.png
+#	new file:   p5projects/ImagePixelTest-cJZDQiA5L/obama2.png
+#	new file:   p5projects/ImagePixelTest-cJZDQiA5L/obama3.png
+#	new file:   p5projects/ImagePixelTest-cJZDQiA5L/sketch.js
+#	new file:   p5projects/ImagePixelTest-cJZDQiA5L/style.css
+#	new file:   p5projects/ImagePixels-x1bUrBZX1/index.html
+#	new file:   p5projects/ImagePixels-x1bUrBZX1/martin.jpg
+#	new file:   p5projects/ImagePixels-x1bUrBZX1/sketch.js
+#	new file:   p5projects/ImagePixels-x1bUrBZX1/style.css
+#	new file:   p5projects/ImagePixels-x1bUrBZX1/trumped.jpg
+#	new file:   p5projects/ImagePixels-zdOLIBPOT/index.html
+#	new file:   p5projects/ImagePixels-zdOLIBPOT/obama.png
+#	new file:   p5projects/ImagePixels-zdOLIBPOT/sketch.js
+#	new file:   p5projects/ImagePixels-zdOLIBPOT/style.css
+#	new file:   p5projects/ImageRW-wyPI8SnBD/carrie.jpg
+#	new file:   p5projects/ImageRW-wyPI8SnBD/index.html
+#	new file:   p5projects/ImageRW-wyPI8SnBD/sketch.js
+#	new file:   p5projects/ImageRW-wyPI8SnBD/style.css
+#	new file:   p5projects/ImageRW-wyPI8SnBD/trumped.jpg
+#	new file:   p5projects/ImgAverageVariance-o0skrOkR-/dhimage.jpg
+#	new file:   p5projects/ImgAverageVariance-o0skrOkR-/image-helpers.js
+#	new file:   p5projects/ImgAverageVariance-o0skrOkR-/index.html
+#	new file:   p5projects/ImgAverageVariance-o0skrOkR-/sketch.js
+#	new file:   p5projects/ImgAverageVariance-o0skrOkR-/style.css
+#	new file:   p5projects/ImgQTree-lCS2sHLAd/flower.jpg
+#	new file:   p5projects/ImgQTree-lCS2sHLAd/index.html
+#	new file:   p5projects/ImgQTree-lCS2sHLAd/sketch.js
+#	new file:   p5projects/ImgQTree-lCS2sHLAd/style.css
+#	new file:   p5projects/InClassPerceptron-hnHCAaWF-/data.js
+#	new file:   p5projects/InClassPerceptron-hnHCAaWF-/estate.js
+#	new file:   p5projects/InClassPerceptron-hnHCAaWF-/index.html
+#	new file:   p5projects/InClassPerceptron-hnHCAaWF-/network.js
+#	new file:   p5projects/InClassPerceptron-hnHCAaWF-/sketch.js
+#	new file:   p5projects/InClassPerceptron-hnHCAaWF-/style.css
+#	new file:   p5projects/InClassPerceptron22-yP7rpH-GE/data.js
+#	new file:   p5projects/InClassPerceptron22-yP7rpH-GE/index.html
+#	new file:   p5projects/InClassPerceptron22-yP7rpH-GE/neural.js
+#	new file:   p5projects/InClassPerceptron22-yP7rpH-GE/sketch.js
+#	new file:   p5projects/InClassPerceptron22-yP7rpH-GE/style.css
+#	new file:   p5projects/Inconclusive daffodil-JnSq8UK55F/index.html
+#	new file:   p5projects/Inconclusive daffodil-JnSq8UK55F/sketch.js
+#	new file:   p5projects/Inconclusive daffodil-JnSq8UK55F/style.css
+#	new file:   p5projects/Indecisive daffodil-jogbj3CjO/index.html
+#	new file:   p5projects/Indecisive daffodil-jogbj3CjO/sketch.js
+#	new file:   p5projects/Indecisive daffodil-jogbj3CjO/style.css
+#	new file:   p5projects/Indispensable hub-8VK79P3J5/index.html
+#	new file:   p5projects/Indispensable hub-8VK79P3J5/sketch.js
+#	new file:   p5projects/Indispensable hub-8VK79P3J5/style.css
+#	new file:   p5projects/InkBrush1-pshqf3LL_/index.html
+#	new file:   p5projects/InkBrush1-pshqf3LL_/sketch.js
+#	new file:   p5projects/InkBrush1-pshqf3LL_/style.css
+#	new file:   p5projects/InkBrush2-r15MJTi95/index.html
+#	new file:   p5projects/InkBrush2-r15MJTi95/sketch.js
+#	new file:   p5projects/InkBrush2-r15MJTi95/style.css
+#	new file:   p5projects/InnerCircle-Sy3ZwRAoQ/index.html
+#	new file:   p5projects/InnerCircle-Sy3ZwRAoQ/sketch.js
+#	new file:   p5projects/InnerCircle-Sy3ZwRAoQ/style.css
+#	new file:   p5projects/InstanceLoadFontTest-EjxQSJyVj/Resagokr.otf
+#	new file:   p5projects/InstanceLoadFontTest-EjxQSJyVj/index.html
+#	new file:   p5projects/InstanceLoadFontTest-EjxQSJyVj/sketch.js
+#	new file:   p5projects/InstanceLoadFontTest-EjxQSJyVj/style.css
+#	new file:   p5projects/IntegratorSimple-L_gFYjXEY/index.html
+#	new file:   p5projects/IntegratorSimple-L_gFYjXEY/sketch.js
+#	new file:   p5projects/IntegratorSimple-L_gFYjXEY/style.css
+#	new file:   p5projects/IntegratorsMapFry-Kdy8GKriU/index.html
+#	new file:   p5projects/IntegratorsMapFry-Kdy8GKriU/integrator.js
+#	new file:   p5projects/IntegratorsMapFry-Kdy8GKriU/locations.tsv
+#	new file:   p5projects/IntegratorsMapFry-Kdy8GKriU/map.png
+#	new file:   p5projects/IntegratorsMapFry-Kdy8GKriU/names.tsv
+#	new file:   p5projects/IntegratorsMapFry-Kdy8GKriU/random.tsv
+#	new file:   p5projects/IntegratorsMapFry-Kdy8GKriU/sketch.js
+#	new file:   p5projects/IntegratorsMapFry-Kdy8GKriU/style.css
+#	new file:   p5projects/IntersectingLines-x8O0-ul7I/index.html
+#	new file:   p5projects/IntersectingLines-x8O0-ul7I/sketch.js
+#	new file:   p5projects/IntersectingLines-x8O0-ul7I/style.css
+#	new file:   p5projects/Issue5462-KUpIKj9xz/font.js
+#	new file:   p5projects/Issue5462-KUpIKj9xz/index.html
+#	new file:   p5projects/Issue5462-KUpIKj9xz/sketch.js
+#	new file:   p5projects/Issue5462-KUpIKj9xz/style.css
+#	new file:   p5projects/Ivy colossus-QvbYBFDW2/index.html
+#	new file:   p5projects/Ivy colossus-QvbYBFDW2/sketch.js
+#	new file:   p5projects/Ivy colossus-QvbYBFDW2/style.css
+#	new file:   p5projects/Joyful throne-SJYz23Y2m/index.html
+#	new file:   p5projects/Joyful throne-SJYz23Y2m/sketch.js
+#	new file:   p5projects/Joyful throne-SJYz23Y2m/style.css
+#	new file:   p5projects/Juniper gong-nRV3opd7M/index.html
+#	new file:   p5projects/Juniper gong-nRV3opd7M/sketch.js
+#	new file:   p5projects/Juniper gong-nRV3opd7M/style.css
+#	new file:   p5projects/Juvenile random-UUN0O53lM/index.html
+#	new file:   p5projects/Juvenile random-UUN0O53lM/sketch.js
+#	new file:   p5projects/Juvenile random-UUN0O53lM/style.css
+#	new file:   p5projects/KDict-DH-5bUun7N1/Pic/airport.jpg
+#	new file:   p5projects/KDict-DH-5bUun7N1/Pic/bank.jpeg
+#	new file:   p5projects/KDict-DH-5bUun7N1/Pic/bookstore.jpg
+#	new file:   p5projects/KDict-DH-5bUun7N1/Pic/bread.jpg
+#	new file:   p5projects/KDict-DH-5bUun7N1/Pic/building.jpeg
+#	new file:   p5projects/KDict-DH-5bUun7N1/Pic/bus.jpg
+#	new file:   p5projects/KDict-DH-5bUun7N1/Pic/butter.jpg
+#	new file:   p5projects/KDict-DH-5bUun7N1/Pic/cup.jpg
+#	new file:   p5projects/KDict-DH-5bUun7N1/Pic/duckmeat.jpeg
+#	new file:   p5projects/KDict-DH-5bUun7N1/Pic/eat.jpg
+#	new file:   p5projects/KDict-DH-5bUun7N1/Pic/finger.jpeg
+#	new file:   p5projects/KDict-DH-5bUun7N1/Pic/fork.jpg
+#	new file:   p5projects/KDict-DH-5bUun7N1/Pic/give.jpg
+#	new file:   p5projects/KDict-DH-5bUun7N1/Pic/go.jpg
+#	new file:   p5projects/KDict-DH-5bUun7N1/Pic/hat.jpg
+#	new file:   p5projects/KDict-DH-5bUun7N1/Pic/home.jpg
+#	new file:   p5projects/KDict-DH-5bUun7N1/Pic/karaoke.jpg
+#	new file:   p5projects/KDict-DH-5bUun7N1/Pic/laugh.jpg
+#	new file:   p5projects/KDict-DH-5bUun7N1/Pic/library.jpg
+#	new file:   p5projects/KDict-DH-5bUun7N1/Pic/love.jpg
+#	new file:   p5projects/KDict-DH-5bUun7N1/Pic/mail.jpg
+#	new file:   p5projects/KDict-DH-5bUun7N1/Pic/meat.jpg
+#	new file:   p5projects/KDict-DH-5bUun7N1/Pic/newspaper.jpg
+#	new file:   p5projects/KDict-DH-5bUun7N1/Pic/park.jpg
+#	new file:   p5projects/KDict-DH-5bUun7N1/Pic/railway.jpg
+#	new file:   p5projects/KDict-DH-5bUun7N1/Pic/restaurant.jpg
+#	new file:   p5projects/KDict-DH-5bUun7N1/Pic/room.jpg
+#	new file:   p5projects/KDict-DH-5bUun7N1/Pic/salad.jpg
+#	new file:   p5projects/KDict-DH-5bUun7N1/Pic/sandwiches.jpg
+#	new file:   p5projects/KDict-DH-5bUun7N1/Pic/shoes.jpg
+#	new file:   p5projects/KDict-DH-5bUun7N1/Pic/sing.jpg
+#	new file:   p5projects/KDict-DH-5bUun7N1/Pic/swimmingpool.jpg
+#	new file:   p5projects/KDict-DH-5bUun7N1/Pic/talk.jpg
+#	new file:   p5projects/KDict-DH-5bUun7N1/Pic/toilet.jpg
+#	new file:   p5projects/KDict-DH-5bUun7N1/Pic/uni.png
+#	new file:   p5projects/KDict-DH-5bUun7N1/Pic/write.jpg
+#	new file:   p5projects/KDict-DH-5bUun7N1/dict.js
+#	new file:   p5projects/KDict-DH-5bUun7N1/e_noun_sen.json
+#	new file:   p5projects/KDict-DH-5bUun7N1/e_verb_sen.json
+#	new file:   p5projects/KDict-DH-5bUun7N1/index.html
+#	new file:   p5projects/KDict-DH-5bUun7N1/k_noun_sen.json
+#	new file:   p5projects/KDict-DH-5bUun7N1/k_verb_sen.json
+#	new file:   p5projects/KDict-DH-5bUun7N1/rita.min.js
+#	new file:   p5projects/KDict-DH-5bUun7N1/sketch.js
+#	new file:   p5projects/KDict-DH-5bUun7N1/style.css
+#	new file:   p5projects/Kerplopadoo-g5PTTjqZQ/data/img5.png
+#	new file:   p5projects/Kerplopadoo-g5PTTjqZQ/data/img6.png
+#	new file:   p5projects/Kerplopadoo-g5PTTjqZQ/data/img7.png
+#	new file:   p5projects/Kerplopadoo-g5PTTjqZQ/data/kerdunk.jpg
+#	new file:   p5projects/Kerplopadoo-g5PTTjqZQ/data/kerdunk1.jpg
+#	new file:   p5projects/Kerplopadoo-g5PTTjqZQ/data/kerdunk2.jpg
+#	new file:   p5projects/Kerplopadoo-g5PTTjqZQ/data/poo.jpg
+#	new file:   p5projects/Kerplopadoo-g5PTTjqZQ/data/poopsmall.jpg
+#	new file:   p5projects/Kerplopadoo-g5PTTjqZQ/index.html
+#	new file:   p5projects/Kerplopadoo-g5PTTjqZQ/sketch.js
+#	new file:   p5projects/Kerplopadoo-g5PTTjqZQ/style.css
+#	new file:   p5projects/Knowledgeable sturgeon-ouyltTVGj/index.html
+#	new file:   p5projects/Knowledgeable sturgeon-ouyltTVGj/sketch.js
+#	new file:   p5projects/Knowledgeable sturgeon-ouyltTVGj/style.css
+#	new file:   p5projects/Koch Fractal-6_tfkkVjT/index.html
+#	new file:   p5projects/Koch Fractal-6_tfkkVjT/sketch.js
+#	new file:   p5projects/Koch Fractal-6_tfkkVjT/style.css
+#	new file:   p5projects/Koch Snowflake Motion-goVfrdaxQ/index.html
+#	new file:   p5projects/Koch Snowflake Motion-goVfrdaxQ/sketch.js
+#	new file:   p5projects/Koch Snowflake Motion-goVfrdaxQ/style.css
+#	new file:   p5projects/Koch Snowflake-P4Roi2eQq/index.html
+#	new file:   p5projects/Koch Snowflake-P4Roi2eQq/sketch.js
+#	new file:   p5projects/Koch Snowflake-P4Roi2eQq/style.css
+#	new file:   p5projects/LSys-yuyHVqXxG/index.html
+#	new file:   p5projects/LSys-yuyHVqXxG/sketch.js
+#	new file:   p5projects/LSys-yuyHVqXxG/style.css
+#	new file:   p5projects/LSys-yuyHVqXxG/turtle.js
+#	new file:   p5projects/LSystem Music-CthXF6VcR/index.html
+#	new file:   p5projects/LSystem Music-CthXF6VcR/sketch.js
+#	new file:   p5projects/LSystem Music-CthXF6VcR/style.css
+#	new file:   p5projects/LSystem-ltvPLWuwy/index.html
+#	new file:   p5projects/LSystem-ltvPLWuwy/sketch.js
+#	new file:   p5projects/LSystem-ltvPLWuwy/style.css
+#	new file:   p5projects/Laser keyboard-Usx5Fo30h/index.html
+#	new file:   p5projects/Laser keyboard-Usx5Fo30h/sketch.js
+#	new file:   p5projects/Laser keyboard-Usx5Fo30h/style.css
+#	new file:   p5projects/LazyLoading-NYCEZWgqA/1.jpg
+#	new file:   p5projects/LazyLoading-NYCEZWgqA/2.jpg
+#	new file:   p5projects/LazyLoading-NYCEZWgqA/3.jpg
+#	new file:   p5projects/LazyLoading-NYCEZWgqA/4.jpg
+#	new file:   p5projects/LazyLoading-NYCEZWgqA/5.jpg
+#	new file:   p5projects/LazyLoading-NYCEZWgqA/6.jpg
+#	new file:   p5projects/LazyLoading-NYCEZWgqA/7.jpg
+#	new file:   p5projects/LazyLoading-NYCEZWgqA/8.jpg
+#	new file:   p5projects/LazyLoading-NYCEZWgqA/9.jpg
+#	new file:   p5projects/LazyLoading-NYCEZWgqA/index.html
+#	new file:   p5projects/LazyLoading-NYCEZWgqA/sketch.js
+#	new file:   p5projects/LazyLoading-NYCEZWgqA/style.css
+#	new file:   p5projects/LerpWalkerClass-szXHfb8xm/index.html
+#	new file:   p5projects/LerpWalkerClass-szXHfb8xm/sketch.js
+#	new file:   p5projects/LerpWalkerClass-szXHfb8xm/style.css
+#	new file:   p5projects/LettFreq-FyjmqMxy7/index.html
+#	new file:   p5projects/LettFreq-FyjmqMxy7/sketch.js
+#	new file:   p5projects/LettFreq-FyjmqMxy7/style.css
+#	new file:   p5projects/LetterFrequencies-bT3Qz9kk8/index.html
+#	new file:   p5projects/LetterFrequencies-bT3Qz9kk8/poem.txt
+#	new file:   p5projects/LetterFrequencies-bT3Qz9kk8/sketch.js
+#	new file:   p5projects/LetterFrequencies-bT3Qz9kk8/style.css
+#	new file:   p5projects/Letters-X3Iej_swy/SourceCodePro-Regular.ttf
+#	new file:   p5projects/Letters-X3Iej_swy/index.html
+#	new file:   p5projects/Letters-X3Iej_swy/sketch.js
+#	new file:   p5projects/Letters-X3Iej_swy/style.css
+#	new file:   p5projects/Lightning bosworth-HByMQa3Gy/1.jpg
+#	new file:   p5projects/Lightning bosworth-HByMQa3Gy/2.jpg
+#	new file:   p5projects/Lightning bosworth-HByMQa3Gy/3.jpg
+#	new file:   p5projects/Lightning bosworth-HByMQa3Gy/4.jpg
+#	new file:   p5projects/Lightning bosworth-HByMQa3Gy/5.jpg
+#	new file:   p5projects/Lightning bosworth-HByMQa3Gy/6.jpg
+#	new file:   p5projects/Lightning bosworth-HByMQa3Gy/7.jpg
+#	new file:   p5projects/Lightning bosworth-HByMQa3Gy/8.jpg
+#	new file:   p5projects/Lightning bosworth-HByMQa3Gy/9.jpg
+#	new file:   p5projects/Lightning bosworth-HByMQa3Gy/index.html
+#	new file:   p5projects/Lightning bosworth-HByMQa3Gy/sketch.js
+#	new file:   p5projects/Lightning bosworth-HByMQa3Gy/style.css
+#	new file:   p5projects/LineFromDots-MLrQoykrR/index.html
+#	new file:   p5projects/LineFromDots-MLrQoykrR/sketch.js
+#	new file:   p5projects/LineFromDots-MLrQoykrR/style.css
+#	new file:   p5projects/LineIntersection-BuPSScmdB/index.html
+#	new file:   p5projects/LineIntersection-BuPSScmdB/sketch.js
+#	new file:   p5projects/LineIntersection-BuPSScmdB/style.css
+#	new file:   p5projects/LineWalker-SSV3jd2hA/index.html
+#	new file:   p5projects/LineWalker-SSV3jd2hA/sketch.js
+#	new file:   p5projects/LineWalker-SSV3jd2hA/style.css
+#	new file:   p5projects/Load local JSON-uThYM79J9/hkweather.json
+#	new file:   p5projects/Load local JSON-uThYM79J9/index.html
+#	new file:   p5projects/Load local JSON-uThYM79J9/sketch.js
+#	new file:   p5projects/Load local JSON-uThYM79J9/style.css
+#	new file:   p5projects/Luxurious barnacle-be3_2uYg-/index.html
+#	new file:   p5projects/Luxurious barnacle-be3_2uYg-/sketch.js
+#	new file:   p5projects/Luxurious barnacle-be3_2uYg-/style.css
+#	new file:   p5projects/Mammoth tuesday-Z46XlqCCa/index.html
+#	new file:   p5projects/Mammoth tuesday-Z46XlqCCa/sketch.js
+#	new file:   p5projects/Mammoth tuesday-Z46XlqCCa/style.css
+#	new file:   p5projects/Marbled echidna-sK6da9-_y/index.html
+#	new file:   p5projects/Marbled echidna-sK6da9-_y/sketch.js
+#	new file:   p5projects/Marbled echidna-sK6da9-_y/style.css
+#	new file:   p5projects/MarkovCH-LdrFgZdJn/index.html
+#	new file:   p5projects/MarkovCH-LdrFgZdJn/rita-full.js
+#	new file:   p5projects/MarkovCH-LdrFgZdJn/sketch.js
+#	new file:   p5projects/MarkovCH-LdrFgZdJn/style.css
+#	new file:   p5projects/Marsh xylocarp-txdgrXhoL/index.html
+#	new file:   p5projects/Marsh xylocarp-txdgrXhoL/sketch.js
+#	new file:   p5projects/Marsh xylocarp-txdgrXhoL/style.css
+#	new file:   p5projects/Marvelous fuschia-49rpVgC9S/1.jpg
+#	new file:   p5projects/Marvelous fuschia-49rpVgC9S/2.jpg
+#	new file:   p5projects/Marvelous fuschia-49rpVgC9S/3.jpg
+#	new file:   p5projects/Marvelous fuschia-49rpVgC9S/4.jpg
+#	new file:   p5projects/Marvelous fuschia-49rpVgC9S/5.jpg
+#	new file:   p5projects/Marvelous fuschia-49rpVgC9S/6.jpg
+#	new file:   p5projects/Marvelous fuschia-49rpVgC9S/7.jpg
+#	new file:   p5projects/Marvelous fuschia-49rpVgC9S/8.jpg
+#	new file:   p5projects/Marvelous fuschia-49rpVgC9S/9.jpg
+#	new file:   p5projects/Marvelous fuschia-49rpVgC9S/acmesa.ttf
+#	new file:   p5projects/Marvelous fuschia-49rpVgC9S/index.html
+#	new file:   p5projects/Marvelous fuschia-49rpVgC9S/sketch.js
+#	new file:   p5projects/Marvelous fuschia-49rpVgC9S/style.css
+#	new file:   p5projects/Marvelous fuschia-49rpVgC9S/trumped.jpg
+#	new file:   p5projects/Media Random Image Background-Y-10yu4Wv/bg-desert.png
+#	new file:   p5projects/Media Random Image Background-Y-10yu4Wv/bg-forest.jpg
+#	new file:   p5projects/Media Random Image Background-Y-10yu4Wv/bg-ocean.jpg
+#	new file:   p5projects/Media Random Image Background-Y-10yu4Wv/bg-sky.jpg
+#	new file:   p5projects/Media Random Image Background-Y-10yu4Wv/index.html
+#	new file:   p5projects/Media Random Image Background-Y-10yu4Wv/sketch.js
+#	new file:   p5projects/Media Random Image Background-Y-10yu4Wv/style.css
+#	new file:   p5projects/Melodic begonia-pNPLTjCIc/blow-up-your-own-head.jpg
+#	new file:   p5projects/Melodic begonia-pNPLTjCIc/index.html
+#	new file:   p5projects/Melodic begonia-pNPLTjCIc/sketch.js
+#	new file:   p5projects/Melodic begonia-pNPLTjCIc/style.css
+#	new file:   p5projects/MillisEveryInterval-EZ9sUGENU/index.html
+#	new file:   p5projects/MillisEveryInterval-EZ9sUGENU/sketch.js
+#	new file:   p5projects/MillisEveryInterval-EZ9sUGENU/style.css
+#	new file:   p5projects/Mirage account-rQAOKYZTQ/acmesa.ttf
+#	new file:   p5projects/Mirage account-rQAOKYZTQ/hk.png
+#	new file:   p5projects/Mirage account-rQAOKYZTQ/index.html
+#	new file:   p5projects/Mirage account-rQAOKYZTQ/sketch.js
+#	new file:   p5projects/Mirage account-rQAOKYZTQ/style.css
+#	new file:   p5projects/MiterLimitTest-CWeOWqKZZ/index.html
+#	new file:   p5projects/MiterLimitTest-CWeOWqKZZ/kingthings.ttf
+#	new file:   p5projects/MiterLimitTest-CWeOWqKZZ/sketch.js
+#	new file:   p5projects/MiterLimitTest-CWeOWqKZZ/style.css
+#	new file:   p5projects/ModuloIntro-kwOA6RyTk/index.html
+#	new file:   p5projects/ModuloIntro-kwOA6RyTk/sketch.js
+#	new file:   p5projects/ModuloIntro-kwOA6RyTk/style.css
+#	new file:   p5projects/MolnarGridRecode-9m0BqmQT_6/index.html
+#	new file:   p5projects/MolnarGridRecode-9m0BqmQT_6/sketch.js
+#	new file:   p5projects/MolnarGridRecode-9m0BqmQT_6/style.css
+#	new file:   p5projects/MolnarStructureofQuads-S1zwaUIl9/index.html
+#	new file:   p5projects/MolnarStructureofQuads-S1zwaUIl9/sketch.js
+#	new file:   p5projects/MolnarStructureofQuads-S1zwaUIl9/style.css
+#	new file:   p5projects/Mouse Mapped to Color Bars-XfFKzOcFT/index.html
+#	new file:   p5projects/Mouse Mapped to Color Bars-XfFKzOcFT/sketch.js
+#	new file:   p5projects/Mouse Mapped to Color Bars-XfFKzOcFT/style.css
+#	new file:   p5projects/MouseDistGrid-SuAH-98c2/index.html
+#	new file:   p5projects/MouseDistGrid-SuAH-98c2/sketch.js
+#	new file:   p5projects/MouseDistGrid-SuAH-98c2/style.css
+#	new file:   p5projects/MultiLayerNet-Hpf6vQ24m/index.html
+#	new file:   p5projects/MultiLayerNet-Hpf6vQ24m/locations.js
+#	new file:   p5projects/MultiLayerNet-Hpf6vQ24m/neuralnet.js
+#	new file:   p5projects/MultiLayerNet-Hpf6vQ24m/sketch.js
+#	new file:   p5projects/MultiLayerNet-Hpf6vQ24m/style.css
+#	new file:   p5projects/Multiple Walker Objects-GPTGqO5RY/index.html
+#	new file:   p5projects/Multiple Walker Objects-GPTGqO5RY/sketch.js
+#	new file:   p5projects/Multiple Walker Objects-GPTGqO5RY/style.css
+#	new file:   p5projects/Multiple Walkers Objects-CVQljRLjY/index.html
+#	new file:   p5projects/Multiple Walkers Objects-CVQljRLjY/sketch.js
+#	new file:   p5projects/Multiple Walkers Objects-CVQljRLjY/style.css
+#	new file:   p5projects/MultipleBallsSound-S1Omadf0X/beep.mp3
+#	new file:   p5projects/MultipleBallsSound-S1Omadf0X/index.html
+#	new file:   p5projects/MultipleBallsSound-S1Omadf0X/sketch.js
+#	new file:   p5projects/MultipleBallsSound-S1Omadf0X/style.css
+#	new file:   p5projects/MultipleImages-VZChobpQ6/1.jpg
+#	new file:   p5projects/MultipleImages-VZChobpQ6/2.jpg
+#	new file:   p5projects/MultipleImages-VZChobpQ6/3.jpg
+#	new file:   p5projects/MultipleImages-VZChobpQ6/4.jpg
+#	new file:   p5projects/MultipleImages-VZChobpQ6/5.jpg
+#	new file:   p5projects/MultipleImages-VZChobpQ6/6.jpg
+#	new file:   p5projects/MultipleImages-VZChobpQ6/7.jpg
+#	new file:   p5projects/MultipleImages-VZChobpQ6/8.jpg
+#	new file:   p5projects/MultipleImages-VZChobpQ6/9.jpg
+#	new file:   p5projects/MultipleImages-VZChobpQ6/index.html
+#	new file:   p5projects/MultipleImages-VZChobpQ6/sketch.js
+#	new file:   p5projects/MultipleImages-VZChobpQ6/style.css
+#	new file:   p5projects/MyTriSplit-qXgL6vi1H/index.html
+#	new file:   p5projects/MyTriSplit-qXgL6vi1H/sketch.js
+#	new file:   p5projects/MyTriSplit-qXgL6vi1H/style.css
+#	new file:   p5projects/NOC graphing sine waves-ln6kgKGXB/index.html
+#	new file:   p5projects/NOC graphing sine waves-ln6kgKGXB/sketch.js
+#	new file:   p5projects/NOC graphing sine waves-ln6kgKGXB/style.css
+#	new file:   p5projects/Necessary Tire-0KEPcbGlq/index.html
+#	new file:   p5projects/Necessary Tire-0KEPcbGlq/sketch.js
+#	new file:   p5projects/Necessary Tire-0KEPcbGlq/style.css
+#	new file:   p5projects/New blood-1C6rSr750/NewBlood.txt
+#	new file:   p5projects/New blood-1C6rSr750/index.html
+#	new file:   p5projects/New blood-1C6rSr750/sketch.js
+#	new file:   p5projects/New blood-1C6rSr750/style.css
+#	new file:   p5projects/Night movie-V1fys3eCI/index.html
+#	new file:   p5projects/Night movie-V1fys3eCI/sketch.js
+#	new file:   p5projects/Night movie-V1fys3eCI/style.css
+#	new file:   p5projects/Noise Ex 1 Animated Shape-CNkdE20MD/index.html
+#	new file:   p5projects/Noise Ex 1 Animated Shape-CNkdE20MD/sketch.js
+#	new file:   p5projects/Noise Ex 1 Animated Shape-CNkdE20MD/style.css
+#	new file:   p5projects/Noise Ex 2 Creative Shape-weZST9RT_/index.html
+#	new file:   p5projects/Noise Ex 2 Creative Shape-weZST9RT_/sketch.js
+#	new file:   p5projects/Noise Ex 2 Creative Shape-weZST9RT_/style.css
+#	new file:   p5projects/Noise Ex 3 2D Water-5F86ps6Hb/index.html
+#	new file:   p5projects/Noise Ex 3 2D Water-5F86ps6Hb/sketch.js
+#	new file:   p5projects/Noise Ex 3 2D Water-5F86ps6Hb/style.css
+#	new file:   p5projects/Noise Ex 3b Creative Variation-P7KugvOgB/index.html
+#	new file:   p5projects/Noise Ex 3b Creative Variation-P7KugvOgB/sketch.js
+#	new file:   p5projects/Noise Ex 3b Creative Variation-P7KugvOgB/style.css
+#	new file:   p5projects/NoiseWalkOverImage-KqLGAuIcx/index.html
+#	new file:   p5projects/NoiseWalkOverImage-KqLGAuIcx/sketch.js
+#	new file:   p5projects/NoiseWalkOverImage-KqLGAuIcx/style.css
+#	new file:   p5projects/Noisy Sensor-5_Xv1d3Mk/index.html
+#	new file:   p5projects/Noisy Sensor-5_Xv1d3Mk/sketch.js
+#	new file:   p5projects/Noisy Sensor-5_Xv1d3Mk/style.css
+#	new file:   p5projects/NoisyBall-UIMF4faGW/index.html
+#	new file:   p5projects/NoisyBall-UIMF4faGW/sketch.js
+#	new file:   p5projects/NoisyBall-UIMF4faGW/style.css
+#	new file:   p5projects/NoisySensor-MHyqbLwk3/index.html
+#	new file:   p5projects/NoisySensor-MHyqbLwk3/sketch.js
+#	new file:   p5projects/NoisySensor-MHyqbLwk3/style.css
+#	new file:   p5projects/NonIntersectingWalk-BwWgZz5ry/index.html
+#	new file:   p5projects/NonIntersectingWalk-BwWgZz5ry/sketch.js
+#	new file:   p5projects/NonIntersectingWalk-BwWgZz5ry/style.css
+#	new file:   p5projects/Notch acapella-VzLbxFNml/index.html
+#	new file:   p5projects/Notch acapella-VzLbxFNml/sketch.js
+#	new file:   p5projects/Notch acapella-VzLbxFNml/style.css
+#	new file:   p5projects/Notch acapella-VzLbxFNml/walker.js
+#	new file:   p5projects/Numerous camelotia-HaJvDXFTq/index.html
+#	new file:   p5projects/Numerous camelotia-HaJvDXFTq/sketch.js
+#	new file:   p5projects/Numerous camelotia-HaJvDXFTq/style.css
+#	new file:   p5projects/OOGaussianWalker-Tzm6cdQst/index.html
+#	new file:   p5projects/OOGaussianWalker-Tzm6cdQst/sketch.js
+#	new file:   p5projects/OOGaussianWalker-Tzm6cdQst/style.css
+#	new file:   p5projects/OOGaussianWalker-Tzm6cdQst/walker.js
+#	new file:   p5projects/OOWalker-VtoZl-FGp/index.html
+#	new file:   p5projects/OOWalker-VtoZl-FGp/sketch.js
+#	new file:   p5projects/OOWalker-VtoZl-FGp/style.css
+#	new file:   p5projects/OOWalker-VtoZl-FGp/walker.js
+#	new file:   p5projects/ObjectDetect-xTJcs03hB/catdog.jpg
+#	new file:   p5projects/ObjectDetect-xTJcs03hB/index.html
+#	new file:   p5projects/ObjectDetect-xTJcs03hB/ml5.min.js
+#	new file:   p5projects/ObjectDetect-xTJcs03hB/sketch.js
+#	new file:   p5projects/ObjectDetect-xTJcs03hB/style.css
+#	new file:   p5projects/ObjectWalkers-8vJz7FCnA/index.html
+#	new file:   p5projects/ObjectWalkers-8vJz7FCnA/sketch.js
+#	new file:   p5projects/ObjectWalkers-8vJz7FCnA/style.css
+#	new file:   p5projects/ObjectWalkers-8vJz7FCnA/walker.js
+#	new file:   p5projects/Occipital trumpet copy-etQmf7xLz/index.html
+#	new file:   p5projects/Occipital trumpet copy-etQmf7xLz/rita-full.js
+#	new file:   p5projects/Occipital trumpet copy-etQmf7xLz/rita.js
+#	new file:   p5projects/Occipital trumpet copy-etQmf7xLz/sketch.js
+#	new file:   p5projects/Occipital trumpet copy-etQmf7xLz/style.css
+#	new file:   p5projects/Occipital trumpets-OmW0yu-4/index.html
+#	new file:   p5projects/Occipital trumpets-OmW0yu-4/rita.js
+#	new file:   p5projects/Occipital trumpets-OmW0yu-4/sketch.js
+#	new file:   p5projects/Occipital trumpets-OmW0yu-4/style.css
+#	new file:   p5projects/Oceanic yew-XtSK4M3YY/index.html
+#	new file:   p5projects/Oceanic yew-XtSK4M3YY/sketch.js
+#	new file:   p5projects/Oceanic yew-XtSK4M3YY/style.css
+#	new file:   p5projects/OffscreenParts-ay9Cnf3-_/fire.png
+#	new file:   p5projects/OffscreenParts-ay9Cnf3-_/forest.png
+#	new file:   p5projects/OffscreenParts-ay9Cnf3-_/index.html
+#	new file:   p5projects/OffscreenParts-ay9Cnf3-_/moon.png
+#	new file:   p5projects/OffscreenParts-ay9Cnf3-_/rocket.png
+#	new file:   p5projects/OffscreenParts-ay9Cnf3-_/sketch.js
+#	new file:   p5projects/OffscreenParts-ay9Cnf3-_/style.css
+#	new file:   p5projects/One Bouncing Ball-hcvJbX1mg/index.html
+#	new file:   p5projects/One Bouncing Ball-hcvJbX1mg/sketch.js
+#	new file:   p5projects/One Bouncing Ball-hcvJbX1mg/style.css
+#	new file:   p5projects/One paprika-4zN34KIMJ/index.html
+#	new file:   p5projects/One paprika-4zN34KIMJ/sketch.js
+#	new file:   p5projects/One paprika-4zN34KIMJ/style.css
+#	new file:   p5projects/Pacific gojirasaurus-BTGjZDdms/index.html
+#	new file:   p5projects/Pacific gojirasaurus-BTGjZDdms/sketch.js
+#	new file:   p5projects/Pacific gojirasaurus-BTGjZDdms/style.css
+#	new file:   p5projects/PaddleBall-CuVF6mCCs/index.html
+#	new file:   p5projects/PaddleBall-CuVF6mCCs/sketch.js
+#	new file:   p5projects/PaddleBall-CuVF6mCCs/style.css
+#	new file:   p5projects/PaintBlobsRW-lAmFKYYyr/index.html
+#	new file:   p5projects/PaintBlobsRW-lAmFKYYyr/sketch.js
+#	new file:   p5projects/PaintBlobsRW-lAmFKYYyr/style.css
+#	new file:   p5projects/Palm celsius-b1I-R-cgI/index.html
+#	new file:   p5projects/Palm celsius-b1I-R-cgI/sketch.js
+#	new file:   p5projects/Palm celsius-b1I-R-cgI/style.css
+#	new file:   p5projects/ParamHouse-SJhyqSA0m/index.html
+#	new file:   p5projects/ParamHouse-SJhyqSA0m/sketch.js
+#	new file:   p5projects/ParamHouse-SJhyqSA0m/style.css
+#	new file:   p5projects/Particles Forces-zV96l0_87/index.html
+#	new file:   p5projects/Particles Forces-zV96l0_87/sketch.js
+#	new file:   p5projects/Particles Forces-zV96l0_87/style.css
+#	new file:   p5projects/Particles-rp-o_GljM/index.html
+#	new file:   p5projects/Particles-rp-o_GljM/sketch.js
+#	new file:   p5projects/Particles-rp-o_GljM/style.css
+#	new file:   p5projects/PathPoints-37o_QEf2F/AvenirNextLTPro-Demi.otf
+#	new file:   p5projects/PathPoints-37o_QEf2F/boids.js
+#	new file:   p5projects/PathPoints-37o_QEf2F/index.html
+#	new file:   p5projects/PathPoints-37o_QEf2F/sketch.js
+#	new file:   p5projects/PathPoints-37o_QEf2F/style.css
+#	new file:   p5projects/Perceptron-9U1zGbL0W/index.html
+#	new file:   p5projects/Perceptron-9U1zGbL0W/sketch.js
+#	new file:   p5projects/Perceptron-9U1zGbL0W/style.css
+#	new file:   p5projects/Perfect launch-wAxxjAZqm/1.jpg
+#	new file:   p5projects/Perfect launch-wAxxjAZqm/2.jpg
+#	new file:   p5projects/Perfect launch-wAxxjAZqm/3.jpg
+#	new file:   p5projects/Perfect launch-wAxxjAZqm/4.jpg
+#	new file:   p5projects/Perfect launch-wAxxjAZqm/5.jpg
+#	new file:   p5projects/Perfect launch-wAxxjAZqm/acmesa.ttf
+#	new file:   p5projects/Perfect launch-wAxxjAZqm/index.html
+#	new file:   p5projects/Perfect launch-wAxxjAZqm/meme.png
+#	new file:   p5projects/Perfect launch-wAxxjAZqm/sketch.js
+#	new file:   p5projects/Perfect launch-wAxxjAZqm/style.css
+#	new file:   p5projects/Permutation Base-Zw0uVkTSw/index.html
+#	new file:   p5projects/Permutation Base-Zw0uVkTSw/sketch.js
+#	new file:   p5projects/Permutation Base-Zw0uVkTSw/style.css
+#	new file:   p5projects/Picturesque mahogany-FjAIJ9-qf/1.jpg
+#	new file:   p5projects/Picturesque mahogany-FjAIJ9-qf/2.jpg
+#	new file:   p5projects/Picturesque mahogany-FjAIJ9-qf/3.jpg
+#	new file:   p5projects/Picturesque mahogany-FjAIJ9-qf/4.jpg
+#	new file:   p5projects/Picturesque mahogany-FjAIJ9-qf/5.jpg
+#	new file:   p5projects/Picturesque mahogany-FjAIJ9-qf/index.html
+#	new file:   p5projects/Picturesque mahogany-FjAIJ9-qf/sketch.js
+#	new file:   p5projects/Picturesque mahogany-FjAIJ9-qf/style.css
+#	new file:   p5projects/Pixel-ryCNbnL6X/index.html
+#	new file:   p5projects/Pixel-ryCNbnL6X/pix.txt
+#	new file:   p5projects/Pixel-ryCNbnL6X/sketch.js
+#	new file:   p5projects/Pixel-ryCNbnL6X/style.css
+#	new file:   p5projects/PixelCircleTest-7ohf1J2vQ/index.html
+#	new file:   p5projects/PixelCircleTest-7ohf1J2vQ/sketch.js
+#	new file:   p5projects/PixelCircleTest-7ohf1J2vQ/style.css
+#	new file:   p5projects/PixelSampling-C-E8pXdYG/flower.jpg
+#	new file:   p5projects/PixelSampling-C-E8pXdYG/index.html
+#	new file:   p5projects/PixelSampling-C-E8pXdYG/sketch.js
+#	new file:   p5projects/PixelSampling-C-E8pXdYG/style.css
+#	new file:   p5projects/PixelSmear-a1TidVlQc/dhimage.jpg
+#	new file:   p5projects/PixelSmear-a1TidVlQc/image.jpg
+#	new file:   p5projects/PixelSmear-a1TidVlQc/index.html
+#	new file:   p5projects/PixelSmear-a1TidVlQc/mountains.jpg
+#	new file:   p5projects/PixelSmear-a1TidVlQc/sketch.js
+#	new file:   p5projects/PixelSmear-a1TidVlQc/style.css
+#	new file:   p5projects/PixelSmearAni-5gY6NBk5V/dhimage.jpg
+#	new file:   p5projects/PixelSmearAni-5gY6NBk5V/image.jpg
+#	new file:   p5projects/PixelSmearAni-5gY6NBk5V/index.html
+#	new file:   p5projects/PixelSmearAni-5gY6NBk5V/mountains.jpg
+#	new file:   p5projects/PixelSmearAni-5gY6NBk5V/sketch.js
+#	new file:   p5projects/PixelSmearAni-5gY6NBk5V/style.css
+#	new file:   p5projects/PixelSmearRotations-d58UQoiuS/dhimage.jpg
+#	new file:   p5projects/PixelSmearRotations-d58UQoiuS/image.jpg
+#	new file:   p5projects/PixelSmearRotations-d58UQoiuS/index.html
+#	new file:   p5projects/PixelSmearRotations-d58UQoiuS/mountains.jpg
+#	new file:   p5projects/PixelSmearRotations-d58UQoiuS/sketch.js
+#	new file:   p5projects/PixelSmearRotations-d58UQoiuS/style.css
+#	new file:   p5projects/Poem Capture-vNIzcfeiR/CCapture.all.min.js
+#	new file:   p5projects/Poem Capture-vNIzcfeiR/index.html
+#	new file:   p5projects/Poem Capture-vNIzcfeiR/poem.txt
+#	new file:   p5projects/Poem Capture-vNIzcfeiR/sketch.js
+#	new file:   p5projects/Poem Capture-vNIzcfeiR/style.css
+#	new file:   p5projects/PointOnLine-VQY27N-95/index.html
+#	new file:   p5projects/PointOnLine-VQY27N-95/sketch.js
+#	new file:   p5projects/PointOnLine-VQY27N-95/style.css
+#	new file:   p5projects/PointSampling-IAOFwApok/flower.jpg
+#	new file:   p5projects/PointSampling-IAOFwApok/index.html
+#	new file:   p5projects/PointSampling-IAOFwApok/sketch.js
+#	new file:   p5projects/PointSampling-IAOFwApok/style.css
+#	new file:   p5projects/Pointy freedom copy-lUSXcqQcg/1.jpg
+#	new file:   p5projects/Pointy freedom copy-lUSXcqQcg/2.jpg
+#	new file:   p5projects/Pointy freedom copy-lUSXcqQcg/3.jpg
+#	new file:   p5projects/Pointy freedom copy-lUSXcqQcg/4.jpg
+#	new file:   p5projects/Pointy freedom copy-lUSXcqQcg/5.jpg
+#	new file:   p5projects/Pointy freedom copy-lUSXcqQcg/6.jpg
+#	new file:   p5projects/Pointy freedom copy-lUSXcqQcg/7.jpg
+#	new file:   p5projects/Pointy freedom copy-lUSXcqQcg/8.jpg
+#	new file:   p5projects/Pointy freedom copy-lUSXcqQcg/9.jpg
+#	new file:   p5projects/Pointy freedom copy-lUSXcqQcg/index.html
+#	new file:   p5projects/Pointy freedom copy-lUSXcqQcg/sketch.js
+#	new file:   p5projects/Pointy freedom copy-lUSXcqQcg/style.css
+#	new file:   p5projects/Pointy freedom-UAuY92fjN/1.jpg
+#	new file:   p5projects/Pointy freedom-UAuY92fjN/2.jpg
+#	new file:   p5projects/Pointy freedom-UAuY92fjN/3.jpg
+#	new file:   p5projects/Pointy freedom-UAuY92fjN/4.jpg
+#	new file:   p5projects/Pointy freedom-UAuY92fjN/5.jpg
+#	new file:   p5projects/Pointy freedom-UAuY92fjN/6.jpg
+#	new file:   p5projects/Pointy freedom-UAuY92fjN/7.jpg
+#	new file:   p5projects/Pointy freedom-UAuY92fjN/8.jpg
+#	new file:   p5projects/Pointy freedom-UAuY92fjN/9.jpg
+#	new file:   p5projects/Pointy freedom-UAuY92fjN/index.html
+#	new file:   p5projects/Pointy freedom-UAuY92fjN/sketch.js
+#	new file:   p5projects/Pointy freedom-UAuY92fjN/style.css
+#	new file:   p5projects/Polar_Night copy copy-qqLVgYsPg/data/Adagioindminor.mp3
+#	new file:   p5projects/Polar_Night copy copy-qqLVgYsPg/data/mountain4.png
+#	new file:   p5projects/Polar_Night copy copy-qqLVgYsPg/index.html
+#	new file:   p5projects/Polar_Night copy copy-qqLVgYsPg/sketch.js
+#	new file:   p5projects/Polar_Night copy copy-qqLVgYsPg/style.css
+#	new file:   p5projects/PollackSteps-TFVMKzocJ/index.html
+#	new file:   p5projects/PollackSteps-TFVMKzocJ/sketch.js
+#	new file:   p5projects/PollackSteps-TFVMKzocJ/style.css
+#	new file:   p5projects/Pollacky-kzvpLoIBl/index.html
+#	new file:   p5projects/Pollacky-kzvpLoIBl/sketch.js
+#	new file:   p5projects/Pollacky-kzvpLoIBl/style.css
+#	new file:   p5projects/PollackyAnimated-sbIbkyNQ5/index.html
+#	new file:   p5projects/PollackyAnimated-sbIbkyNQ5/sketch.js
+#	new file:   p5projects/PollackyAnimated-sbIbkyNQ5/style.css
+#	new file:   p5projects/PollackyBuffers23-YZ8GGIKYR/index.html
+#	new file:   p5projects/PollackyBuffers23-YZ8GGIKYR/sketch.js
+#	new file:   p5projects/PollackyBuffers23-YZ8GGIKYR/style.css
+#	new file:   p5projects/PollackyBuffers23.2-V-j_4kvA2/index.html
+#	new file:   p5projects/PollackyBuffers23.2-V-j_4kvA2/sketch.js
+#	new file:   p5projects/PollackyBuffers23.2-V-j_4kvA2/style.css
+#	new file:   p5projects/PollackyBuffers23.3-eKra8trKL/index.html
+#	new file:   p5projects/PollackyBuffers23.3-eKra8trKL/sketch.js
+#	new file:   p5projects/PollackyBuffers23.3-eKra8trKL/style.css
+#	new file:   p5projects/PollackyBuffers23.4-wN7cTEVFd/index.html
+#	new file:   p5projects/PollackyBuffers23.4-wN7cTEVFd/sketch.js
+#	new file:   p5projects/PollackyBuffers23.4-wN7cTEVFd/style.css
+#	new file:   p5projects/PollackyBuffers23.5-P7fS7pptp/index.html
+#	new file:   p5projects/PollackyBuffers23.5-P7fS7pptp/sketch.js
+#	new file:   p5projects/PollackyBuffers23.5-P7fS7pptp/style.css
+#	new file:   p5projects/PollackyGrid-_fMVBt7OO/index.html
+#	new file:   p5projects/PollackyGrid-_fMVBt7OO/sketch.js
+#	new file:   p5projects/PollackyGrid-_fMVBt7OO/style.css
+#	new file:   p5projects/PollackyRects-WN4aDt3Zh/index.html
+#	new file:   p5projects/PollackyRects-WN4aDt3Zh/sketch-borked-updates.js
+#	new file:   p5projects/PollackyRects-WN4aDt3Zh/sketch.js
+#	new file:   p5projects/PollackyRects-WN4aDt3Zh/style.css
+#	new file:   p5projects/PollackyTiles23-qkjsu0Ifi/index.html
+#	new file:   p5projects/PollackyTiles23-qkjsu0Ifi/sketch-borked-updates.js
+#	new file:   p5projects/PollackyTiles23-qkjsu0Ifi/sketch.js
+#	new file:   p5projects/PollackyTiles23-qkjsu0Ifi/style.css
+#	new file:   p5projects/Polyblend-uHCnIcfw4/blob.js
+#	new file:   p5projects/Polyblend-uHCnIcfw4/index.html
+#	new file:   p5projects/Polyblend-uHCnIcfw4/sketch.js
+#	new file:   p5projects/Polyblend-uHCnIcfw4/style.css
+#	new file:   p5projects/Polyblot-u5vdlk89x/blob.js
+#	new file:   p5projects/Polyblot-u5vdlk89x/index.html
+#	new file:   p5projects/Polyblot-u5vdlk89x/sketch.js
+#	new file:   p5projects/Polyblot-u5vdlk89x/style.css
+#	new file:   p5projects/Powerful muscari-OBJeSlhzB/index.html
+#	new file:   p5projects/Powerful muscari-OBJeSlhzB/sketch.js
+#	new file:   p5projects/Powerful muscari-OBJeSlhzB/style.css
+#	new file:   p5projects/Prickly macadamia-TV9DZ_aYS/index.html
+#	new file:   p5projects/Prickly macadamia-TV9DZ_aYS/sketch.js
+#	new file:   p5projects/Prickly macadamia-TV9DZ_aYS/style.css
+#	new file:   p5projects/Prickly ring-B3DJUQguf/index.html
+#	new file:   p5projects/Prickly ring-B3DJUQguf/sketch.js
+#	new file:   p5projects/Prickly ring-B3DJUQguf/style.css
+#	new file:   p5projects/Private Schotter-nBQi8UOhL/index.html
+#	new file:   p5projects/Private Schotter-nBQi8UOhL/sketch.js
+#	new file:   p5projects/Private Schotter-nBQi8UOhL/style.css
+#	new file:   p5projects/ProbabilisticChoice-mYUVLOzcT/index.html
+#	new file:   p5projects/ProbabilisticChoice-mYUVLOzcT/poem.txt
+#	new file:   p5projects/ProbabilisticChoice-mYUVLOzcT/sketch.js
+#	new file:   p5projects/ProbabilisticChoice-mYUVLOzcT/style.css
+#	new file:   p5projects/Process3Reas-sgTqhLCmg/index.html
+#	new file:   p5projects/Process3Reas-sgTqhLCmg/sketch.js
+#	new file:   p5projects/Process3Reas-sgTqhLCmg/style.css
+#	new file:   p5projects/Prong clementine-LH4XeQ7Na/index.html
+#	new file:   p5projects/Prong clementine-LH4XeQ7Na/sketch.js
+#	new file:   p5projects/Prong clementine-LH4XeQ7Na/style.css
+#	new file:   p5projects/Puddle comet-PKGKBwMrC/beat.mp3
+#	new file:   p5projects/Puddle comet-PKGKBwMrC/index.html
+#	new file:   p5projects/Puddle comet-PKGKBwMrC/sketch.js
+#	new file:   p5projects/Puddle comet-PKGKBwMrC/style.css
+#	new file:   p5projects/Quad Collisions-1RpmiakN4/index.html
+#	new file:   p5projects/Quad Collisions-1RpmiakN4/sketch.js
+#	new file:   p5projects/Quad Collisions-1RpmiakN4/style.css
+#	new file:   p5projects/QuadTree I-YJrIoVf96/index.html
+#	new file:   p5projects/QuadTree I-YJrIoVf96/sketch.js
+#	new file:   p5projects/QuadTree I-YJrIoVf96/style.css
+#	new file:   p5projects/QuadTree I.alt-QqfOAJmi-/index.html
+#	new file:   p5projects/QuadTree I.alt-QqfOAJmi-/qtree.js
+#	new file:   p5projects/QuadTree I.alt-QqfOAJmi-/sketch.js
+#	new file:   p5projects/QuadTree I.alt-QqfOAJmi-/style.css
+#	new file:   p5projects/QuadTree II-1Kv1gLW2A/index.html
+#	new file:   p5projects/QuadTree II-1Kv1gLW2A/sketch.js
+#	new file:   p5projects/QuadTree II-1Kv1gLW2A/style.css
+#	new file:   p5projects/QuadTree Walkers-hksZbm2Yn/index.html
+#	new file:   p5projects/QuadTree Walkers-hksZbm2Yn/qtree.js
+#	new file:   p5projects/QuadTree Walkers-hksZbm2Yn/sketch.js
+#	new file:   p5projects/QuadTree Walkers-hksZbm2Yn/style.css
+#	new file:   p5projects/QuadTree-SvqJVNoPW/index.html
+#	new file:   p5projects/QuadTree-SvqJVNoPW/sketch.js
+#	new file:   p5projects/QuadTree-SvqJVNoPW/style.css
+#	new file:   p5projects/QuadraticBeziers-20hwp_bAk/index.html
+#	new file:   p5projects/QuadraticBeziers-20hwp_bAk/sketch.js
+#	new file:   p5projects/QuadraticBeziers-20hwp_bAk/style.css
+#	new file:   p5projects/QuadraticExplorer-Aaoy9H9mP/index.html
+#	new file:   p5projects/QuadraticExplorer-Aaoy9H9mP/sketch.js
+#	new file:   p5projects/QuadraticExplorer-Aaoy9H9mP/style.css
+#	new file:   "p5projects/Quadtree - Part 1\t copy-Lk616OELw/index.html"
+#	new file:   "p5projects/Quadtree - Part 1\t copy-Lk616OELw/quadtree.js"
+#	new file:   "p5projects/Quadtree - Part 1\t copy-Lk616OELw/sketch.js"
+#	new file:   "p5projects/Quadtree - Part 1\t copy-Lk616OELw/style.css"
+#	new file:   p5projects/QuantisedWalker-z0t1BMrfE/index.html
+#	new file:   p5projects/QuantisedWalker-z0t1BMrfE/sketch.js
+#	new file:   p5projects/QuantisedWalker-z0t1BMrfE/style.css
+#	new file:   p5projects/Quick spell tmp-LWJaLmGZ6/index.html
+#	new file:   p5projects/Quick spell tmp-LWJaLmGZ6/sketch.js
+#	new file:   p5projects/Quick spell tmp-LWJaLmGZ6/style.css
+#	new file:   p5projects/Quixotic secretary-rbIw3lAm9/index.html
+#	new file:   p5projects/Quixotic secretary-rbIw3lAm9/ml5.min.js
+#	new file:   p5projects/Quixotic secretary-rbIw3lAm9/sketch.js
+#	new file:   p5projects/Quixotic secretary-rbIw3lAm9/style.css
+#	new file:   p5projects/Radial Lines-tzFo4Dm9C/index.html
+#	new file:   p5projects/Radial Lines-tzFo4Dm9C/sketch.js
+#	new file:   p5projects/Radial Lines-tzFo4Dm9C/style.css
+#	new file:   p5projects/Rambunctious lumber copy-491I2JDIQ/index.html
+#	new file:   p5projects/Rambunctious lumber copy-491I2JDIQ/particle1.js
+#	new file:   p5projects/Rambunctious lumber copy-491I2JDIQ/particle2.js
+#	new file:   p5projects/Rambunctious lumber copy-491I2JDIQ/sketch.js
+#	new file:   p5projects/Rambunctious lumber copy-491I2JDIQ/style.css
+#	new file:   p5projects/Rambunctious lumber copy-jF19a9vuh/index.html
+#	new file:   p5projects/Rambunctious lumber copy-jF19a9vuh/particle1.js
+#	new file:   p5projects/Rambunctious lumber copy-jF19a9vuh/particle2.js
+#	new file:   p5projects/Rambunctious lumber copy-jF19a9vuh/sketch.js
+#	new file:   p5projects/Rambunctious lumber copy-jF19a9vuh/style.css
+#	new file:   p5projects/Random Fixed-length Lines-c3yyX5oG_/index.html
+#	new file:   p5projects/Random Fixed-length Lines-c3yyX5oG_/sketch.js
+#	new file:   p5projects/Random Fixed-length Lines-c3yyX5oG_/style.css
+#	new file:   p5projects/Random Lerp Lines-tOitiqhOd/index.html
+#	new file:   p5projects/Random Lerp Lines-tOitiqhOd/sketch.js
+#	new file:   p5projects/Random Lerp Lines-tOitiqhOd/style.css
+#	new file:   p5projects/Random Walk Through Raster-722M_zAAW/index.html
+#	new file:   p5projects/Random Walk Through Raster-722M_zAAW/sketch.js
+#	new file:   p5projects/Random Walk Through Raster-722M_zAAW/style.css
+#	new file:   p5projects/Random Walk Through Raster-iEYVxMeTI/index.html
+#	new file:   p5projects/Random Walk Through Raster-iEYVxMeTI/sketch.js
+#	new file:   p5projects/Random Walk Through Raster-iEYVxMeTI/style.css
+#	new file:   p5projects/RandomContinuousCurves ManualCP-5Grbl_U-4/index.html
+#	new file:   p5projects/RandomContinuousCurves ManualCP-5Grbl_U-4/sketch.js
+#	new file:   p5projects/RandomContinuousCurves ManualCP-5Grbl_U-4/style.css
+#	new file:   p5projects/RandomContinuousCurves-Fo6hTlpD3/index.html
+#	new file:   p5projects/RandomContinuousCurves-Fo6hTlpD3/sketch.js
+#	new file:   p5projects/RandomContinuousCurves-Fo6hTlpD3/style.css
+#	new file:   p5projects/RandomContinuousCurves-SsIBHLWZb/index.html
+#	new file:   p5projects/RandomContinuousCurves-SsIBHLWZb/sketch.js
+#	new file:   p5projects/RandomContinuousCurves-SsIBHLWZb/style.css
+#	new file:   p5projects/RandomEqTriangles-HJBwcmVa7/index.html
+#	new file:   p5projects/RandomEqTriangles-HJBwcmVa7/sketch.js
+#	new file:   p5projects/RandomEqTriangles-HJBwcmVa7/style.css
+#	new file:   p5projects/RandomLerp-xpV4lX4f5/index.html
+#	new file:   p5projects/RandomLerp-xpV4lX4f5/sketch.js
+#	new file:   p5projects/RandomLerp-xpV4lX4f5/style.css
+#	new file:   p5projects/RandomPointsInCircle-m8iK9gbqq/index.html
+#	new file:   p5projects/RandomPointsInCircle-m8iK9gbqq/sketch.js
+#	new file:   p5projects/RandomPointsInCircle-m8iK9gbqq/style.css
+#	new file:   p5projects/RandomPointsOnlyInCircle-K0YOaXZR9/index.html
+#	new file:   p5projects/RandomPointsOnlyInCircle-K0YOaXZR9/sketch.js
+#	new file:   p5projects/RandomPointsOnlyInCircle-K0YOaXZR9/style.css
+#	new file:   p5projects/RandomSquares-KO51JGVVB/index.html
+#	new file:   p5projects/RandomSquares-KO51JGVVB/sketch.js
+#	new file:   p5projects/RandomSquares-KO51JGVVB/style.css
+#	new file:   p5projects/RandomWalkGif-Iaju1cMVn/index.html
+#	new file:   p5projects/RandomWalkGif-Iaju1cMVn/sketch.js
+#	new file:   p5projects/RandomWalkGif-Iaju1cMVn/style.css
+#	new file:   p5projects/RandomWalkPaint-2RNWdVG_X/index.html
+#	new file:   p5projects/RandomWalkPaint-2RNWdVG_X/sketch.js
+#	new file:   p5projects/RandomWalkPaint-2RNWdVG_X/style.css
+#	new file:   p5projects/RandomWalkVsNoise-cEckHd9mB/index.html
+#	new file:   p5projects/RandomWalkVsNoise-cEckHd9mB/sketch.js
+#	new file:   p5projects/RandomWalkVsNoise-cEckHd9mB/style.css
+#	new file:   p5projects/RandomWalkingBall-SJOjpAHFm/index.html
+#	new file:   p5projects/RandomWalkingBall-SJOjpAHFm/sketch.js
+#	new file:   p5projects/RandomWalkingBall-SJOjpAHFm/style.css
+#	new file:   p5projects/ReasSS3-WZBi0wDWC/index.html
+#	new file:   p5projects/ReasSS3-WZBi0wDWC/sketch.js
+#	new file:   p5projects/ReasSS3-WZBi0wDWC/style.css
+#	new file:   p5projects/RecTilePiet-uCXfuTnI4/index.html
+#	new file:   p5projects/RecTilePiet-uCXfuTnI4/sketch.js
+#	new file:   p5projects/RecTilePiet-uCXfuTnI4/style.css
+#	new file:   p5projects/RecTilePietPlayground-eVWLRwdBV/index.html
+#	new file:   p5projects/RecTilePietPlayground-eVWLRwdBV/sketch.js
+#	new file:   p5projects/RecTilePietPlayground-eVWLRwdBV/style.css
+#	new file:   p5projects/Receptive bed-EucSk3ZoF/index.html
+#	new file:   p5projects/Receptive bed-EucSk3ZoF/sketch.js
+#	new file:   p5projects/Receptive bed-EucSk3ZoF/style.css
+#	new file:   p5projects/Recondite organ-mi_cIZvfg/1.jpg
+#	new file:   p5projects/Recondite organ-mi_cIZvfg/2.jpg
+#	new file:   p5projects/Recondite organ-mi_cIZvfg/3.jpg
+#	new file:   p5projects/Recondite organ-mi_cIZvfg/4.jpg
+#	new file:   p5projects/Recondite organ-mi_cIZvfg/5.jpg
+#	new file:   p5projects/Recondite organ-mi_cIZvfg/6.jpg
+#	new file:   p5projects/Recondite organ-mi_cIZvfg/7.jpg
+#	new file:   p5projects/Recondite organ-mi_cIZvfg/8.jpg
+#	new file:   p5projects/Recondite organ-mi_cIZvfg/9.jpg
+#	new file:   p5projects/Recondite organ-mi_cIZvfg/index.html
+#	new file:   p5projects/Recondite organ-mi_cIZvfg/sketch.js
+#	new file:   p5projects/Recondite organ-mi_cIZvfg/style.css
+#	new file:   p5projects/RectDivision-WL9IawbQn/index.html
+#	new file:   p5projects/RectDivision-WL9IawbQn/sketch.js
+#	new file:   p5projects/RectDivision-WL9IawbQn/style.css
+#	new file:   p5projects/RectFlow-Lem2eGPq_/index.html
+#	new file:   p5projects/RectFlow-Lem2eGPq_/sketch.js
+#	new file:   p5projects/RectFlow-Lem2eGPq_/style.css
+#	new file:   p5projects/Rectangles7-duuTyu0jl/index.html
+#	new file:   p5projects/Rectangles7-duuTyu0jl/sketch.js
+#	new file:   p5projects/Rectangles7-duuTyu0jl/style.css
+#	new file:   p5projects/RectangularSubdivision-mSG2EMHs2/index.html
+#	new file:   p5projects/RectangularSubdivision-mSG2EMHs2/sketch.js
+#	new file:   p5projects/RectangularSubdivision-mSG2EMHs2/style.css
+#	new file:   p5projects/RectangularSubdivisionPlus-70OnvmasT/index.html
+#	new file:   p5projects/RectangularSubdivisionPlus-70OnvmasT/sketch.js
+#	new file:   p5projects/RectangularSubdivisionPlus-70OnvmasT/style.css
+#	new file:   p5projects/Recursive Line InClass-UCngSRMaD/index.html
+#	new file:   p5projects/Recursive Line InClass-UCngSRMaD/sketch.js
+#	new file:   p5projects/Recursive Line InClass-UCngSRMaD/style.css
+#	new file:   p5projects/RecursiveDashedLine copy-eEZtS2d89/index.html
+#	new file:   p5projects/RecursiveDashedLine copy-eEZtS2d89/sketch.js
+#	new file:   p5projects/RecursiveDashedLine copy-eEZtS2d89/style.css
+#	new file:   p5projects/RecursiveLine-g3Iz8DopO/index.html
+#	new file:   p5projects/RecursiveLine-g3Iz8DopO/sketch.js
+#	new file:   p5projects/RecursiveLine-g3Iz8DopO/style.css
+#	new file:   p5projects/RecursiveTerroir-eP8bcaRR4/index.html
+#	new file:   p5projects/RecursiveTerroir-eP8bcaRR4/sketch.js
+#	new file:   p5projects/RecursiveTerroir-eP8bcaRR4/style.css
+#	new file:   p5projects/RecursiveTree - form+code-eRSESFVmS/index.html
+#	new file:   p5projects/RecursiveTree - form+code-eRSESFVmS/sketch.js
+#	new file:   p5projects/RecursiveTree - form+code-eRSESFVmS/style.css
+#	new file:   p5projects/Replaceable-eEuLFBIvL/index.html
+#	new file:   p5projects/Replaceable-eEuLFBIvL/rita
+#	new file:   p5projects/Replaceable-eEuLFBIvL/sketch.js
+#	new file:   p5projects/Replaceable-eEuLFBIvL/style.css
+#	new file:   p5projects/ReplaceableMuse-Fti8xbP3d/index.html
+#	new file:   p5projects/ReplaceableMuse-Fti8xbP3d/rita
+#	new file:   p5projects/ReplaceableMuse-Fti8xbP3d/sketch.js
+#	new file:   p5projects/ReplaceableMuse-Fti8xbP3d/style.css
+#	new file:   p5projects/RepulseMouse-_UrNgFoH5/index.html
+#	new file:   p5projects/RepulseMouse-_UrNgFoH5/sketch.js
+#	new file:   p5projects/RepulseMouse-_UrNgFoH5/style.css
+#	new file:   p5projects/Respected wakeboard-gKRiyLLNn/index.html
+#	new file:   p5projects/Respected wakeboard-gKRiyLLNn/sketch.js
+#	new file:   p5projects/Respected wakeboard-gKRiyLLNn/style.css
+#	new file:   p5projects/ReverseDigits-H1jFACEeV/index.html
+#	new file:   p5projects/ReverseDigits-H1jFACEeV/sketch.js
+#	new file:   p5projects/ReverseDigits-H1jFACEeV/style.css
+#	new file:   p5projects/Rhetorical pint-UhdfSNZ2Pl/index.html
+#	new file:   p5projects/Rhetorical pint-UhdfSNZ2Pl/sketch.js
+#	new file:   p5projects/Rhetorical pint-UhdfSNZ2Pl/style.css
+#	new file:   p5projects/RingsOfTire-hdrhaYfjr/index.html
+#	new file:   p5projects/RingsOfTire-hdrhaYfjr/sketch.js
+#	new file:   p5projects/RingsOfTire-hdrhaYfjr/style.css
+#	new file:   p5projects/Rose dungeon-Rp9NFfQ9R/index.html
+#	new file:   p5projects/Rose dungeon-Rp9NFfQ9R/sketch.js
+#	new file:   p5projects/Rose dungeon-Rp9NFfQ9R/style.css
+#	new file:   p5projects/Rude believe-SkQ_iONkE/index.html
+#	new file:   p5projects/Rude believe-SkQ_iONkE/sketch.js
+#	new file:   p5projects/Rude believe-SkQ_iONkE/style.css
+#	new file:   p5projects/SM1103_A7_86756473-iP_Fm0Vh4/index.html
+#	new file:   p5projects/SM1103_A7_86756473-iP_Fm0Vh4/sketch.js
+#	new file:   p5projects/SM1103_A7_86756473-iP_Fm0Vh4/style.css
+#	new file:   p5projects/SandGrass-ujr4_2rCA/index.html
+#	new file:   p5projects/SandGrass-ujr4_2rCA/sketch.js
+#	new file:   p5projects/SandGrass-ujr4_2rCA/style.css
+#	new file:   p5projects/SchotterRecode-4qRQwQEnc/index.html
+#	new file:   p5projects/SchotterRecode-4qRQwQEnc/sketch.js
+#	new file:   p5projects/SchotterRecode-4qRQwQEnc/style.css
+#	new file:   p5projects/Scratch homburg-oqf05LcmP/index.html
+#	new file:   p5projects/Scratch homburg-oqf05LcmP/sketch.js
+#	new file:   p5projects/Scratch homburg-oqf05LcmP/style.css
+#	new file:   p5projects/ScrolllingGrid-uJCADfZXv/index.html
+#	new file:   p5projects/ScrolllingGrid-uJCADfZXv/sketch.js
+#	new file:   p5projects/ScrolllingGrid-uJCADfZXv/style.css
+#	new file:   p5projects/Seek-dm4RXy3nc/acmesa.ttf
+#	new file:   p5projects/Seek-dm4RXy3nc/index.html
+#	new file:   p5projects/Seek-dm4RXy3nc/sketch.js
+#	new file:   p5projects/Seek-dm4RXy3nc/style.css
+#	new file:   p5projects/SeekSeparate-cE_7wMoK9/index.html
+#	new file:   p5projects/SeekSeparate-cE_7wMoK9/sketch.js
+#	new file:   p5projects/SeekSeparate-cE_7wMoK9/style.css
+#	new file:   p5projects/SelfAvoidingBacktrackingWalker-i7eoNlLQ5/index.html
+#	new file:   p5projects/SelfAvoidingBacktrackingWalker-i7eoNlLQ5/sketch.js
+#	new file:   p5projects/SelfAvoidingBacktrackingWalker-i7eoNlLQ5/style.css
+#	new file:   p5projects/SelfAvoidingWalker-YrbHCtCiO/index.html
+#	new file:   p5projects/SelfAvoidingWalker-YrbHCtCiO/sketch.js
+#	new file:   p5projects/SelfAvoidingWalker-YrbHCtCiO/style.css
+#	new file:   p5projects/Separated meteorite-MeXF7Rf8b/d3-delaunay
+#	new file:   p5projects/Separated meteorite-MeXF7Rf8b/girl.png
+#	new file:   p5projects/Separated meteorite-MeXF7Rf8b/index.html
+#	new file:   p5projects/Separated meteorite-MeXF7Rf8b/jake.jpg
+#	new file:   p5projects/Separated meteorite-MeXF7Rf8b/jakeg.png
+#	new file:   p5projects/Separated meteorite-MeXF7Rf8b/sketch.js
+#	new file:   p5projects/Separated meteorite-MeXF7Rf8b/style.css
+#	new file:   p5projects/Separated meteorite-MeXF7Rf8b/voronoi-poly.js
+#	new file:   p5projects/Silky broom-YCAnUbhz3/index.html
+#	new file:   p5projects/Silky broom-YCAnUbhz3/sketch.js
+#	new file:   p5projects/Silky broom-YCAnUbhz3/style.css
+#	new file:   p5projects/Simple Line Fractal-7nKYt6ExA/index.html
+#	new file:   p5projects/Simple Line Fractal-7nKYt6ExA/sketch.js
+#	new file:   p5projects/Simple Line Fractal-7nKYt6ExA/style.css
+#	new file:   p5projects/Simple Particle-EY2AiX4Ad/index.html
+#	new file:   p5projects/Simple Particle-EY2AiX4Ad/sketch.js
+#	new file:   p5projects/Simple Particle-EY2AiX4Ad/style.css
+#	new file:   p5projects/SimpleAgent-GJVNtk8Bc/index.html
+#	new file:   p5projects/SimpleAgent-GJVNtk8Bc/sketch.js
+#	new file:   p5projects/SimpleAgent-GJVNtk8Bc/style.css
+#	new file:   p5projects/SimpleAttraction-Wgu5XbW7e/index.html
+#	new file:   p5projects/SimpleAttraction-Wgu5XbW7e/sketch.js
+#	new file:   p5projects/SimpleAttraction-Wgu5XbW7e/style.css
+#	new file:   p5projects/SimpleImagePixels-V8cpbEES4/gu.jpg
+#	new file:   p5projects/SimpleImagePixels-V8cpbEES4/index.html
+#	new file:   p5projects/SimpleImagePixels-V8cpbEES4/sketch.js
+#	new file:   p5projects/SimpleImagePixels-V8cpbEES4/style.css
+#	new file:   p5projects/SimpleL-_ufuOkXNB/index.html
+#	new file:   p5projects/SimpleL-_ufuOkXNB/sketch.js
+#	new file:   p5projects/SimpleL-_ufuOkXNB/style.css
+#	new file:   p5projects/SimpleL-_ufuOkXNB/turtle.js
+#	new file:   p5projects/SimpleLrita-in9UtAc1X/index.html
+#	new file:   p5projects/SimpleLrita-in9UtAc1X/rita-micro.js
+#	new file:   p5projects/SimpleLrita-in9UtAc1X/sketch.js
+#	new file:   p5projects/SimpleLrita-in9UtAc1X/style.css
+#	new file:   p5projects/SimpleLrita-in9UtAc1X/turtle.js
+#	new file:   p5projects/SimpleParticles-pACyfKuwy/index.html
+#	new file:   p5projects/SimpleParticles-pACyfKuwy/sketch.js
+#	new file:   p5projects/SimpleParticles-pACyfKuwy/style.css
+#	new file:   p5projects/SimpleRandomWalk-6jZLr1NR_/index.html
+#	new file:   p5projects/SimpleRandomWalk-6jZLr1NR_/sketch.js
+#	new file:   p5projects/SimpleRandomWalk-6jZLr1NR_/style.css
+#	new file:   p5projects/SimpleTree-v3zJWx4H8/index.html
+#	new file:   p5projects/SimpleTree-v3zJWx4H8/sketch.js
+#	new file:   p5projects/SimpleTree-v3zJWx4H8/style.css
+#	new file:   p5projects/SimpleTrigPattern-oBz72xk70/index.html
+#	new file:   p5projects/SimpleTrigPattern-oBz72xk70/sketch.js
+#	new file:   p5projects/SimpleTrigPattern-oBz72xk70/style.css
+#	new file:   p5projects/Sin Ex 1a One circle-W-qdPvCva/index.html
+#	new file:   p5projects/Sin Ex 1a One circle-W-qdPvCva/sketch.js
+#	new file:   p5projects/Sin Ex 1a One circle-W-qdPvCva/style.css
+#	new file:   p5projects/Sin Ex 1b Two Circles-gUPJoTE_l/index.html
+#	new file:   p5projects/Sin Ex 1b Two Circles-gUPJoTE_l/sketch.js
+#	new file:   p5projects/Sin Ex 1b Two Circles-gUPJoTE_l/style.css
+#	new file:   p5projects/Sin Ex 1c Twenty Circles-Vtf5fkAw9/index.html
+#	new file:   p5projects/Sin Ex 1c Twenty Circles-Vtf5fkAw9/sketch.js
+#	new file:   p5projects/Sin Ex 1c Twenty Circles-Vtf5fkAw9/style.css
+#	new file:   p5projects/Sin Ex 1d Creative Pattern-1IcF3QhaL/index.html
+#	new file:   p5projects/Sin Ex 1d Creative Pattern-1IcF3QhaL/sketch.js
+#	new file:   p5projects/Sin Ex 1d Creative Pattern-1IcF3QhaL/style.css
+#	new file:   p5projects/SinAndCos-8VjfnwCF1/index.html
+#	new file:   p5projects/SinAndCos-8VjfnwCF1/sketch.js
+#	new file:   p5projects/SinAndCos-8VjfnwCF1/style.css
+#	new file:   p5projects/SinPatterns-VK40YgPcK/index.html
+#	new file:   p5projects/SinPatterns-VK40YgPcK/sketch.js
+#	new file:   p5projects/SinPatterns-VK40YgPcK/style.css
+#	new file:   p5projects/SinPatterns1d-NivyneYVn/index.html
+#	new file:   p5projects/SinPatterns1d-NivyneYVn/sketch.js
+#	new file:   p5projects/SinPatterns1d-NivyneYVn/style.css
+#	new file:   p5projects/Single Walker Object-LlA98TyGc/index.html
+#	new file:   p5projects/Single Walker Object-LlA98TyGc/sketch.js
+#	new file:   p5projects/Single Walker Object-LlA98TyGc/style.css
+#	new file:   p5projects/Sliding Window-kT7xvcspF/index.html
+#	new file:   p5projects/Sliding Window-kT7xvcspF/sketch.js
+#	new file:   p5projects/Sliding Window-kT7xvcspF/style.css
+#	new file:   p5projects/Slit Scanner-u3zosDJVV/index.html
+#	new file:   p5projects/Slit Scanner-u3zosDJVV/sketch.js
+#	new file:   p5projects/Slit Scanner-u3zosDJVV/style.css
+#	new file:   p5projects/Slow Collisions-zNMF_02co/index.html
+#	new file:   p5projects/Slow Collisions-zNMF_02co/sketch.js
+#	new file:   p5projects/Slow Collisions-zNMF_02co/style.css
+#	new file:   p5projects/Soapy cartwheel-qE_uLiDUV/index.html
+#	new file:   p5projects/Soapy cartwheel-qE_uLiDUV/sketch.js
+#	new file:   p5projects/Soapy cartwheel-qE_uLiDUV/style.css
+#	new file:   p5projects/Spangle tractor-nLU4WnbDx/index.html
+#	new file:   p5projects/Spangle tractor-nLU4WnbDx/sketch.js
+#	new file:   p5projects/Spangle tractor-nLU4WnbDx/style.css
+#	new file:   p5projects/Spangle tractor-nLU4WnbDx/word.js
+#	new file:   p5projects/Special gallon-TXZi9GHcf/index.html
+#	new file:   p5projects/Special gallon-TXZi9GHcf/sketch.js
+#	new file:   p5projects/Special gallon-TXZi9GHcf/style.css
+#	new file:   p5projects/SpikeyPalm-k-I7GCYSx/index.html
+#	new file:   p5projects/SpikeyPalm-k-I7GCYSx/sketch.js
+#	new file:   p5projects/SpikeyPalm-k-I7GCYSx/style.css
+#	new file:   p5projects/Spinning Baton-OCssn5fle/index.html
+#	new file:   p5projects/Spinning Baton-OCssn5fle/sketch.js
+#	new file:   p5projects/Spinning Baton-OCssn5fle/style.css
+#	new file:   p5projects/Split Grammar-53-q1ccHM/index.html
+#	new file:   p5projects/Split Grammar-53-q1ccHM/rita.js
+#	new file:   p5projects/Split Grammar-53-q1ccHM/sketch.js
+#	new file:   p5projects/Split Grammar-53-q1ccHM/style.css
+#	new file:   p5projects/SquarcleRGB-zLvWzs85k/index.html
+#	new file:   p5projects/SquarcleRGB-zLvWzs85k/sketch.js
+#	new file:   p5projects/SquarcleRGB-zLvWzs85k/style.css
+#	new file:   p5projects/StackingParts-t5bO823rJ/index.html
+#	new file:   p5projects/StackingParts-t5bO823rJ/sketch.js
+#	new file:   p5projects/StackingParts-t5bO823rJ/style.css
+#	new file:   p5projects/Star library-BJdOwajpm/index.html
+#	new file:   p5projects/Star library-BJdOwajpm/sketch.js
+#	new file:   p5projects/Star library-BJdOwajpm/style.css
+#	new file:   p5projects/StartForBouncingBall-fXlTSe0l4/index.html
+#	new file:   p5projects/StartForBouncingBall-fXlTSe0l4/sketch.js
+#	new file:   p5projects/StartForBouncingBall-fXlTSe0l4/style.css
+#	new file:   p5projects/StartOfBouncingBall-ObV1B7XDx/index.html
+#	new file:   p5projects/StartOfBouncingBall-ObV1B7XDx/sketch.js
+#	new file:   p5projects/StartOfBouncingBall-ObV1B7XDx/style.css
+#	new file:   p5projects/StartPiet-SbZbPLpWt/index.html
+#	new file:   p5projects/StartPiet-SbZbPLpWt/sketch.js
+#	new file:   p5projects/StartPiet-SbZbPLpWt/style.css
+#	new file:   p5projects/StephenWalk-SbvoS8IgO/index.html
+#	new file:   p5projects/StephenWalk-SbvoS8IgO/sketch.js
+#	new file:   p5projects/StephenWalk-SbvoS8IgO/style.css
+#	new file:   p5projects/StructSq-ydR-8bglV/index.html
+#	new file:   p5projects/StructSq-ydR-8bglV/sketch.js
+#	new file:   p5projects/StructSq-ydR-8bglV/style.css
+#	new file:   p5projects/Subdued shoulder-1I9AkUSKx/index.html
+#	new file:   p5projects/Subdued shoulder-1I9AkUSKx/sketch.js
+#	new file:   p5projects/Subdued shoulder-1I9AkUSKx/style.css
+#	new file:   p5projects/SubtleRave-JucDqshei/index.html
+#	new file:   p5projects/SubtleRave-JucDqshei/sketch.js
+#	new file:   p5projects/SubtleRave-JucDqshei/style.css
+#	new file:   p5projects/Sugary handspring-w22u9nQwt/index.html
+#	new file:   p5projects/Sugary handspring-w22u9nQwt/sketch.js
+#	new file:   p5projects/Sugary handspring-w22u9nQwt/style.css
+#	new file:   p5projects/Sunset marquis-JlaqmyE5C/index.html
+#	new file:   p5projects/Sunset marquis-JlaqmyE5C/sketch.js
+#	new file:   p5projects/Sunset marquis-JlaqmyE5C/style.css
+#	new file:   p5projects/Superficial pickle-r1Pb8Xb67/index.html
+#	new file:   p5projects/Superficial pickle-r1Pb8Xb67/sketch.js
+#	new file:   p5projects/Superficial pickle-r1Pb8Xb67/style.css
+#	new file:   p5projects/Supreme interest-SyaZ32T6X/index.html
+#	new file:   p5projects/Supreme interest-SyaZ32T6X/sketch.js
+#	new file:   p5projects/Supreme interest-SyaZ32T6X/style.css
+#	new file:   p5projects/Tabby wineberry-jxpMXYPdp/index.html
+#	new file:   p5projects/Tabby wineberry-jxpMXYPdp/sketch.js
+#	new file:   p5projects/Tabby wineberry-jxpMXYPdp/style.css
+#	new file:   p5projects/Tan hotel-huK4DoOAX/index.html
+#	new file:   p5projects/Tan hotel-huK4DoOAX/sketch.js
+#	new file:   p5projects/Tan hotel-huK4DoOAX/style.css
+#	new file:   p5projects/Tangible rainbow-YWc7qoph8/1.jpg
+#	new file:   p5projects/Tangible rainbow-YWc7qoph8/2.jpg
+#	new file:   p5projects/Tangible rainbow-YWc7qoph8/3.jpg
+#	new file:   p5projects/Tangible rainbow-YWc7qoph8/4.jpg
+#	new file:   p5projects/Tangible rainbow-YWc7qoph8/5.jpg
+#	new file:   p5projects/Tangible rainbow-YWc7qoph8/6.jpg
+#	new file:   p5projects/Tangible rainbow-YWc7qoph8/7.jpg
+#	new file:   p5projects/Tangible rainbow-YWc7qoph8/8.jpg
+#	new file:   p5projects/Tangible rainbow-YWc7qoph8/9.jpg
+#	new file:   p5projects/Tangible rainbow-YWc7qoph8/acmesa.ttf
+#	new file:   p5projects/Tangible rainbow-YWc7qoph8/index.html
+#	new file:   p5projects/Tangible rainbow-YWc7qoph8/rita.min.js
+#	new file:   p5projects/Tangible rainbow-YWc7qoph8/sketch.js
+#	new file:   p5projects/Tangible rainbow-YWc7qoph8/style.css
+#	new file:   p5projects/Tangible rainbow-YWc7qoph8/trumped.jpg
+#	new file:   p5projects/Teleport-k85aPbI7/index.html
+#	new file:   p5projects/Teleport-k85aPbI7/sketch.js
+#	new file:   p5projects/Teleport-k85aPbI7/style.css
+#	new file:   p5projects/TextMetricsExamination-lvVvak9zj/index.html
+#	new file:   p5projects/TextMetricsExamination-lvVvak9zj/sketch.js
+#	new file:   p5projects/TextMetricsExamination-lvVvak9zj/style.css
+#	new file:   p5projects/TextParticles-1mXhuNHma/index.html
+#	new file:   p5projects/TextParticles-1mXhuNHma/rita-full.min.js
+#	new file:   p5projects/TextParticles-1mXhuNHma/sketch.js
+#	new file:   p5projects/TextParticles-1mXhuNHma/style.css
+#	new file:   p5projects/TextToPoints-Ui47zv8GG/Roboto-Regular.ttf
+#	new file:   p5projects/TextToPoints-Ui47zv8GG/index.html
+#	new file:   p5projects/TextToPoints-Ui47zv8GG/matrix-font.otf
+#	new file:   p5projects/TextToPoints-Ui47zv8GG/sketch.js
+#	new file:   p5projects/TextToPoints-Ui47zv8GG/style.css
+#	new file:   p5projects/TextWordByWord-kIf3YxT3I/index.html
+#	new file:   p5projects/TextWordByWord-kIf3YxT3I/sketch.js
+#	new file:   p5projects/TextWordByWord-kIf3YxT3I/style.css
+#	new file:   p5projects/Thinkable block-n_PixjcPC/index.html
+#	new file:   p5projects/Thinkable block-n_PixjcPC/sketch.js
+#	new file:   p5projects/Thinkable block-n_PixjcPC/style.css
+#	new file:   p5projects/Thread platypus-_TZFmtQ0w/index.html
+#	new file:   p5projects/Thread platypus-_TZFmtQ0w/sketch.js
+#	new file:   p5projects/Thread platypus-_TZFmtQ0w/style.css
+#	new file:   p5projects/Thrilling attic-qJMK3XrnK/gu.jpg
+#	new file:   p5projects/Thrilling attic-qJMK3XrnK/index.html
+#	new file:   p5projects/Thrilling attic-qJMK3XrnK/sketch.js
+#	new file:   p5projects/Thrilling attic-qJMK3XrnK/style.css
+#	new file:   p5projects/Thriving trucks-rkuTg-SCm/1.jpg
+#	new file:   p5projects/Thriving trucks-rkuTg-SCm/2.jpg
+#	new file:   p5projects/Thriving trucks-rkuTg-SCm/3.jpg
+#	new file:   p5projects/Thriving trucks-rkuTg-SCm/4.jpg
+#	new file:   p5projects/Thriving trucks-rkuTg-SCm/5.jpg
+#	new file:   p5projects/Thriving trucks-rkuTg-SCm/6.jpg
+#	new file:   p5projects/Thriving trucks-rkuTg-SCm/7.jpg
+#	new file:   p5projects/Thriving trucks-rkuTg-SCm/8.jpg
+#	new file:   p5projects/Thriving trucks-rkuTg-SCm/9.jpg
+#	new file:   p5projects/Thriving trucks-rkuTg-SCm/index.html
+#	new file:   p5projects/Thriving trucks-rkuTg-SCm/sketch.js
+#	new file:   p5projects/Thriving trucks-rkuTg-SCm/style.css
+#	new file:   p5projects/ThrowableBall-h9VM_xCg8/index.html
+#	new file:   p5projects/ThrowableBall-h9VM_xCg8/sketch.js
+#	new file:   p5projects/ThrowableBall-h9VM_xCg8/style.css
+#	new file:   p5projects/Thundering blender copy-OfWjBz7sz/data/hand.jpg
+#	new file:   p5projects/Thundering blender copy-OfWjBz7sz/index.html
+#	new file:   p5projects/Thundering blender copy-OfWjBz7sz/ml5.js
+#	new file:   p5projects/Thundering blender copy-OfWjBz7sz/sketch.js
+#	new file:   p5projects/Tin conga-WBlaANcvi/index.html
+#	new file:   p5projects/Tin conga-WBlaANcvi/sketch.js
+#	new file:   p5projects/Tin conga-WBlaANcvi/style.css
+#	new file:   p5projects/TornPixelLines-asIV9UicX/dhimage.jpg
+#	new file:   p5projects/TornPixelLines-asIV9UicX/image.jpg
+#	new file:   p5projects/TornPixelLines-asIV9UicX/index.html
+#	new file:   p5projects/TornPixelLines-asIV9UicX/mountains.jpg
+#	new file:   p5projects/TornPixelLines-asIV9UicX/sketch.js
+#	new file:   p5projects/TornPixelLines-asIV9UicX/style.css
+#	new file:   p5projects/TotalSerialism-simple-melody-KSTsW14cCE/index.html
+#	new file:   p5projects/TotalSerialism-simple-melody-KSTsW14cCE/sketch.js
+#	new file:   p5projects/TotalSerialism-simple-melody-KSTsW14cCE/style.css
+#	new file:   p5projects/TotalSerialism-simple-melody-KSTsW14cCE/ts.es5.min.js
+#	new file:   p5projects/Towering dragon-wEOSPY7wl/index.html
+#	new file:   p5projects/Towering dragon-wEOSPY7wl/sketch.js
+#	new file:   p5projects/Towering dragon-wEOSPY7wl/style.css
+#	new file:   p5projects/Trans Grammar Dict-kdYU8Ntcz/bing-translate.js
+#	new file:   p5projects/Trans Grammar Dict-kdYU8Ntcz/index.html
+#	new file:   p5projects/Trans Grammar Dict-kdYU8Ntcz/rita.js
+#	new file:   p5projects/Trans Grammar Dict-kdYU8Ntcz/sketch.js
+#	new file:   p5projects/Trans Grammar Dict-kdYU8Ntcz/style.css
+#	new file:   p5projects/Trans Grammar-5Gxyzg9wI/index.html
+#	new file:   p5projects/Trans Grammar-5Gxyzg9wI/rita.js
+#	new file:   p5projects/Trans Grammar-5Gxyzg9wI/sketch.js
+#	new file:   p5projects/Trans Grammar-5Gxyzg9wI/style.css
+#	new file:   p5projects/TransformTree-CkeAGF2hD/index.html
+#	new file:   p5projects/TransformTree-CkeAGF2hD/sketch.js
+#	new file:   p5projects/TransformTree-CkeAGF2hD/style.css
+#	new file:   p5projects/Transforms Mouse Rotate Center-GQH526__y/index.html
+#	new file:   p5projects/Transforms Mouse Rotate Center-GQH526__y/sketch.js
+#	new file:   p5projects/Transforms Mouse Rotate Center-GQH526__y/style.css
+#	new file:   p5projects/Transforms Mouse Rotate-8s4eKTLJG/index.html
+#	new file:   p5projects/Transforms Mouse Rotate-8s4eKTLJG/sketch.js
+#	new file:   p5projects/Transforms Mouse Rotate-8s4eKTLJG/style.css
+#	new file:   p5projects/Transforms Mouse Scale-ofEhwcHHh/index.html
+#	new file:   p5projects/Transforms Mouse Scale-ofEhwcHHh/sketch.js
+#	new file:   p5projects/Transforms Mouse Scale-ofEhwcHHh/style.css
+#	new file:   p5projects/Transforms Mouse Translate-k7PCU9QyM/index.html
+#	new file:   p5projects/Transforms Mouse Translate-k7PCU9QyM/sketch.js
+#	new file:   p5projects/Transforms Mouse Translate-k7PCU9QyM/style.css
+#	new file:   p5projects/Trav-1uOvFQwS/index.html
+#	new file:   p5projects/Trav-1uOvFQwS/sketch.js
+#	new file:   p5projects/Trav-1uOvFQwS/style.css
+#	new file:   p5projects/TriGrid-Qft03WXSl/index.html
+#	new file:   p5projects/TriGrid-Qft03WXSl/sketch.js
+#	new file:   p5projects/TriGrid-Qft03WXSl/style.css
+#	new file:   p5projects/TurtleGraphics-JS1LZ4Mgb/index.html
+#	new file:   p5projects/TurtleGraphics-JS1LZ4Mgb/sketch.js
+#	new file:   p5projects/TurtleGraphics-JS1LZ4Mgb/style.css
+#	new file:   p5projects/TurtleGraphics-JS1LZ4Mgb/turtle.js
+#	new file:   p5projects/Twenty-four Tourists copy-79EhlT7_F/24.js
+#	new file:   p5projects/Twenty-four Tourists copy-79EhlT7_F/Cinzel-Bold.otf
+#	new file:   p5projects/Twenty-four Tourists copy-79EhlT7_F/CinzelDecorative-Bold.ttf
+#	new file:   p5projects/Twenty-four Tourists copy-79EhlT7_F/CinzelDecorative-Regular.otf
+#	new file:   p5projects/Twenty-four Tourists copy-79EhlT7_F/SongT.ttf
+#	new file:   p5projects/Twenty-four Tourists copy-79EhlT7_F/bg.jpg
+#	new file:   p5projects/Twenty-four Tourists copy-79EhlT7_F/drawPeriod.js
+#	new file:   p5projects/Twenty-four Tourists copy-79EhlT7_F/index.html
+#	new file:   p5projects/Twenty-four Tourists copy-79EhlT7_F/lunar.js
+#	new file:   p5projects/Twenty-four Tourists copy-79EhlT7_F/rita
+#	new file:   p5projects/Twenty-four Tourists copy-79EhlT7_F/sketch.js
+#	new file:   p5projects/Twenty-four Tourists copy-79EhlT7_F/style.css
+#	new file:   p5projects/Twenty-four Tourists copy-79EhlT7_F/worker.js
+#	new file:   p5projects/TwoConnectedWalkers-u0G_G4BJ0/index.html
+#	new file:   p5projects/TwoConnectedWalkers-u0G_G4BJ0/sketch.js
+#	new file:   p5projects/TwoConnectedWalkers-u0G_G4BJ0/style.css
+#	new file:   p5projects/Type loadFont-5A6b_MTKP/LEDLIGHT.otf
+#	new file:   p5projects/Type loadFont-5A6b_MTKP/index.html
+#	new file:   p5projects/Type loadFont-5A6b_MTKP/sketch.js
+#	new file:   p5projects/Type loadFont-5A6b_MTKP/style.css
+#	new file:   p5projects/Typography Grid-QFeblWN2b/index.html
+#	new file:   p5projects/Typography Grid-QFeblWN2b/sketch.js
+#	new file:   p5projects/Typography Grid-QFeblWN2b/style.css
+#	new file:   p5projects/Uneven scaffold-RTny743hAB/index.html
+#	new file:   p5projects/Uneven scaffold-RTny743hAB/sketch.js
+#	new file:   p5projects/Uneven scaffold-RTny743hAB/style.css
+#	new file:   p5projects/Vagabond angora-HVjtiD1nh/index.html
+#	new file:   p5projects/Vagabond angora-HVjtiD1nh/sketch.js
+#	new file:   p5projects/Vagabond angora-HVjtiD1nh/style.css
+#	new file:   p5projects/Various Lines-CcBCNvTUs/index.html
+#	new file:   p5projects/Various Lines-CcBCNvTUs/sketch.js
+#	new file:   p5projects/Various Lines-CcBCNvTUs/style.css
+#	new file:   p5projects/Varying Weight Line-EvNxINGRD/index.html
+#	new file:   p5projects/Varying Weight Line-EvNxINGRD/sketch.js
+#	new file:   p5projects/Varying Weight Line-EvNxINGRD/style.css
+#	new file:   p5projects/VectorWalker-xfj158yHC/index.html
+#	new file:   p5projects/VectorWalker-xfj158yHC/sketch.js
+#	new file:   p5projects/VectorWalker-xfj158yHC/style.css
+#	new file:   p5projects/VectorsForces-pvP8dfjXB/index.html
+#	new file:   p5projects/VectorsForces-pvP8dfjXB/sketch.js
+#	new file:   p5projects/VectorsForces-pvP8dfjXB/style.css
+#	new file:   p5projects/Violet selenium-9bdVMa3L5/index.html
+#	new file:   p5projects/Violet selenium-9bdVMa3L5/sketch.js
+#	new file:   p5projects/Violet selenium-9bdVMa3L5/style.css
+#	new file:   p5projects/Violet selenium-9bdVMa3L5/walker-class.js
+#	new file:   p5projects/WalkerzCol-aJ2ifEmre/index.html
+#	new file:   p5projects/WalkerzCol-aJ2ifEmre/sketch.js
+#	new file:   p5projects/WalkerzCol-aJ2ifEmre/style.css
+#	new file:   p5projects/Wandering society-J1aasncid/index.html
+#	new file:   p5projects/Wandering society-J1aasncid/sketch.js
+#	new file:   p5projects/Wandering society-J1aasncid/style.css
+#	new file:   p5projects/Warlike yoke-ryXL-AUa7/index.html
+#	new file:   p5projects/Warlike yoke-ryXL-AUa7/sketch.js
+#	new file:   p5projects/Warlike yoke-ryXL-AUa7/style.css
+#	new file:   p5projects/Warmup Array Min Value-CP9IONOF0/index.html
+#	new file:   p5projects/Warmup Array Min Value-CP9IONOF0/sketch.js
+#	new file:   p5projects/Warmup Array Min Value-CP9IONOF0/style.css
+#	new file:   p5projects/Water taker-hHuUVOAx6/index.html
+#	new file:   p5projects/Water taker-hHuUVOAx6/nl.json
+#	new file:   p5projects/Water taker-hHuUVOAx6/nllocations.js
+#	new file:   p5projects/Water taker-hHuUVOAx6/sketch.js
+#	new file:   p5projects/Water taker-hHuUVOAx6/style.css
+#	new file:   p5projects/WaveGrid-H0cyXfEOM/index.html
+#	new file:   p5projects/WaveGrid-H0cyXfEOM/sketch.js
+#	new file:   p5projects/WaveGrid-H0cyXfEOM/style.css
+#	new file:   p5projects/Wax lamprey-dUV9U80v5/index.html
+#	new file:   p5projects/Wax lamprey-dUV9U80v5/sketch.js
+#	new file:   p5projects/Wax lamprey-dUV9U80v5/style.css
+#	new file:   p5projects/Weather-Hy_61S_pQ/index.html
+#	new file:   p5projects/Weather-Hy_61S_pQ/sketch.js
+#	new file:   p5projects/Weather-Hy_61S_pQ/style.css
+#	new file:   p5projects/WebGL font issue copy-2WASL63Fy/SFCompact.ttf
+#	new file:   p5projects/WebGL font issue copy-2WASL63Fy/index.html
+#	new file:   p5projects/WebGL font issue copy-2WASL63Fy/p5-2.0.0-beta.2.js
+#	new file:   p5projects/WebGL font issue copy-2WASL63Fy/sketch.js
+#	new file:   p5projects/WebGL font issue copy-2WASL63Fy/style.css
+#	new file:   p5projects/Week 3 Nested Loops-z4RWWPSpd/index.html
+#	new file:   p5projects/Week 3 Nested Loops-z4RWWPSpd/sketch.js
+#	new file:   p5projects/Week 3 Nested Loops-z4RWWPSpd/style.css
+#	new file:   p5projects/Wholesale muenster-EcADZ3Lyv/index.html
+#	new file:   p5projects/Wholesale muenster-EcADZ3Lyv/sketch.js
+#	new file:   p5projects/Wholesale muenster-EcADZ3Lyv/style.css
+#	new file:   p5projects/WigglyCurvedLineFromConnectedDots-YolNJOzr7/index.html
+#	new file:   p5projects/WigglyCurvedLineFromConnectedDots-YolNJOzr7/sketch.js
+#	new file:   p5projects/WigglyCurvedLineFromConnectedDots-YolNJOzr7/style.css
+#	new file:   p5projects/WigglyLineFromConnectedDots-1juzl_g2h/index.html
+#	new file:   p5projects/WigglyLineFromConnectedDots-1juzl_g2h/sketch.js
+#	new file:   p5projects/WigglyLineFromConnectedDots-1juzl_g2h/style.css
+#	new file:   p5projects/WigglyLineFromDots-3DAtSYI8i/index.html
+#	new file:   p5projects/WigglyLineFromDots-3DAtSYI8i/sketch.js
+#	new file:   p5projects/WigglyLineFromDots-3DAtSYI8i/style.css
+#	new file:   p5projects/WigglyLinesFromConnectedDots-HKTXe4e9A/index.html
+#	new file:   p5projects/WigglyLinesFromConnectedDots-HKTXe4e9A/sketch.js
+#	new file:   p5projects/WigglyLinesFromConnectedDots-HKTXe4e9A/style.css
+#	new file:   p5projects/Wise room-H1qZUMP6Q/index.html
+#	new file:   p5projects/Wise room-H1qZUMP6Q/sketch.js
+#	new file:   p5projects/Wise room-H1qZUMP6Q/style.css
+#	new file:   p5projects/WordFreq-NKROVr45H/index.html
+#	new file:   p5projects/WordFreq-NKROVr45H/rita.js
+#	new file:   p5projects/WordFreq-NKROVr45H/sketch.js
+#	new file:   p5projects/WordFreq-NKROVr45H/style.css
+#	new file:   p5projects/a-IJQJj4Z5Q/24.js
+#	new file:   p5projects/a-IJQJj4Z5Q/index.html
+#	new file:   p5projects/a-IJQJj4Z5Q/rita
+#	new file:   p5projects/a-IJQJj4Z5Q/sketch.js
+#	new file:   p5projects/a-IJQJj4Z5Q/style.css
+#	new file:   p5projects/a-IJQJj4Z5Q/worker.js
+#	new file:   p5projects/anibll-THWubEYnh/index.html
+#	new file:   p5projects/anibll-THWubEYnh/sketch.js
+#	new file:   p5projects/anibll-THWubEYnh/style.css
+#	new file:   p5projects/array-join-uK4SJYlwK/index.html
+#	new file:   p5projects/array-join-uK4SJYlwK/sketch.js
+#	new file:   p5projects/array-join-uK4SJYlwK/style.css
+#	new file:   p5projects/array-split-T8CXfNScp/index.html
+#	new file:   p5projects/array-split-T8CXfNScp/sketch.js
+#	new file:   p5projects/array-split-T8CXfNScp/style.css
+#	new file:   p5projects/ash-question-cQ02WtVfP/HeikoJulien_EnjoyCommonThings.txt
+#	new file:   p5projects/ash-question-cQ02WtVfP/index.html
+#	new file:   p5projects/ash-question-cQ02WtVfP/sketch.js
+#	new file:   p5projects/ash-question-cQ02WtVfP/style.css
+#	new file:   p5projects/assignment4 copy-BX7HSYQu/b_closed.jpg
+#	new file:   p5projects/assignment4 copy-BX7HSYQu/b_half.jpg
+#	new file:   p5projects/assignment4 copy-BX7HSYQu/b_open.jpg
+#	new file:   p5projects/assignment4 copy-BX7HSYQu/b_tear1.jpg
+#	new file:   p5projects/assignment4 copy-BX7HSYQu/b_tear2.jpg
+#	new file:   p5projects/assignment4 copy-BX7HSYQu/b_tear3.jpg
+#	new file:   p5projects/assignment4 copy-BX7HSYQu/b_tear4.jpg
+#	new file:   p5projects/assignment4 copy-BX7HSYQu/b_tear5.jpg
+#	new file:   p5projects/assignment4 copy-BX7HSYQu/b_tear6.jpg
+#	new file:   p5projects/assignment4 copy-BX7HSYQu/b_tear7.jpg
+#	new file:   p5projects/assignment4 copy-BX7HSYQu/carbon_type.ttf
+#	new file:   p5projects/assignment4 copy-BX7HSYQu/grammar.json
+#	new file:   p5projects/assignment4 copy-BX7HSYQu/index.html
+#	new file:   p5projects/assignment4 copy-BX7HSYQu/rita-full.min.js
+#	new file:   p5projects/assignment4 copy-BX7HSYQu/sketch.js
+#	new file:   p5projects/assignment4 copy-BX7HSYQu/style.css
+#	new file:   p5projects/assignment4 copy-BX7HSYQu/typewriter.mp3
+#	new file:   p5projects/assignment4 copy-BX7HSYQu/y_closed.jpg
+#	new file:   p5projects/assignment4 copy-BX7HSYQu/y_half.jpg
+#	new file:   p5projects/assignment4 copy-BX7HSYQu/y_open.jpg
+#	new file:   p5projects/assignment4 copy-BX7HSYQu/y_tear1.jpg
+#	new file:   p5projects/assignment4 copy-BX7HSYQu/y_tear2.jpg
+#	new file:   p5projects/assignment4 copy-BX7HSYQu/y_tear3.jpg
+#	new file:   p5projects/assignment4 copy-BX7HSYQu/y_tear4.jpg
+#	new file:   p5projects/assignment4 copy-BX7HSYQu/y_tear5.jpg
+#	new file:   p5projects/assignment4 copy-BX7HSYQu/y_tear6.jpg
+#	new file:   p5projects/assignment4 copy-BX7HSYQu/y_tear7.jpg
+#	new file:   p5projects/autocharP5-SyUhVp1yN/index.html
+#	new file:   p5projects/autocharP5-SyUhVp1yN/sketch.js
+#	new file:   p5projects/autocharP5-SyUhVp1yN/style.css
+#	new file:   p5projects/b-Nkjp_vwYL/24.js
+#	new file:   p5projects/b-Nkjp_vwYL/index.html
+#	new file:   p5projects/b-Nkjp_vwYL/rita
+#	new file:   p5projects/b-Nkjp_vwYL/sketch.js
+#	new file:   p5projects/b-Nkjp_vwYL/style.css
+#	new file:   p5projects/b-Nkjp_vwYL/worker.js
+#	new file:   p5projects/bad array objects grid copy-gFKBYCKBj/index.html
+#	new file:   p5projects/bad array objects grid copy-gFKBYCKBj/sketch.js
+#	new file:   p5projects/bad array objects grid copy-gFKBYCKBj/style.css
+#	new file:   p5projects/basic boids-cka815nGb/index.html
+#	new file:   p5projects/basic boids-cka815nGb/sketch.js
+#	new file:   p5projects/basic boids-cka815nGb/style.css
+#	new file:   p5projects/blur shader-MW1kGDNy6/index.html
+#	new file:   p5projects/blur shader-MW1kGDNy6/sketch.js
+#	new file:   p5projects/blur shader-MW1kGDNy6/style.css
+#	new file:   p5projects/bouncing-LpIHO05BP/index.html
+#	new file:   p5projects/bouncing-LpIHO05BP/sketch.js
+#	new file:   p5projects/bouncing-LpIHO05BP/style.css
+#	new file:   p5projects/c-PiWAi9oAQ/24.js
+#	new file:   p5projects/c-PiWAi9oAQ/index.html
+#	new file:   p5projects/c-PiWAi9oAQ/rita
+#	new file:   p5projects/c-PiWAi9oAQ/sketch.js
+#	new file:   p5projects/c-PiWAi9oAQ/style.css
+#	new file:   p5projects/c-PiWAi9oAQ/worker.js
+#	new file:   p5projects/cc5-1ssiaxke6/index.html
+#	new file:   p5projects/cc5-1ssiaxke6/sketch.js
+#	new file:   p5projects/cc5-1ssiaxke6/style.css
+#	new file:   p5projects/circlepack-pyI5_Jf80/index.html
+#	new file:   p5projects/circlepack-pyI5_Jf80/sketch.js
+#	new file:   p5projects/circlepack-pyI5_Jf80/style.css
+#	new file:   p5projects/circularText-ypcdgJibB/index.html
+#	new file:   p5projects/circularText-ypcdgJibB/sketch.js
+#	new file:   p5projects/circularText-ypcdgJibB/style.css
+#	new file:   p5projects/cmb1-zfn7Aj2tF/1.png
+#	new file:   p5projects/cmb1-zfn7Aj2tF/2.png
+#	new file:   p5projects/cmb1-zfn7Aj2tF/flower.png
+#	new file:   p5projects/cmb1-zfn7Aj2tF/index.html
+#	new file:   p5projects/cmb1-zfn7Aj2tF/sketch.js
+#	new file:   p5projects/cmb1-zfn7Aj2tF/style.css
+#	new file:   p5projects/cmb2-Ue4_IsljB/1.png
+#	new file:   p5projects/cmb2-Ue4_IsljB/2.png
+#	new file:   p5projects/cmb2-Ue4_IsljB/flower.png
+#	new file:   p5projects/cmb2-Ue4_IsljB/index.html
+#	new file:   p5projects/cmb2-Ue4_IsljB/sketch.js
+#	new file:   p5projects/cmb2-Ue4_IsljB/style.css
+#	new file:   p5projects/cmb3-DfK6_4F8N/1.png
+#	new file:   p5projects/cmb3-DfK6_4F8N/2.png
+#	new file:   p5projects/cmb3-DfK6_4F8N/flower.png
+#	new file:   p5projects/cmb3-DfK6_4F8N/index.html
+#	new file:   p5projects/cmb3-DfK6_4F8N/sketch.js
+#	new file:   p5projects/cmb3-DfK6_4F8N/style.css
+#	new file:   p5projects/contrast-bump-nOw8Zbm21/index.html
+#	new file:   p5projects/contrast-bump-nOw8Zbm21/penguin.jpg
+#	new file:   p5projects/contrast-bump-nOw8Zbm21/sketch.js
+#	new file:   p5projects/contrast-bump-nOw8Zbm21/style.css
+#	new file:   p5projects/cssGrammar-hveCQ7tp0/index.html
+#	new file:   p5projects/cssGrammar-hveCQ7tp0/rita.js
+#	new file:   p5projects/cssGrammar-hveCQ7tp0/sketch.js
+#	new file:   p5projects/cssGrammar-hveCQ7tp0/style.css
+#	new file:   p5projects/custom-font-valign-Nf9fpI4dK/Georgia.ttf
+#	new file:   p5projects/custom-font-valign-Nf9fpI4dK/index.html
+#	new file:   p5projects/custom-font-valign-Nf9fpI4dK/sketch.js
+#	new file:   p5projects/custom-font-valign-Nf9fpI4dK/style.css
+#	new file:   p5projects/d-ZH96lteOC/24.js
+#	new file:   p5projects/d-ZH96lteOC/index.html
+#	new file:   p5projects/d-ZH96lteOC/rita
+#	new file:   p5projects/d-ZH96lteOC/sketch.js
+#	new file:   p5projects/d-ZH96lteOC/style.css
+#	new file:   p5projects/d-ZH96lteOC/worker.js
+#	new file:   p5projects/display-words-57XhNr7eS/index.html
+#	new file:   p5projects/display-words-57XhNr7eS/sketch.js
+#	new file:   p5projects/display-words-57XhNr7eS/style.css
+#	new file:   p5projects/draw16QuadCheckerBoard-Sk8lmQGlN/index.html
+#	new file:   p5projects/draw16QuadCheckerBoard-Sk8lmQGlN/sketch.js
+#	new file:   p5projects/draw16QuadCheckerBoard-Sk8lmQGlN/style.css
+#	new file:   p5projects/drawHanziChar-jgX4mDbne/index.html
+#	new file:   p5projects/drawHanziChar-jgX4mDbne/sketch.js
+#	new file:   p5projects/drawHanziChar-jgX4mDbne/style.css
+#	new file:   p5projects/e copy copy copy copy-3J0B6Zlza/24.js
+#	new file:   p5projects/e copy copy copy copy-3J0B6Zlza/index.html
+#	new file:   p5projects/e copy copy copy copy-3J0B6Zlza/rita
+#	new file:   p5projects/e copy copy copy copy-3J0B6Zlza/rita-micro.js
+#	new file:   p5projects/e copy copy copy copy-3J0B6Zlza/sketch.js
+#	new file:   p5projects/e copy copy copy copy-3J0B6Zlza/style.css
+#	new file:   p5projects/e copy copy copy copy-3J0B6Zlza/worker.js
+#	new file:   p5projects/e copy copy copy-mpL2VCqFh/24.js
+#	new file:   p5projects/e copy copy copy-mpL2VCqFh/index.html
+#	new file:   p5projects/e copy copy copy-mpL2VCqFh/rita
+#	new file:   p5projects/e copy copy copy-mpL2VCqFh/rita-micro.js
+#	new file:   p5projects/e copy copy copy-mpL2VCqFh/sketch.js
+#	new file:   p5projects/e copy copy copy-mpL2VCqFh/style.css
+#	new file:   p5projects/e copy copy copy-mpL2VCqFh/worker.js
+#	new file:   p5projects/e copy copy-7l0j1tAVl/24.js
+#	new file:   p5projects/e copy copy-7l0j1tAVl/index.html
+#	new file:   p5projects/e copy copy-7l0j1tAVl/rita
+#	new file:   p5projects/e copy copy-7l0j1tAVl/sketch.js
+#	new file:   p5projects/e copy copy-7l0j1tAVl/style.css
+#	new file:   p5projects/e copy copy-7l0j1tAVl/worker.js
+#	new file:   p5projects/e copy-5YQsbWK8E/24.js
+#	new file:   p5projects/e copy-5YQsbWK8E/index.html
+#	new file:   p5projects/e copy-5YQsbWK8E/rita
+#	new file:   p5projects/e copy-5YQsbWK8E/sketch.js
+#	new file:   p5projects/e copy-5YQsbWK8E/style.css
+#	new file:   p5projects/e copy-5YQsbWK8E/worker.js
+#	new file:   p5projects/e-nWZiz1iy9/24.js
+#	new file:   p5projects/e-nWZiz1iy9/index.html
+#	new file:   p5projects/e-nWZiz1iy9/rita
+#	new file:   p5projects/e-nWZiz1iy9/sketch.js
+#	new file:   p5projects/e-nWZiz1iy9/style.css
+#	new file:   p5projects/e-nWZiz1iy9/worker.js
+#	new file:   p5projects/eastern brushstroke II-LYH5mAcp5/index.html
+#	new file:   p5projects/eastern brushstroke II-LYH5mAcp5/sketch.js
+#	new file:   p5projects/eastern brushstroke II-LYH5mAcp5/style.css
+#	new file:   p5projects/eastern brushstroke-KNl7ATpHw/index.html
+#	new file:   p5projects/eastern brushstroke-KNl7ATpHw/sketch.js
+#	new file:   p5projects/eastern brushstroke-KNl7ATpHw/style.css
+#	new file:   p5projects/feature analysis copy-eYs0uLXE-/arpaToIPA.js
+#	new file:   p5projects/feature analysis copy-eYs0uLXE-/index.html
+#	new file:   p5projects/feature analysis copy-eYs0uLXE-/rita
+#	new file:   p5projects/feature analysis copy-eYs0uLXE-/sketch.js
+#	new file:   p5projects/feature analysis copy-eYs0uLXE-/style.css
+#	new file:   p5projects/flag-0nUndfogJ/index.html
+#	new file:   p5projects/flag-0nUndfogJ/sketch.js
+#	new file:   p5projects/flag-0nUndfogJ/style.css
+#	new file:   p5projects/font bug copy-LiCDewJpt/index.html
+#	new file:   p5projects/font bug copy-LiCDewJpt/sketch.js
+#	new file:   p5projects/font bug copy-LiCDewJpt/style.css
+#	new file:   p5projects/fpsCounter-WpYjXz4KP/index.html
+#	new file:   p5projects/fpsCounter-WpYjXz4KP/sketch.js
+#	new file:   p5projects/fpsCounter-WpYjXz4KP/style.css
+#	new file:   p5projects/fractree-rO-m_baNC/index.html
+#	new file:   p5projects/fractree-rO-m_baNC/sketch.js
+#	new file:   p5projects/fractree-rO-m_baNC/style.css
+#	new file:   p5projects/gaol-JiWxKnT17/index.html
+#	new file:   p5projects/gaol-JiWxKnT17/sketch.js
+#	new file:   p5projects/gaol-JiWxKnT17/style.css
+#	new file:   p5projects/gol-LHRakX2Qg/index.html
+#	new file:   p5projects/gol-LHRakX2Qg/sketch.js
+#	new file:   p5projects/gol-LHRakX2Qg/style.css
+#	new file:   p5projects/gol-history-btUKOVvL9/index.html
+#	new file:   p5projects/gol-history-btUKOVvL9/sketch.js
+#	new file:   p5projects/gol-history-btUKOVvL9/style.css
+#	new file:   p5projects/gosper-oU_Bp9j81/index.html
+#	new file:   p5projects/gosper-oU_Bp9j81/sketch.js
+#	new file:   p5projects/gosper-oU_Bp9j81/style.css
+#	new file:   p5projects/grOws-vFNIDp4uL/index.html
+#	new file:   p5projects/grOws-vFNIDp4uL/sketch.js
+#	new file:   p5projects/grOws-vFNIDp4uL/style.css
+#	new file:   p5projects/grammar-test-YwSvR8V4h/Resagokr.otf
+#	new file:   p5projects/grammar-test-YwSvR8V4h/index.html
+#	new file:   p5projects/grammar-test-YwSvR8V4h/rita
+#	new file:   p5projects/grammar-test-YwSvR8V4h/sketch.js
+#	new file:   p5projects/grammar-test-YwSvR8V4h/style.css
+#	new file:   p5projects/haiku grammar-BMpIJ701n/Resagokr.otf
+#	new file:   p5projects/haiku grammar-BMpIJ701n/grammar.js
+#	new file:   p5projects/haiku grammar-BMpIJ701n/haiku.json
+#	new file:   p5projects/haiku grammar-BMpIJ701n/index.html
+#	new file:   p5projects/haiku grammar-BMpIJ701n/rita
+#	new file:   p5projects/haiku grammar-BMpIJ701n/sketch.js
+#	new file:   p5projects/haiku grammar-BMpIJ701n/style.css
+#	new file:   p5projects/hello-goodbye-wQqSQ08F_/NotoSans-tiny.ttf
+#	new file:   p5projects/hello-goodbye-wQqSQ08F_/Raleway-Black.ttf
+#	new file:   p5projects/hello-goodbye-wQqSQ08F_/index.html
+#	new file:   p5projects/hello-goodbye-wQqSQ08F_/sketch.js
+#	new file:   p5projects/hello-goodbye-wQqSQ08F_/style.css
+#	new file:   p5projects/history-4wtll_7s/index.html
+#	new file:   p5projects/history-4wtll_7s/sketch.js
+#	new file:   p5projects/history-4wtll_7s/style.css
+#	new file:   p5projects/image helpers-TyTBZ0EGH/dhimage.jpg
+#	new file:   p5projects/image helpers-TyTBZ0EGH/image.jpg
+#	new file:   p5projects/image helpers-TyTBZ0EGH/index.html
+#	new file:   p5projects/image helpers-TyTBZ0EGH/mountains.jpg
+#	new file:   p5projects/image helpers-TyTBZ0EGH/sketch.js
+#	new file:   p5projects/image helpers-TyTBZ0EGH/style.css
+#	new file:   p5projects/image-skel-xD43KqFid/index.html
+#	new file:   p5projects/image-skel-xD43KqFid/sketch.js
+#	new file:   p5projects/image-skel-xD43KqFid/style.css
+#	new file:   p5projects/image-skel-xD43KqFid/trace_skeleton_wasm.js
+#	new file:   p5projects/image-skel-xD43KqFid/zverev-sm.png
+#	new file:   p5projects/image-skel-xD43KqFid/zverev-vsm.png
+#	new file:   p5projects/image-skel-xD43KqFid/zverev.png
+#	new file:   p5projects/inclassnn-_I5B6Tjv_/index.html
+#	new file:   p5projects/inclassnn-_I5B6Tjv_/neural.js
+#	new file:   p5projects/inclassnn-_I5B6Tjv_/sketch.js
+#	new file:   p5projects/inclassnn-_I5B6Tjv_/style.css
+#	new file:   p5projects/knob-rotator-grid-KGV1agSrA/index.html
+#	new file:   p5projects/knob-rotator-grid-KGV1agSrA/sketch.js
+#	new file:   p5projects/knob-rotator-grid-KGV1agSrA/style.css
+#	new file:   p5projects/kzhao_vehicles-9BVLostve/dot.js
+#	new file:   p5projects/kzhao_vehicles-9BVLostve/index.html
+#	new file:   p5projects/kzhao_vehicles-9BVLostve/sketch.js
+#	new file:   p5projects/kzhao_vehicles-9BVLostve/style.css
+#	new file:   p5projects/kzhao_vehicles-9BVLostve/vehicle.js
+#	new file:   p5projects/lettergram-K8Gkw7fcy/index.html
+#	new file:   p5projects/lettergram-K8Gkw7fcy/kafka.txt
+#	new file:   p5projects/lettergram-K8Gkw7fcy/sketch.js
+#	new file:   p5projects/lettergram-K8Gkw7fcy/style.css
+#	new file:   p5projects/letters-by-freq-969brUo02/index.html
+#	new file:   p5projects/letters-by-freq-969brUo02/sketch.js
+#	new file:   p5projects/letters-by-freq-969brUo02/style.css
+#	new file:   p5projects/lettterngram-6GjX22Ah_/harvard-sentences.js
+#	new file:   p5projects/lettterngram-6GjX22Ah_/index.html
+#	new file:   p5projects/lettterngram-6GjX22Ah_/sketch.js
+#	new file:   p5projects/lettterngram-6GjX22Ah_/style.css
+#	new file:   p5projects/lgred-msMWKy3V6/index.html
+#	new file:   p5projects/lgred-msMWKy3V6/kafka.txt
+#	new file:   p5projects/lgred-msMWKy3V6/sketch.js
+#	new file:   p5projects/lgred-msMWKy3V6/style.css
+#	new file:   p5projects/line-rotate-grid-xBWabkCLx/index.html
+#	new file:   p5projects/line-rotate-grid-xBWabkCLx/sketch.js
+#	new file:   p5projects/line-rotate-grid-xBWabkCLx/style.css
+#	new file:   p5projects/lines-rotate-by-slope-5xU6n9SuX/index.html
+#	new file:   p5projects/lines-rotate-by-slope-5xU6n9SuX/sketch.js
+#	new file:   p5projects/lines-rotate-by-slope-5xU6n9SuX/style.css
+#	new file:   p5projects/loadJSONfromAPItest-thWhzjDN4/index.html
+#	new file:   p5projects/loadJSONfromAPItest-thWhzjDN4/sketch.js
+#	new file:   p5projects/loadJSONfromAPItest-thWhzjDN4/style.css
+#	new file:   p5projects/lsys-J_HaQD32O/index.html
+#	new file:   p5projects/lsys-J_HaQD32O/sketch.js
+#	new file:   p5projects/lsys-J_HaQD32O/style.css
+#	new file:   p5projects/mailcheck-hHgpctniL/index.html
+#	new file:   p5projects/mailcheck-hHgpctniL/sketch.js
+#	new file:   p5projects/mailcheck-hHgpctniL/style.css
+#	new file:   p5projects/markov-cookies-56ACPWg7X/fortunes.js
+#	new file:   p5projects/markov-cookies-56ACPWg7X/index.html
+#	new file:   p5projects/markov-cookies-56ACPWg7X/rita.js
+#	new file:   p5projects/markov-cookies-56ACPWg7X/sketch.js
+#	new file:   p5projects/markov-cookies-56ACPWg7X/style.css
+#	new file:   p5projects/ml5jsTest-1e-rx8lWg/index.html
+#	new file:   p5projects/ml5jsTest-1e-rx8lWg/ml5.min.js
+#	new file:   p5projects/ml5jsTest-1e-rx8lWg/sketch.js
+#	new file:   p5projects/ml5jsTest-1e-rx8lWg/style.css
+#	new file:   p5projects/ml5jsTest-1e-rx8lWg/watch.jpg
+#	new file:   p5projects/nGramTemplate-vMyEA-A0Z/index.html
+#	new file:   p5projects/nGramTemplate-vMyEA-A0Z/kafka.txt
+#	new file:   p5projects/nGramTemplate-vMyEA-A0Z/sketch.js
+#	new file:   p5projects/nGramTemplate-vMyEA-A0Z/style.css
+#	new file:   p5projects/ngramgen-Ufc9Axhbp/index.html
+#	new file:   p5projects/ngramgen-Ufc9Axhbp/rita
+#	new file:   p5projects/ngramgen-Ufc9Axhbp/sketch.js
+#	new file:   p5projects/ngramgen-Ufc9Axhbp/style.css
+#	new file:   p5projects/nnp-isKNVmbIN/index.html
+#	new file:   p5projects/nnp-isKNVmbIN/sketch.js
+#	new file:   p5projects/nnp-isKNVmbIN/style.css
+#	new file:   p5projects/noiseTreeOline-QofsVt_Ot/index.html
+#	new file:   p5projects/noiseTreeOline-QofsVt_Ot/sketch.js
+#	new file:   p5projects/noiseTreeOline-QofsVt_Ot/style.css
+#	new file:   p5projects/noisetree-2F49AmCKI/index.html
+#	new file:   p5projects/noisetree-2F49AmCKI/sketch.js
+#	new file:   p5projects/noisetree-2F49AmCKI/style.css
+#	new file:   p5projects/numrow-MNGcNZods/1.jpg
+#	new file:   p5projects/numrow-MNGcNZods/2.jpg
+#	new file:   p5projects/numrow-MNGcNZods/3.jpg
+#	new file:   p5projects/numrow-MNGcNZods/4.jpg
+#	new file:   p5projects/numrow-MNGcNZods/5.jpg
+#	new file:   p5projects/numrow-MNGcNZods/6.jpg
+#	new file:   p5projects/numrow-MNGcNZods/7.jpg
+#	new file:   p5projects/numrow-MNGcNZods/8.jpg
+#	new file:   p5projects/numrow-MNGcNZods/9.jpg
+#	new file:   p5projects/numrow-MNGcNZods/index.html
+#	new file:   p5projects/numrow-MNGcNZods/sketch.js
+#	new file:   p5projects/numrow-MNGcNZods/style.css
+#	new file:   p5projects/nwalkers-Gi_nNOMzs/index.html
+#	new file:   p5projects/nwalkers-Gi_nNOMzs/sketch.js
+#	new file:   p5projects/nwalkers-Gi_nNOMzs/style.css
+#	new file:   p5projects/p5fx.tmpl-5LZQdGZuq/fxhash.min.js
+#	new file:   p5projects/p5fx.tmpl-5LZQdGZuq/index.html
+#	new file:   p5projects/p5fx.tmpl-5LZQdGZuq/sketch.js
+#	new file:   p5projects/p5fx.tmpl-5LZQdGZuq/style.css
+#	new file:   p5projects/partOs-PyBAEpCBR/index.html
+#	new file:   p5projects/partOs-PyBAEpCBR/sketch.js
+#	new file:   p5projects/partOs-PyBAEpCBR/style.css
+#	new file:   p5projects/perceptron-OqwK50jGz/index.html
+#	new file:   p5projects/perceptron-OqwK50jGz/perceptron.js
+#	new file:   p5projects/perceptron-OqwK50jGz/sketch.js
+#	new file:   p5projects/perceptron-OqwK50jGz/style.css
+#	new file:   p5projects/permutations-dj97rCEBX/index.html
+#	new file:   p5projects/permutations-dj97rCEBX/sketch.js
+#	new file:   p5projects/permutations-dj97rCEBX/style.css
+#	new file:   p5projects/pixel-based-circle-packing-KHqUcCRrB/cloud.png
+#	new file:   p5projects/pixel-based-circle-packing-KHqUcCRrB/index.html
+#	new file:   p5projects/pixel-based-circle-packing-KHqUcCRrB/sketch.js
+#	new file:   p5projects/pixel-based-circle-packing-KHqUcCRrB/style.css
+#	new file:   p5projects/poparazzi-chgC8TLWn/index.html
+#	new file:   p5projects/poparazzi-chgC8TLWn/sketch.js
+#	new file:   p5projects/poparazzi-chgC8TLWn/style.css
+#	new file:   p5projects/random walks - CLASSES conversion copy-eMJbJjNKW/index.html
+#	new file:   p5projects/random walks - CLASSES conversion copy-eMJbJjNKW/sketch.js
+#	new file:   p5projects/random walks - CLASSES conversion copy-eMJbJjNKW/style.css
+#	new file:   p5projects/reline-y_6iJf_ci/index.html
+#	new file:   p5projects/reline-y_6iJf_ci/sketch.js
+#	new file:   p5projects/reline-y_6iJf_ci/style.css
+#	new file:   p5projects/rita-lexicon-access-ycZAnfEAX/index.html
+#	new file:   p5projects/rita-lexicon-access-ycZAnfEAX/rita.js
+#	new file:   p5projects/rita-lexicon-access-ycZAnfEAX/sketch.js
+#	new file:   p5projects/rita-lexicon-access-ycZAnfEAX/style.css
+#	new file:   p5projects/rita-spelt-syllables-NbO1AguLa/index.html
+#	new file:   p5projects/rita-spelt-syllables-NbO1AguLa/rita.js
+#	new file:   p5projects/rita-spelt-syllables-NbO1AguLa/sketch.js
+#	new file:   p5projects/rita-spelt-syllables-NbO1AguLa/style.css
+#	new file:   p5projects/sentences-from-file-xFIgWECkx/index.html
+#	new file:   p5projects/sentences-from-file-xFIgWECkx/sentences.txt
+#	new file:   p5projects/sentences-from-file-xFIgWECkx/sketch.js
+#	new file:   p5projects/sentences-from-file-xFIgWECkx/style.css
+#	new file:   p5projects/session4_6_SOLUTION copy-tHG1sKQ_T/index.html
+#	new file:   p5projects/session4_6_SOLUTION copy-tHG1sKQ_T/sketch.js
+#	new file:   p5projects/session4_6_SOLUTION copy-tHG1sKQ_T/style.css
+#	new file:   p5projects/simple loadStrings-PeyWwCtFy/index.html
+#	new file:   p5projects/simple loadStrings-PeyWwCtFy/sentences.txt
+#	new file:   p5projects/simple loadStrings-PeyWwCtFy/sketch.js
+#	new file:   p5projects/simple loadStrings-PeyWwCtFy/style.css
+#	new file:   p5projects/simple timer-c7tIF9Jau/index.html
+#	new file:   p5projects/simple timer-c7tIF9Jau/rita
+#	new file:   p5projects/simple timer-c7tIF9Jau/sketch.js
+#	new file:   p5projects/simple timer-c7tIF9Jau/style.css
+#	new file:   p5projects/simpleRlineCls-k9fhY4ple/index.html
+#	new file:   p5projects/simpleRlineCls-k9fhY4ple/sketch.js
+#	new file:   p5projects/simpleRlineCls-k9fhY4ple/style.css
+#	new file:   p5projects/simpleRlines-BKQCHCVzT/index.html
+#	new file:   p5projects/simpleRlines-BKQCHCVzT/sketch.js
+#	new file:   p5projects/simpleRlines-BKQCHCVzT/style.css
+#	new file:   p5projects/sm3809_Assignment3D copy-yqlheW3g4/boid.js
+#	new file:   p5projects/sm3809_Assignment3D copy-yqlheW3g4/index.html
+#	new file:   p5projects/sm3809_Assignment3D copy-yqlheW3g4/sketch.js
+#	new file:   p5projects/sm3809_Assignment3D copy-yqlheW3g4/style.css
+#	new file:   p5projects/sos-6USTuUvey/Raleway-Black.ttf
+#	new file:   p5projects/sos-6USTuUvey/index.html
+#	new file:   p5projects/sos-6USTuUvey/sketch.js
+#	new file:   p5projects/sos-6USTuUvey/style.css
+#	new file:   p5projects/standard deviation-0_ZtlXwJx/index.html
+#	new file:   p5projects/standard deviation-0_ZtlXwJx/sketch.js
+#	new file:   p5projects/standard deviation-0_ZtlXwJx/style.css
+#	new file:   p5projects/sumPosOddNumber-HyE26sUgV/index.html
+#	new file:   p5projects/sumPosOddNumber-HyE26sUgV/sketch.js
+#	new file:   p5projects/sumPosOddNumber-HyE26sUgV/style.css
+#	new file:   p5projects/t2-w3-a2 copy-CMdzRS3rQ/index.html
+#	new file:   p5projects/t2-w3-a2 copy-CMdzRS3rQ/sketch.js
+#	new file:   p5projects/t2-w3-a2 copy-CMdzRS3rQ/style.css
+#	new file:   p5projects/test-generators-7gqnnfKNE/24.js
+#	new file:   p5projects/test-generators-7gqnnfKNE/index.html
+#	new file:   p5projects/test-generators-7gqnnfKNE/rita-micro.js
+#	new file:   p5projects/test-generators-7gqnnfKNE/sketch.js
+#	new file:   p5projects/test-generators-7gqnnfKNE/style.css
+#	new file:   p5projects/test-generators-7gqnnfKNE/worker.js
+#	new file:   p5projects/text video-cbyoMhvb6/gu.jpg
+#	new file:   p5projects/text video-cbyoMhvb6/index.html
+#	new file:   p5projects/text video-cbyoMhvb6/sketch.js
+#	new file:   p5projects/text video-cbyoMhvb6/style.css
+#	new file:   p5projects/text-to-points-testing-LnEbUW8K7/inconsolata.otf
+#	new file:   p5projects/text-to-points-testing-LnEbUW8K7/index.html
+#	new file:   p5projects/text-to-points-testing-LnEbUW8K7/sketch.js
+#	new file:   p5projects/text-to-points-testing-LnEbUW8K7/style.css
+#	new file:   p5projects/the sinularity-n92r2wauk/index.html
+#	new file:   p5projects/the sinularity-n92r2wauk/sketch.js
+#	new file:   p5projects/the sinularity-n92r2wauk/style.css
+#	new file:   p5projects/tmp-7eg3cvISU/index.html
+#	new file:   p5projects/tmp-7eg3cvISU/sketch.js
+#	new file:   p5projects/tmp-7eg3cvISU/style.css
+#	new file:   p5projects/trav-no-MAIbV8/index.html
+#	new file:   p5projects/trav-no-MAIbV8/sketch.js
+#	new file:   p5projects/trav-no-MAIbV8/style.css
+#	new file:   p5projects/tricirc-Kchx75xMY/index.html
+#	new file:   p5projects/tricirc-Kchx75xMY/sketch.js
+#	new file:   p5projects/tricirc-Kchx75xMY/style.css
+#	new file:   p5projects/tricurse-mLFs2TPN8/index.html
+#	new file:   p5projects/tricurse-mLFs2TPN8/sketch.js
+#	new file:   p5projects/tricurse-mLFs2TPN8/style.css
+#	new file:   p5projects/tricursive-a2IszSVbe/index.html
+#	new file:   p5projects/tricursive-a2IszSVbe/sketch.js
+#	new file:   p5projects/tricursive-a2IszSVbe/style.css
+#	new file:   p5projects/ttp-sb-VKJecL_3D/NotoSans-tiny.ttf
+#	new file:   p5projects/ttp-sb-VKJecL_3D/Raleway-Black.ttf
+#	new file:   p5projects/ttp-sb-VKJecL_3D/index.html
+#	new file:   p5projects/ttp-sb-VKJecL_3D/sketch.js
+#	new file:   p5projects/ttp-sb-VKJecL_3D/style.css
+#	new file:   p5projects/video-test-x09sM1tXa/duchov-1.jpg
+#	new file:   p5projects/video-test-x09sM1tXa/duchov.jpg
+#	new file:   p5projects/video-test-x09sM1tXa/grace-lau-mo-sheung.jpg
+#	new file:   p5projects/video-test-x09sM1tXa/index.html
+#	new file:   p5projects/video-test-x09sM1tXa/sketch.js
+#	new file:   p5projects/video-test-x09sM1tXa/style.css
+#	new file:   p5projects/w6-natural-linked-line copy-8UDtrkDCV/index.html
+#	new file:   p5projects/w6-natural-linked-line copy-8UDtrkDCV/sketch.js
+#	new file:   p5projects/w6-natural-linked-line copy-8UDtrkDCV/style.css
+#	new file:   p5projects/warmup-DHU26m2fp/index.html
+#	new file:   p5projects/warmup-DHU26m2fp/sketch.js
+#	new file:   p5projects/warmup-DHU26m2fp/style.css
+#	new file:   p5projects/web worker alpha1 copy-Eub63h6Mq/functions.js
+#	new file:   p5projects/web worker alpha1 copy-Eub63h6Mq/index.html
+#	new file:   p5projects/web worker alpha1 copy-Eub63h6Mq/sketch.js
+#	new file:   p5projects/web worker alpha1 copy-Eub63h6Mq/style.css
+#	new file:   p5projects/web worker alpha1 copy-Eub63h6Mq/worker.js
+#	new file:   p5projects/worker test-7w1eG3Ad-/24.js
+#	new file:   p5projects/worker test-7w1eG3Ad-/index.html
+#	new file:   p5projects/worker test-7w1eG3Ad-/rita
+#	new file:   p5projects/worker test-7w1eG3Ad-/sketch.js
+#	new file:   p5projects/worker test-7w1eG3Ad-/style.css
+#	new file:   p5projects/worker test-7w1eG3Ad-/worker.js
+#	new file:   p5projects/xWheel-4qXEpTBo6/index.html
+#	new file:   p5projects/xWheel-4qXEpTBo6/sketch.js
+#	new file:   p5projects/xWheel-4qXEpTBo6/style.css
+#	new file:   "p5projects/\344\270\207\351\207\214\345\215\203\345\261\261\345\233\276 copy-IZjqVK_TF/bGround.png"
+#	new file:   "p5projects/\344\270\207\351\207\214\345\215\203\345\261\261\345\233\276 copy-IZjqVK_TF/bamboo.png"
+#	new file:   "p5projects/\344\270\207\351\207\214\345\215\203\345\261\261\345\233\276 copy-IZjqVK_TF/index.html"
+#	new file:   "p5projects/\344\270\207\351\207\214\345\215\203\345\261\261\345\233\276 copy-IZjqVK_TF/mountain.png"
+#	new file:   "p5projects/\344\270\207\351\207\214\345\215\203\345\261\261\345\233\276 copy-IZjqVK_TF/sketch.js"
+#	new file:   "p5projects/\344\270\207\351\207\214\345\215\203\345\261\261\345\233\276 copy-IZjqVK_TF/style.css"
+#

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <link rel="stylesheet" href="./style.css" />
+
+  <head>
+    <script src="./p5.min.js"></script>
+    <script src="./fxhash.min.js"></script>
+    <script>
+          // don't modify unless you know what you're doing
+          let cvs, title, url = 'http://127.0.0.1:5501/index.html?preview=0&fxhash=';
+          let urlParams = new URLSearchParams(window.location.search);
+          let pscale = urlParams.get('scale') ?? 1;
+          function createCanvasFx(w, h, name = 'sketch') {
+            title = name;
+            console.log(url + $fx.hash);
+            let seed = round($fx.rand() * 9999);
+            randomSeed(seed);
+            noiseSeed(seed);
+            frameRate(30);
+            cvs = createCanvas(w, h);
+            pixelDensity(min(window.devicePixelRatio), 2);
+          }
+          function keyTyped() {
+            function writePng(graphics) {
+              let fname = `${title}-${width * pd}x${height * pd}.${$fx.hash}.png`;
+              graphics ? graphics.save(fname) : save(fname);
+              console.log(`saved ${fname}`);
+            }
+            let pd = pixelDensity();
+            if (key === 's') {
+              if (pscale === 1) return writePng();
+              let buf = createGraphics(width, height);
+              buf.pixelDensity(pd * pscale);
+              pd = buf.pixelDensity();
+              buf.copy(cvs, 0, 0, width, height, 0, 0, buf.width, buf.height);
+              writePng(buf);
+            };
+          }
+          function previewFx() { $fx.preview(); }
+    </script>
+  </head>
+
+  <body>
+    <script src="./sketch.js"></script>
+  </body>
+</html>

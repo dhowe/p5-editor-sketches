@@ -1,0 +1,450 @@
+[
+  {
+    "_id": "-m28Sarfw",
+    "name": "Assigment #3",
+    "owner": {
+      "_id": "5b9f6f4b8205fa001f57d032",
+      "username": "rednoyz",
+      "id": "5b9f6f4b8205fa001f57d032"
+    },
+    "description": "",
+    "slug": "Assigment_3",
+    "items": [
+      {
+        "_id": "63241b099d5b24001a0f8eee",
+        "project": {
+          "_id": "HaJvDXFTq",
+          "name": "Numerous camelotia",
+          "user": {
+            "_id": "5b9f6f4b8205fa001f57d032",
+            "username": "rednoyz",
+            "id": "5b9f6f4b8205fa001f57d032"
+          },
+          "slug": "Numerous_camelotia",
+          "id": "HaJvDXFTq"
+        },
+        "createdAt": "2022-09-16T06:43:21.495Z",
+        "updatedAt": "2022-09-16T06:43:21.495Z",
+        "id": "63241b099d5b24001a0f8eee",
+        "projectId": "HaJvDXFTq",
+        "isDeleted": false
+      },
+      {
+        "_id": "63241b0aa41e47001cf30b2a",
+        "project": {
+          "_id": "EDJGie8G_",
+          "name": "Dusty ellipse copy",
+          "user": {
+            "_id": "5b9f6f4b8205fa001f57d032",
+            "username": "rednoyz",
+            "id": "5b9f6f4b8205fa001f57d032"
+          },
+          "slug": "Dusty_ellipse_copy",
+          "id": "EDJGie8G_"
+        },
+        "createdAt": "2022-09-16T06:43:22.816Z",
+        "updatedAt": "2022-09-16T06:43:22.816Z",
+        "id": "63241b0aa41e47001cf30b2a",
+        "projectId": "EDJGie8G_",
+        "isDeleted": false
+      },
+      {
+        "_id": "63241b0d550e4e001ab55e3e",
+        "project": {
+          "_id": "ouyltTVGj",
+          "name": "Knowledgeable sturgeon",
+          "user": {
+            "_id": "5b9f6f4b8205fa001f57d032",
+            "username": "rednoyz",
+            "id": "5b9f6f4b8205fa001f57d032"
+          },
+          "slug": "Knowledgeable_sturgeon",
+          "id": "ouyltTVGj"
+        },
+        "createdAt": "2022-09-16T06:43:25.064Z",
+        "updatedAt": "2022-09-16T06:43:25.064Z",
+        "id": "63241b0d550e4e001ab55e3e",
+        "projectId": "ouyltTVGj",
+        "isDeleted": false
+      }
+    ],
+    "createdAt": "2022-09-16T06:43:13.258Z",
+    "updatedAt": "2022-09-16T06:43:25.064Z",
+    "__v": 3,
+    "id": "-m28Sarfw"
+  },
+  {
+    "_id": "TH4bT3VSo",
+    "name": "Assignment #3",
+    "owner": {
+      "_id": "5b9f6f4b8205fa001f57d032",
+      "username": "rednoyz",
+      "id": "5b9f6f4b8205fa001f57d032"
+    },
+    "description": "",
+    "slug": "My_woolen_collection",
+    "items": [
+      {
+        "_id": "63237e42af5979001b2e3399",
+        "project": {
+          "_id": "HaJvDXFTq",
+          "name": "Numerous camelotia",
+          "user": {
+            "_id": "5b9f6f4b8205fa001f57d032",
+            "username": "rednoyz",
+            "id": "5b9f6f4b8205fa001f57d032"
+          },
+          "slug": "Numerous_camelotia",
+          "id": "HaJvDXFTq"
+        },
+        "createdAt": "2022-09-15T19:34:26.349Z",
+        "updatedAt": "2022-09-15T19:34:26.349Z",
+        "id": "63237e42af5979001b2e3399",
+        "projectId": "HaJvDXFTq",
+        "isDeleted": false
+      },
+      {
+        "_id": "63237e44f09c08001a35d856",
+        "project": {
+          "_id": "EDJGie8G_",
+          "name": "Dusty ellipse copy",
+          "user": {
+            "_id": "5b9f6f4b8205fa001f57d032",
+            "username": "rednoyz",
+            "id": "5b9f6f4b8205fa001f57d032"
+          },
+          "slug": "Dusty_ellipse_copy",
+          "id": "EDJGie8G_"
+        },
+        "createdAt": "2022-09-15T19:34:28.276Z",
+        "updatedAt": "2022-09-15T19:34:28.276Z",
+        "id": "63237e44f09c08001a35d856",
+        "projectId": "EDJGie8G_",
+        "isDeleted": false
+      }
+    ],
+    "createdAt": "2022-09-15T19:34:14.029Z",
+    "updatedAt": "2022-09-15T19:34:49.223Z",
+    "__v": 4,
+    "id": "TH4bT3VSo"
+  },
+  {
+    "_id": "ZJ9GgwMAf",
+    "name": "Critical Coding I - Week 5",
+    "description": "Exercise solutions for Critical Coding I, Week 5",
+    "slug": "Critical_Coding_I_-_Week_5",
+    "owner": {
+      "_id": "5b9f6f4b8205fa001f57d032",
+      "username": "rednoyz",
+      "id": "5b9f6f4b8205fa001f57d032"
+    },
+    "items": [
+      {
+        "project": {
+          "_id": "CP9IONOF0",
+          "name": "Warmup: Array Min Value",
+          "user": {
+            "_id": "5b9f6f4b8205fa001f57d032",
+            "username": "rednoyz",
+            "id": "5b9f6f4b8205fa001f57d032"
+          },
+          "slug": "Abrasive_boater",
+          "id": "CP9IONOF0"
+        },
+        "_id": "6727c64a8bf81db11f89ab52",
+        "createdAt": "2024-11-03T18:51:54.328Z",
+        "updatedAt": "2024-11-03T18:51:54.328Z",
+        "id": "6727c64a8bf81db11f89ab52",
+        "projectId": "CP9IONOF0",
+        "isDeleted": false
+      },
+      {
+        "project": {
+          "_id": "cY4Fuf1fQ",
+          "name": "Array Ex 1: Random Rolls",
+          "user": {
+            "_id": "5b9f6f4b8205fa001f57d032",
+            "username": "rednoyz",
+            "id": "5b9f6f4b8205fa001f57d032"
+          },
+          "slug": "random_roll",
+          "id": "cY4Fuf1fQ"
+        },
+        "_id": "6727c83d5e9c093a2d7eb771",
+        "createdAt": "2024-11-03T19:00:13.601Z",
+        "updatedAt": "2024-11-03T19:00:13.601Z",
+        "id": "6727c83d5e9c093a2d7eb771",
+        "projectId": "cY4Fuf1fQ",
+        "isDeleted": false
+      },
+      {
+        "project": {
+          "_id": "LayVLlk0L",
+          "name": "Array Ex 1c: Gaussian Rolls",
+          "user": {
+            "_id": "5b9f6f4b8205fa001f57d032",
+            "username": "rednoyz",
+            "id": "5b9f6f4b8205fa001f57d032"
+          },
+          "slug": "Cut_cupcake",
+          "id": "LayVLlk0L"
+        },
+        "_id": "6727c921215a41c9884328cc",
+        "createdAt": "2024-11-03T19:04:01.315Z",
+        "updatedAt": "2024-11-03T19:04:01.315Z",
+        "id": "6727c921215a41c9884328cc",
+        "projectId": "LayVLlk0L",
+        "isDeleted": false
+      },
+      {
+        "project": {
+          "_id": "NLBoLewXg",
+          "name": "Array Ex 2: Average Circles",
+          "user": {
+            "_id": "5b9f6f4b8205fa001f57d032",
+            "username": "rednoyz",
+            "id": "5b9f6f4b8205fa001f57d032"
+          },
+          "slug": "Array_Ex_2:_Average_Circles",
+          "id": "NLBoLewXg"
+        },
+        "_id": "6727cf078bf81db11f8e3cb7",
+        "createdAt": "2024-11-03T19:29:11.402Z",
+        "updatedAt": "2024-11-03T19:29:11.402Z",
+        "id": "6727cf078bf81db11f8e3cb7",
+        "projectId": "NLBoLewXg",
+        "isDeleted": false
+      },
+      {
+        "project": {
+          "_id": "ca5NwWQzo",
+          "name": "Array Ex 3: One Bouncing Ball",
+          "user": {
+            "_id": "5b9f6f4b8205fa001f57d032",
+            "username": "rednoyz",
+            "id": "5b9f6f4b8205fa001f57d032"
+          },
+          "slug": "Ball_bounce_simple_with_collision_detection_copy",
+          "id": "ca5NwWQzo"
+        },
+        "_id": "6727cf2a5e9c093a2d81bc4a",
+        "createdAt": "2024-11-03T19:29:46.529Z",
+        "updatedAt": "2024-11-03T19:29:46.529Z",
+        "id": "6727cf2a5e9c093a2d81bc4a",
+        "projectId": "ca5NwWQzo",
+        "isDeleted": false
+      },
+      {
+        "project": {
+          "_id": "W-qdPvCva",
+          "name": "Sin Ex 1a: One circle",
+          "user": {
+            "_id": "5b9f6f4b8205fa001f57d032",
+            "username": "rednoyz",
+            "id": "5b9f6f4b8205fa001f57d032"
+          },
+          "slug": "Sin_Ex_1a:_One_circle",
+          "id": "W-qdPvCva"
+        },
+        "_id": "6727d0768bf81db11f8ecb3f",
+        "createdAt": "2024-11-03T19:35:18.484Z",
+        "updatedAt": "2024-11-03T19:35:18.484Z",
+        "id": "6727d0768bf81db11f8ecb3f",
+        "projectId": "W-qdPvCva",
+        "isDeleted": false
+      },
+      {
+        "project": {
+          "_id": "gUPJoTE_l",
+          "name": "Sin Ex 1b: Two Circles",
+          "user": {
+            "_id": "5b9f6f4b8205fa001f57d032",
+            "username": "rednoyz",
+            "id": "5b9f6f4b8205fa001f57d032"
+          },
+          "slug": "Sin_Ex_1a:_One_circle_copy",
+          "id": "gUPJoTE_l"
+        },
+        "_id": "6727d0b38bf81db11f8ee7ad",
+        "createdAt": "2024-11-03T19:36:19.457Z",
+        "updatedAt": "2024-11-03T19:36:19.457Z",
+        "id": "6727d0b38bf81db11f8ee7ad",
+        "projectId": "gUPJoTE_l",
+        "isDeleted": false
+      },
+      {
+        "project": {
+          "_id": "Vtf5fkAw9",
+          "name": "Sin Ex 1c: Twenty Circles",
+          "user": {
+            "_id": "5b9f6f4b8205fa001f57d032",
+            "username": "rednoyz",
+            "id": "5b9f6f4b8205fa001f57d032"
+          },
+          "slug": "Sin_Ex_1b:_Two_Circles_copy",
+          "id": "Vtf5fkAw9"
+        },
+        "_id": "6727d1235e9c093a2d8271c4",
+        "createdAt": "2024-11-03T19:38:11.729Z",
+        "updatedAt": "2024-11-03T19:38:11.729Z",
+        "id": "6727d1235e9c093a2d8271c4",
+        "projectId": "Vtf5fkAw9",
+        "isDeleted": false
+      },
+      {
+        "project": {
+          "_id": "1IcF3QhaL",
+          "name": "Sin Ex 1d: Creative Pattern",
+          "user": {
+            "_id": "5b9f6f4b8205fa001f57d032",
+            "username": "rednoyz",
+            "id": "5b9f6f4b8205fa001f57d032"
+          },
+          "slug": "Sin_Ex_1c:_20_circles_copy",
+          "id": "1IcF3QhaL"
+        },
+        "_id": "6727d13f5e9c093a2d8278e2",
+        "createdAt": "2024-11-03T19:38:39.043Z",
+        "updatedAt": "2024-11-03T19:38:39.043Z",
+        "id": "6727d13f5e9c093a2d8278e2",
+        "projectId": "1IcF3QhaL",
+        "isDeleted": false
+      },
+      {
+        "project": {
+          "_id": "CNkdE20MD",
+          "name": "Noise Ex 1: Animated Shape",
+          "user": {
+            "_id": "5b9f6f4b8205fa001f57d032",
+            "username": "rednoyz",
+            "id": "5b9f6f4b8205fa001f57d032"
+          },
+          "slug": "Sin_Ex_1a:_One_circle_copy",
+          "id": "CNkdE20MD"
+        },
+        "_id": "6727d384215a41c988484fc3",
+        "createdAt": "2024-11-03T19:48:20.853Z",
+        "updatedAt": "2024-11-03T19:48:20.853Z",
+        "id": "6727d384215a41c988484fc3",
+        "projectId": "CNkdE20MD",
+        "isDeleted": false
+      },
+      {
+        "project": {
+          "_id": "weZST9RT_",
+          "name": "Noise Ex 2: Creative Shape",
+          "user": {
+            "_id": "5b9f6f4b8205fa001f57d032",
+            "username": "rednoyz",
+            "id": "5b9f6f4b8205fa001f57d032"
+          },
+          "slug": "Noise_Ex_1:_Animated_Shape_copy",
+          "id": "weZST9RT_"
+        },
+        "_id": "6727d4205e9c093a2d83ad1b",
+        "createdAt": "2024-11-03T19:50:56.317Z",
+        "updatedAt": "2024-11-03T19:50:56.317Z",
+        "id": "6727d4205e9c093a2d83ad1b",
+        "projectId": "weZST9RT_",
+        "isDeleted": false
+      },
+      {
+        "project": {
+          "_id": "5F86ps6Hb",
+          "name": "Noise Ex 3:  2D Water",
+          "user": {
+            "_id": "5b9f6f4b8205fa001f57d032",
+            "username": "rednoyz",
+            "id": "5b9f6f4b8205fa001f57d032"
+          },
+          "slug": "Noise_Ex_2:_Creative_Shape_copy",
+          "id": "5F86ps6Hb"
+        },
+        "_id": "6727d5215e9c093a2d841914",
+        "createdAt": "2024-11-03T19:55:13.992Z",
+        "updatedAt": "2024-11-03T19:55:13.992Z",
+        "id": "6727d5215e9c093a2d841914",
+        "projectId": "5F86ps6Hb",
+        "isDeleted": false
+      },
+      {
+        "project": {
+          "_id": "P7KugvOgB",
+          "name": "Noise Ex 3b:  Creative Variation",
+          "user": {
+            "_id": "5b9f6f4b8205fa001f57d032",
+            "username": "rednoyz",
+            "id": "5b9f6f4b8205fa001f57d032"
+          },
+          "slug": "Noise_Ex_3:_2D_Water_copy",
+          "id": "P7KugvOgB"
+        },
+        "_id": "6727d5b48bf81db11f90fc77",
+        "createdAt": "2024-11-03T19:57:40.929Z",
+        "updatedAt": "2024-11-03T19:57:40.929Z",
+        "id": "6727d5b48bf81db11f90fc77",
+        "projectId": "P7KugvOgB",
+        "isDeleted": false
+      },
+      {
+        "project": {
+          "_id": "6sNQxqJqw",
+          "name": "Array Ex 3b: Bouncing Balls",
+          "user": {
+            "_id": "5b9f6f4b8205fa001f57d032",
+            "username": "rednoyz",
+            "id": "5b9f6f4b8205fa001f57d032"
+          },
+          "slug": "Array_Ex_3:_Bouncing_Balls_copy",
+          "id": "6sNQxqJqw"
+        },
+        "_id": "6728e3f189ef362b15d15ff0",
+        "createdAt": "2024-11-04T15:10:41.772Z",
+        "updatedAt": "2024-11-04T15:10:41.772Z",
+        "id": "6728e3f189ef362b15d15ff0",
+        "projectId": "6sNQxqJqw",
+        "isDeleted": false
+      }
+    ],
+    "createdAt": "2024-11-03T18:51:50.020Z",
+    "updatedAt": "2024-11-04T15:10:41.772Z",
+    "__v": 18,
+    "id": "ZJ9GgwMAf"
+  },
+  {
+    "_id": "pF17YRC5w",
+    "name": "Type2.0 testing",
+    "description": "",
+    "slug": "Type2.0_testing",
+    "owner": {
+      "_id": "5b9f6f4b8205fa001f57d032",
+      "username": "rednoyz",
+      "id": "5b9f6f4b8205fa001f57d032"
+    },
+    "items": [
+      {
+        "project": {
+          "_id": "GbdyIqJOW",
+          "name": "BoundingBoxBreaks",
+          "user": {
+            "_id": "5b9f6f4b8205fa001f57d032",
+            "username": "rednoyz",
+            "id": "5b9f6f4b8205fa001f57d032"
+          },
+          "slug": "BoundingBoxBreaks",
+          "id": "GbdyIqJOW"
+        },
+        "_id": "67192f32edaae0741bd09d65",
+        "createdAt": "2024-10-23T17:15:30.780Z",
+        "updatedAt": "2024-10-23T17:15:30.780Z",
+        "id": "67192f32edaae0741bd09d65",
+        "projectId": "GbdyIqJOW",
+        "isDeleted": false
+      }
+    ],
+    "createdAt": "2024-10-23T17:15:18.269Z",
+    "updatedAt": "2024-10-23T17:15:30.780Z",
+    "__v": 1,
+    "id": "pF17YRC5w"
+  }
+]
