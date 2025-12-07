@@ -1,4 +1,4 @@
-let depth = 1;
+let depth = 4;
 let current = '';
 let lsys, turtle;
 
@@ -10,7 +10,7 @@ function setup() {
 
   turtle = new Turtle({ angle: 20 });
   lsys = new LSystem({ F: "F[-F][+F]" });
-  let s = lsys.expand('F', 4);
+  let s = lsys.expand('F', depth);
 }
 
 

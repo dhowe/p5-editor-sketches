@@ -1,7 +1,7 @@
 
 function setup() {
   createCanvas(400, 400);
-  background(200);
+  background(255);
   strokeWeight(2);
   fill(0);
 
@@ -61,7 +61,7 @@ function pointsOnLine(p1, p2, stepSize, wiggle) {
     ly = y;
   }
   
-  pts.push(p2);
+  pts.push(p2);s
   
   return pts;
 }

@@ -17,16 +17,6 @@ class Walker {
     if (d > maxDist) {
       return false;
     }
-    // // WORKING HERE
-    // let hit = paths().find((p,i) => {
-    //   let dp = p.dist(this.pos);
-    //   console.log(round(p.x)+','+round(p.y), dp, this.dia/2);
-    //   return dp < this.dia/2;
-    // });
-    // if (hit) {
-    //   console.log('hit', hit.x,hit.y);
-    //   return false;
-    // }
     this.path.push(this.pos.copy());
     return true;
   }

@@ -1,5 +1,4 @@
-let imgs = [];
-let sz = 100;
+let sz = 100, imgs = [];
 
 function preload() {
   imgs = loadImagesByNum(1, 9, ".jpg");
@@ -14,16 +13,13 @@ function draw() {
 
   for (let j = 0; j < 3; j++) {
     for (let i = 0; i < 3; i++) {
-      let sqX = i * sz;
-      let sqY = j * sz;
+      square(i * sz, j * sz, sz);
 
-      square(sqX, sqY, sz);
-
-      let gridX = floor(map(mouseX, 0, width, 0, 3));
-      let gridY = floor(map(mouseY, 0, height, 0, 3));
+      let gridX = floor(mouseX/width * 3)
+      let gridY = floor(mouseY/height * 3);
 
       if (gridX == i && gridY == j) {
-        image(imgs[i + j * 3], sqX, sqY, sz, sz);
+        image(imgs[i + j * 3], i * sz, j * sz, sz, sz);
       }
     }
   }

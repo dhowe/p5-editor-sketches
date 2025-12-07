@@ -19,8 +19,8 @@ function recursiveLine(a, b) {
   // get the midpoint and make 2 recursive calls
   else {
     let mid = {};
-    mid.x = lerp(a.x, b.x, 0.5);
-    mid.y = lerp(a.y, b.y, 0.5);
+    mid.x = lerp(a.x, b.x, 0.4);
+    mid.y = lerp(a.y, b.y, 0.6);
     recursiveLine(a, mid);
     recursiveLine(mid, b);
   }

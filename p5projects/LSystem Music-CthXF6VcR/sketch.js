@@ -1,6 +1,6 @@
 let noteIdx = 0, ms = 0, note = 65, noteDelay = 100; 
-let notes, osc, reverb, envelope, fft, noteW;
-let changeMelodyOverTime = true;
+let notes, osc, reverb, envelope, fft, noteW, started;
+let evolveMelodyOverTime = true, msg = 'click to start';
 
 function setup() {
   createCanvas(600, 400);
@@ -10,14 +10,23 @@ function setup() {
 
 function draw() {
   background(0);
-
+  text(msg, 250, 200);
+  
   // play a note every noteDelay ms
   if (millis() - ms > noteDelay) {
     playNote();
   }
+  
   drawFFT();
   drawNotes();
 }
+
+function mouseClicked() {
+  started = true;
+  osc.start();
+  msg = '';
+}
+
 
 function mapLSysToNotes(str) {
   notes = [];
@@ -62,12 +71,12 @@ function playNote() {
     envelope.play(osc, 0, 0.1);
   }
   noteIdx = ++noteIdx % notes.length;
-  if (noteIdx === 0) adjustMelody();
+  if (started && noteIdx === 0) adjustMelody();
   ms = millis();
 }
 
 function adjustMelody() {
-  if (!changeMelodyOverTime) return;
+  if (!evolveMelodyOverTime) return;
   let shift = random([-2, 7, 0, 0, 0, 5 ]);
   let shiftRest = false;
   notes.forEach((n, i) => {
@@ -97,7 +106,6 @@ function initSound() {
   envelope.setRange(.1, 0);
 
   reverb.process(osc, 10, 150);
-  osc.start();
   
   fft = new p5.FFT();
 }

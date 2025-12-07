@@ -1,4 +1,4 @@
-let a, b, c, tri, tri2, rdepth = 12;
+let rdepth = 12;
 
 function setup() {
   createCanvas(800, 600);
@@ -6,16 +6,16 @@ function setup() {
   noFill();
   
   // lower left half
-  a = {x: 0, y: 0};
-  b =  {x: 0, y: height};
-  c =  {x: width, y: height};
-  tri = new Triangle(a, b, c);
+  let a = {x: 0, y: 0};
+  let b =  {x: 0, y: height};
+  let c =  {x: width, y: height};
+  let tri = new Triangle(a, b, c);
   
   // upper right half
-  a = {x: 0, y: 0};
-  b =  {x: width, y: 0};
-  c =  {x: width, y: height};
-  tri2 = new Triangle(a, b, c);
+  let d = {x: 0, y: 0};
+  let e =  {x: width, y: 0};
+  let f =  {x: width, y: height};
+  let tri2 = new Triangle(d, e, f);
 
   background(220);
   subdivide(tri, rdepth);

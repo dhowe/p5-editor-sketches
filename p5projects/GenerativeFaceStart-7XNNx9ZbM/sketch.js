@@ -8,10 +8,10 @@ numEyes = 15;
 
 function preload() {
   for (let i = 0; i < numSkins; i++) {
-    skins.push(loadImage("skins/" + i + ".png"));
+    skins.push(loadImage("skinImages/" + i + ".png"));
   }
   for (let i = 0; i < numEyes; i++) {
-    skins.push(loadImage("eyes/" + i + ".png"));
+    skins.push(loadImage("eyeImages/" + i + ".png"));
   }
   //etc ...
 }

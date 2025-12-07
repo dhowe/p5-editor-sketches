@@ -17,13 +17,6 @@ function draw() {
   for (let i = walkers.length - 1; i >= 0; i--) {
     if (!walkers[i].update()) {
       let done = walkers.splice(i, 1)[0];
-      
-      if (done.path.length > 2) {
-        let bpt = done.path[floor(random(1, done.path.length - 1))];
-        //console.log("BRANCH: " + bpt);
-        fill(200, 20, 0);
-        circle(bpt.x, bpt.y, 10);
-      }
       done.destroy();
     }
     else {

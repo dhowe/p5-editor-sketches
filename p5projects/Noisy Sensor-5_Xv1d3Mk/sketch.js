@@ -1,4 +1,4 @@
-let liveSpeed = 0.5;
+let smoothSpeed=0, liveSpeed = 0.5;
 
 function setup() {
   createCanvas(400, 400);
@@ -16,7 +16,7 @@ function draw() {
   fill(0);
   ellipse(width / 2, liveSpeed * height, 30);
 
-  // smoothSpeed = lerp(smoothSpeed, liveSpeed, .05);
-  // stroke(200,0,0);
-  // line(0, smoothSpeed * height, width, smoothSpeed * height);
+  smoothSpeed = lerp(smoothSpeed, liveSpeed, .05);
+  stroke(200,0,0);
+  line(0, smoothSpeed * height, width, smoothSpeed * height);
 }

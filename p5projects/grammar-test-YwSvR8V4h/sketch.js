@@ -1,7 +1,7 @@
 let font, grammar, json;
 let lines = ["click to", "expand the", "grammar"];
 
-let rules = {};
+let rules = {start: 'fill % in the % template'};
 
 function setup() {
 
