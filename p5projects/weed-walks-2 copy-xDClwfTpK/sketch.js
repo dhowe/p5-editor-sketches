@@ -4,7 +4,7 @@ let loc = "&location=";
 let fov = "&fov=120";
 let heading = "&heading=";
 let pitch = "&pitch=90";
-let apiKey = "&key=AIzaSyCAYl0jGYNnQvrCdq6_7qyyeBc2WRvl4g4";
+let apiKey = "&key=YOURKEYHERE";
 
 let cloud;
 let caption;
